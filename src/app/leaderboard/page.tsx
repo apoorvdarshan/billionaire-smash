@@ -20,6 +20,7 @@ export default function LeaderboardPage() {
   const [billionaires, setBillionaires] = useState<Billionaire[]>([]);
   const [loading, setLoading] = useState(true);
   const [total, setTotal] = useState(0);
+  const [search, setSearch] = useState("");
 
   useEffect(() => {
     fetch("/api/leaderboard?limit=100")
@@ -31,6 +32,16 @@ export default function LeaderboardPage() {
       })
       .catch(() => setLoading(false));
   }, []);
+
+  const filtered = billionaires.filter((b) => {
+    if (!search) return true;
+    const q = search.toLowerCase();
+    return (
+      b.name.toLowerCase().includes(q) ||
+      b.country.toLowerCase().includes(q) ||
+      b.source.toLowerCase().includes(q)
+    );
+  });
 
   if (loading) {
     return (
@@ -61,8 +72,23 @@ export default function LeaderboardPage() {
         </p>
       </div>
 
+      <div className="mb-6">
+        <input
+          type="text"
+          placeholder="Search by name, country, or source..."
+          value={search}
+          onChange={(e) => setSearch(e.target.value)}
+          className="w-full px-4 py-3 rounded-xl border border-[var(--border)] bg-[var(--bg-card)] text-[var(--text-primary)] placeholder-[var(--text-secondary)] focus:outline-none focus:border-[var(--accent)] transition-colors"
+        />
+        {search && (
+          <p className="text-xs text-[var(--text-secondary)] mt-2">
+            {filtered.length} result{filtered.length !== 1 ? "s" : ""} for &quot;{search}&quot;
+          </p>
+        )}
+      </div>
+
       <div className="space-y-2">
-        {billionaires.map((b, i) => {
+        {filtered.map((b, i) => {
           const totalGames = b.wins + b.losses;
           const winRate =
             totalGames > 0 ? Math.round((b.wins / totalGames) * 100) : 0;
