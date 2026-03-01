@@ -32,7 +32,7 @@ export function VotingArena() {
   const [voteResult, setVoteResult] = useState<VoteResult>(null);
   const [animKey, setAnimKey] = useState(0);
   const [error, setError] = useState<string | null>(null);
-  const [syncing, setSyncing] = useState(false);
+
   const [totalVotes, setTotalVotes] = useState(0);
   const [lastVote, setLastVote] = useState<LastVote | null>(null);
   const [showNamePrompt, setShowNamePrompt] = useState(false);
@@ -116,34 +116,15 @@ export function VotingArena() {
     fetchPair();
   };
 
-  const handleSync = async () => {
-    setSyncing(true);
-    try {
-      const res = await fetch("/api/sync", { method: "POST" });
-      const data = await res.json();
-      if (data.error) {
-        setError(data.error);
-      } else {
-        setError(null);
-        fetchPair();
-      }
-    } catch {
-      setError("Failed to sync data");
-    } finally {
-      setSyncing(false);
-    }
-  };
-
   if (error) {
     return (
       <div className="flex flex-col items-center justify-center min-h-[60vh] gap-6">
         <p className="text-[var(--text-secondary)] text-lg">{error}</p>
         <button
-          onClick={handleSync}
-          disabled={syncing}
-          className="px-6 py-3 rounded-xl font-bold bg-[var(--accent)] text-[var(--bg-primary)] hover:bg-[var(--accent-dim)] transition-colors disabled:opacity-50"
+          onClick={() => fetchPair()}
+          className="px-6 py-3 rounded-xl font-bold bg-[var(--accent)] text-[var(--bg-primary)] hover:bg-[var(--accent-dim)] transition-colors"
         >
-          {syncing ? "Syncing Forbes Data..." : "Sync Billionaires from Forbes"}
+          Retry
         </button>
       </div>
     );
@@ -238,14 +219,6 @@ export function VotingArena() {
           />
         )}
       </div>
-
-      <button
-        onClick={handleSync}
-        disabled={syncing}
-        className="text-xs text-[var(--text-secondary)] hover:text-[var(--accent)] transition-colors disabled:opacity-50"
-      >
-        {syncing ? "Syncing..." : "Refresh Forbes Data"}
-      </button>
 
       <LiveFeed className="max-w-2xl mt-4" />
     </div>
