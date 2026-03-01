@@ -8,19 +8,9 @@ async function ensureBillionaires() {
 
   const data = await fetchForbesBillionaires();
   for (const b of data) {
-    const forbesId = uriToId(b.uri || b.personName);
-    await prisma.billionaire.upsert({
-      where: { forbesId },
-      update: {
-        name: b.personName,
-        netWorth: Math.round((b.finalWorth / 1000) * 10) / 10,
-        country: b.countryOfCitizenship,
-        photoUrl: fixPhotoUrl(b.squareImage),
-        source: b.source,
-        rank: b.rank,
-      },
-      create: {
-        forbesId,
+    await prisma.billionaire.create({
+      data: {
+        forbesId: uriToId(b.uri || b.personName),
         name: b.personName,
         netWorth: Math.round((b.finalWorth / 1000) * 10) / 10,
         country: b.countryOfCitizenship,
