@@ -187,19 +187,35 @@ export default function LeaderboardPage() {
           >
             Prev
           </button>
-          {Array.from({ length: totalPages }, (_, i) => i + 1).map((p) => (
-            <button
-              key={p}
-              onClick={() => setPage(p)}
-              className={`w-10 h-10 rounded-lg text-sm font-bold transition-colors ${
-                p === page
-                  ? "bg-[var(--accent)] text-[var(--bg-primary)]"
-                  : "border border-[var(--border)] bg-[var(--bg-card)] hover:bg-[var(--bg-card-hover)]"
-              }`}
-            >
-              {p}
-            </button>
-          ))}
+          {(() => {
+            const pages: (number | "...")[] = [];
+            if (totalPages <= 7) {
+              for (let i = 1; i <= totalPages; i++) pages.push(i);
+            } else {
+              pages.push(1);
+              if (page > 3) pages.push("...");
+              for (let i = Math.max(2, page - 1); i <= Math.min(totalPages - 1, page + 1); i++) pages.push(i);
+              if (page < totalPages - 2) pages.push("...");
+              pages.push(totalPages);
+            }
+            return pages.map((p, i) =>
+              p === "..." ? (
+                <span key={`dots-${i}`} className="px-1 text-[var(--text-secondary)]">...</span>
+              ) : (
+                <button
+                  key={p}
+                  onClick={() => setPage(p)}
+                  className={`w-10 h-10 rounded-lg text-sm font-bold transition-colors ${
+                    p === page
+                      ? "bg-[var(--accent)] text-[var(--bg-primary)]"
+                      : "border border-[var(--border)] bg-[var(--bg-card)] hover:bg-[var(--bg-card-hover)]"
+                  }`}
+                >
+                  {p}
+                </button>
+              )
+            );
+          })()}
           <button
             onClick={() => setPage((p) => Math.min(totalPages, p + 1))}
             disabled={page === totalPages}
