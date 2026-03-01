@@ -175,18 +175,3 @@ body {
   background: var(--text-tertiary);
 }
 
-/* ── Ticker marquee (mobile live feed) ───────────── */
-
-@keyframes ticker {
-  0%   { transform: translateX(0); }
-  100% { transform: translateX(-50%); }
-}
-
-.ticker-scroll {
-  animation: ticker 40s linear infinite;
-}
-
-.ticker-scroll:hover {
-  animation-play-state: paused;
-}
-
