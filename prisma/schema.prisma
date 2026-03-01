@@ -1,0 +1,36 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model Billionaire {
+  id            Int      @id @default(autoincrement())
+  forbesId      Int      @unique
+  name          String
+  netWorth      Float    // in billions
+  country       String
+  photoUrl      String
+  source        String   // source of wealth
+  rank          Int
+  elo           Float    @default(1400)
+  wins          Int      @default(0)
+  losses        Int      @default(0)
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+
+  votesAsWinner Vote[]   @relation("winner")
+  votesAsLoser  Vote[]   @relation("loser")
+}
+
+model Vote {
+  id        Int          @id @default(autoincrement())
+  winnerId  Int
+  loserId   Int
+  winner    Billionaire  @relation("winner", fields: [winnerId], references: [id])
+  loser     Billionaire  @relation("loser", fields: [loserId], references: [id])
+  createdAt DateTime     @default(now())
+}
