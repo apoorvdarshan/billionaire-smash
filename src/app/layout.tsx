@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { Nav } from "@/components/Nav";
+import { LiveFeedDrawer } from "@/components/LiveFeedDrawer";
 
 export const metadata: Metadata = {
   title: "Billionaire Smash",
@@ -26,6 +27,7 @@ export default function RootLayout({
         />
         <div className="relative min-h-screen flex flex-col z-10">
           <Nav />
+          <LiveFeedDrawer />
           <main className="flex-1">{children}</main>
         </div>
       </body>
