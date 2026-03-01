@@ -50,7 +50,7 @@ export function LiveFeedTicker() {
 
   if (feed.length === 0) return null;
 
-  const duration = Math.max(15, feed.length * 2);
+  const duration = Math.max(30, feed.length * 4);
 
   const items = feed.map((item) => (
     <span key={item.id} className="inline-flex items-center shrink-0">
