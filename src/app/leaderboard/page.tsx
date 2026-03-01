@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import Image from "next/image";
+import { countryToFlag } from "@/lib/flags";
 
 interface Billionaire {
   id: number;
@@ -141,7 +142,7 @@ export default function LeaderboardPage() {
                 <div className="flex items-center gap-2">
                   <h3 className="font-bold truncate">{b.name}</h3>
                   <span className="flex-shrink-0 text-xs text-[var(--text-secondary)]">
-                    {b.country}
+                    {countryToFlag(b.country)} {b.country}
                   </span>
                 </div>
                 <div className="flex items-center gap-3 mt-1">

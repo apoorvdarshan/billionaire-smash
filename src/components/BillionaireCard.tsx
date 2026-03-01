@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import { countryToFlag } from "@/lib/flags";
 
 interface Billionaire {
   id: number;
@@ -54,7 +55,8 @@ export function BillionaireCard({
           <span className="inline-flex items-center px-3 py-1 rounded-full text-sm font-bold bg-[var(--accent)]/15 text-[var(--accent)] border border-[var(--accent)]/30">
             ${billionaire.netWorth}B
           </span>
-          <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-[var(--bg-card-hover)] text-[var(--text-secondary)] border border-[var(--border)]">
+          <span className="inline-flex items-center gap-1 px-3 py-1 rounded-full text-xs font-medium bg-[var(--bg-card-hover)] text-[var(--text-secondary)] border border-[var(--border)]">
+            <span>{countryToFlag(billionaire.country)}</span>
             {billionaire.country}
           </span>
         </div>
