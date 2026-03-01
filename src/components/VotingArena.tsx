@@ -4,7 +4,6 @@ import { useState, useEffect, useCallback } from "react";
 import { BillionaireCard } from "./BillionaireCard";
 import { NamePrompt } from "./NamePrompt";
 import { ShareButton } from "./ShareButton";
-import { LiveFeed } from "./LiveFeed";
 import { usePlayerName } from "@/hooks/usePlayerName";
 
 interface Billionaire {
@@ -227,7 +226,6 @@ export function VotingArena() {
         )}
       </div>
 
-      <LiveFeed className="max-w-2xl mt-4" />
     </div>
   );
 }
