@@ -57,14 +57,19 @@ export function LiveFeed({ limit = 20, className = "" }: LiveFeedProps) {
 
   return (
     <div className={`w-full ${className}`}>
-      <h3 className="text-sm font-bold text-[var(--text-secondary)] uppercase tracking-wider mb-3">
+      <h3 className="flex items-center gap-2 text-sm font-bold text-[var(--text-secondary)] uppercase tracking-wider mb-3">
+        {/* Green pulsing dot */}
+        <span className="relative flex h-2 w-2">
+          <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75" />
+          <span className="relative inline-flex rounded-full h-2 w-2 bg-green-500" />
+        </span>
         Live Feed
       </h3>
-      <div className="max-h-64 overflow-y-auto space-y-1 scrollbar-thin">
+      <div className="max-h-64 overflow-y-auto space-y-0.5 scrollbar-thin">
         {feed.map((item) => (
           <div
             key={item.id}
-            className="text-sm py-1.5 px-3 rounded-lg hover:bg-[var(--bg-card)] transition-colors"
+            className="text-sm py-2 px-3 rounded-lg border-l-2 border-transparent hover:border-[var(--accent)] hover:bg-[var(--bg-card)] transition-all duration-200"
           >
             <span className="font-semibold text-[var(--accent)]">
               {item.voterName}
@@ -73,7 +78,7 @@ export function LiveFeed({ limit = 20, className = "" }: LiveFeedProps) {
             <span className="font-medium">{item.winnerName}</span>{" "}
             <span className="text-[var(--text-secondary)]">over</span>{" "}
             <span className="font-medium">{item.loserName}</span>{" "}
-            <span className="text-xs text-[var(--text-secondary)]">
+            <span className="text-xs text-[var(--text-tertiary)]">
               · {timeAgo(item.createdAt)}
             </span>
           </div>

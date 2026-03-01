@@ -71,31 +71,51 @@ export default function LeaderboardPage() {
   }
 
   return (
-    <div className="max-w-4xl mx-auto px-4 py-8">
-      <div className="text-center mb-8">
-        <h1 className="text-3xl md:text-4xl font-black">
-          <span className="text-[var(--accent)]">Elo</span> Leaderboard
+    <div className="max-w-4xl mx-auto px-4 py-10">
+      <div className="text-center mb-10">
+        <h1 className="text-4xl md:text-5xl font-black tracking-tight">
+          <span className="text-gradient">Elo</span> Leaderboard
         </h1>
-        <p className="text-[var(--text-secondary)] mt-2">
+        <p className="text-[var(--text-secondary)] mt-3">
           {total} billionaires ranked by community votes
         </p>
       </div>
 
-      <LiveFeed limit={5} className="mb-8 p-4 rounded-xl border border-[var(--border)] bg-[var(--bg-card)]" />
+      <LiveFeed limit={5} className="mb-8 p-4 rounded-2xl border border-[var(--border)] bg-[var(--bg-card)]" />
 
-      <div className="mb-6">
-        <input
-          type="text"
-          placeholder="Search by name, country, or source..."
-          value={search}
-          onChange={(e) => { setSearch(e.target.value); setPage(1); }}
-          className="w-full px-4 py-3 rounded-xl border border-[var(--border)] bg-[var(--bg-card)] text-[var(--text-primary)] placeholder-[var(--text-secondary)] focus:outline-none focus:border-[var(--accent)] transition-colors"
-        />
+      {/* Search */}
+      <div className="mb-8">
+        <div className="relative">
+          <svg
+            className="absolute left-4 top-1/2 -translate-y-1/2 w-4 h-4 text-[var(--text-tertiary)]"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+            strokeWidth={2}
+          >
+            <path strokeLinecap="round" strokeLinejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+          </svg>
+          <input
+            type="text"
+            placeholder="Search by name, country, or source..."
+            value={search}
+            onChange={(e) => { setSearch(e.target.value); setPage(1); }}
+            className="w-full pl-11 pr-4 py-3 rounded-xl border border-[var(--border)] bg-[var(--bg-card)] text-[var(--text-primary)] placeholder-[var(--text-tertiary)] focus:outline-none focus:border-[var(--accent)] focus:shadow-[0_0_0_3px_rgba(212,168,83,0.15)] transition-all duration-300"
+          />
+        </div>
         {search && (
           <p className="text-xs text-[var(--text-secondary)] mt-2">
             {filtered.length} result{filtered.length !== 1 ? "s" : ""} for &quot;{search}&quot;
           </p>
         )}
+      </div>
+
+      {/* Column headers */}
+      <div className="flex items-center gap-4 px-4 pb-2 text-xs font-semibold text-[var(--text-tertiary)] uppercase tracking-wider">
+        <div className="w-10 text-center">#</div>
+        <div className="w-12" />
+        <div className="flex-1">Name</div>
+        <div className="flex-shrink-0 text-right w-24">Elo / Record</div>
       </div>
 
       <div className="space-y-2">
@@ -104,12 +124,15 @@ export default function LeaderboardPage() {
           const totalGames = b.wins + b.losses;
           const winRate =
             totalGames > 0 ? Math.round((b.wins / totalGames) * 100) : 0;
+          const isTop3 = globalIndex < 3;
 
           return (
             <div
               key={b.id}
-              className={`animate-fade-in flex items-center gap-4 p-4 rounded-xl border border-[var(--border)] bg-[var(--bg-card)] hover:bg-[var(--bg-card-hover)] transition-colors ${
-                globalIndex < 3 ? "border-[var(--accent)]/30" : ""
+              className={`animate-fade-in flex items-center gap-4 p-4 rounded-xl border transition-all duration-300 ${
+                isTop3
+                  ? "border-[var(--border-accent)] bg-gradient-to-r from-[var(--accent)]/[0.06] to-transparent hover:from-[var(--accent)]/[0.1]"
+                  : "border-[var(--border)] bg-[var(--bg-card)] hover:bg-[var(--bg-card-hover)]"
               }`}
               style={{ animationDelay: `${i * 30}ms`, animationFillMode: "backwards" }}
             >
@@ -122,14 +145,16 @@ export default function LeaderboardPage() {
                 ) : globalIndex === 2 ? (
                   <span className="text-2xl">&#x1f949;</span>
                 ) : (
-                  <span className="text-lg font-bold text-[var(--text-secondary)]">
+                  <span className="text-lg font-bold text-[var(--text-tertiary)]">
                     {globalIndex + 1}
                   </span>
                 )}
               </div>
 
               {/* Photo */}
-              <div className="relative w-12 h-12 rounded-full overflow-hidden flex-shrink-0 border-2 border-[var(--border)]">
+              <div className={`relative w-12 h-12 rounded-full overflow-hidden flex-shrink-0 border-2 ${
+                isTop3 ? "border-[var(--accent)]/60 shadow-[0_0_12px_rgba(212,168,83,0.2)]" : "border-[var(--border)]"
+              }`}>
                 <Image
                   src={b.photoUrl}
                   alt={b.name}
@@ -143,8 +168,8 @@ export default function LeaderboardPage() {
               {/* Info */}
               <div className="flex-1 min-w-0">
                 <div className="flex items-center gap-2">
-                  <h3 className="font-bold truncate">{b.name}</h3>
-                  <span className="flex-shrink-0 text-xs text-[var(--text-secondary)]">
+                  <h3 className="font-bold truncate tracking-tight">{b.name}</h3>
+                  <span className="flex-shrink-0 text-xs text-[var(--text-tertiary)]">
                     {countryToFlag(b.country)} {b.country}
                   </span>
                 </div>
@@ -152,22 +177,31 @@ export default function LeaderboardPage() {
                   <span className="text-xs font-medium text-[var(--accent)]">
                     ${b.netWorth}B
                   </span>
-                  <span className="text-xs text-[var(--text-secondary)]">
+                  <span className="text-xs text-[var(--text-tertiary)]">
                     {b.source}
                   </span>
                 </div>
               </div>
 
               {/* Stats */}
-              <div className="flex-shrink-0 text-right space-y-1">
+              <div className="flex-shrink-0 text-right space-y-1.5">
                 <div className="text-lg font-black text-[var(--accent)]">
                   {Math.round(b.elo)}
                 </div>
                 <div className="text-xs text-[var(--text-secondary)]">
                   {totalGames > 0 ? (
-                    <>
-                      {b.wins}W-{b.losses}L ({winRate}%)
-                    </>
+                    <div className="flex items-center gap-2 justify-end">
+                      <span>{b.wins}W-{b.losses}L</span>
+                      <div className="flex items-center gap-1">
+                        <div className="w-12 h-1.5 rounded-full bg-[var(--bg-card-hover)] overflow-hidden">
+                          <div
+                            className="h-full rounded-full bg-[var(--accent)]"
+                            style={{ width: `${winRate}%` }}
+                          />
+                        </div>
+                        <span className="text-[var(--text-tertiary)] w-8 text-right">{winRate}%</span>
+                      </div>
+                    </div>
                   ) : (
                     "No votes"
                   )}
@@ -179,11 +213,11 @@ export default function LeaderboardPage() {
       </div>
 
       {!search && totalPages > 1 && (
-        <div className="flex items-center justify-center gap-2 mt-8">
+        <div className="flex items-center justify-center gap-2 mt-10">
           <button
             onClick={() => setPage((p) => Math.max(1, p - 1))}
             disabled={page === 1}
-            className="px-4 py-2 rounded-lg border border-[var(--border)] bg-[var(--bg-card)] text-sm font-medium hover:bg-[var(--bg-card-hover)] transition-colors disabled:opacity-30 disabled:cursor-not-allowed"
+            className="px-4 py-2 rounded-lg border border-[var(--border)] bg-[var(--bg-card)] text-sm font-medium hover:bg-[var(--bg-card-hover)] transition-all duration-300 disabled:opacity-30 disabled:cursor-not-allowed"
           >
             Prev
           </button>
@@ -200,14 +234,14 @@ export default function LeaderboardPage() {
             }
             return pages.map((p, i) =>
               p === "..." ? (
-                <span key={`dots-${i}`} className="px-1 text-[var(--text-secondary)]">...</span>
+                <span key={`dots-${i}`} className="px-1 text-[var(--text-tertiary)]">...</span>
               ) : (
                 <button
                   key={p}
                   onClick={() => setPage(p)}
-                  className={`w-10 h-10 rounded-lg text-sm font-bold transition-colors ${
+                  className={`w-10 h-10 rounded-lg text-sm font-bold transition-all duration-300 ${
                     p === page
-                      ? "bg-[var(--accent)] text-[var(--bg-primary)]"
+                      ? "bg-[var(--accent)] text-[var(--bg-primary)] shadow-[0_0_16px_rgba(212,168,83,0.3)]"
                       : "border border-[var(--border)] bg-[var(--bg-card)] hover:bg-[var(--bg-card-hover)]"
                   }`}
                 >
@@ -219,7 +253,7 @@ export default function LeaderboardPage() {
           <button
             onClick={() => setPage((p) => Math.min(totalPages, p + 1))}
             disabled={page === totalPages}
-            className="px-4 py-2 rounded-lg border border-[var(--border)] bg-[var(--bg-card)] text-sm font-medium hover:bg-[var(--bg-card-hover)] transition-colors disabled:opacity-30 disabled:cursor-not-allowed"
+            className="px-4 py-2 rounded-lg border border-[var(--border)] bg-[var(--bg-card)] text-sm font-medium hover:bg-[var(--bg-card-hover)] transition-all duration-300 disabled:opacity-30 disabled:cursor-not-allowed"
           >
             Next
           </button>

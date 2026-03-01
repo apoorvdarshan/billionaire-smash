@@ -144,20 +144,20 @@ export function VotingArena() {
   if (!pair) return null;
 
   return (
-    <div className="flex flex-col items-center gap-6 py-8 px-4">
+    <div className="flex flex-col items-center gap-8 py-10 px-4">
       {showNamePrompt && <NamePrompt onSubmit={handleNameSubmit} />}
-      <div className="text-center space-y-2">
-        <h1 className="text-3xl md:text-4xl font-black">
+      <div className="text-center space-y-3">
+        <h1 className="text-4xl md:text-5xl font-black tracking-tight">
           Who&apos;s more{" "}
-          <span className="text-[var(--accent)]">smash</span>-worthy?
+          <span className="text-gradient">smash</span>-worthy?
         </h1>
-        <p className="text-[var(--text-secondary)]">
+        <p className="text-[var(--text-secondary)] text-sm">
           Click the billionaire you prefer
         </p>
         {totalVotes > 0 && (
-          <p className="text-xs text-[var(--text-secondary)]">
+          <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-semibold bg-[var(--accent)]/10 text-[var(--accent)] border border-[var(--accent)]/20">
             {totalVotes} vote{totalVotes !== 1 ? "s" : ""} this session
-          </p>
+          </span>
         )}
       </div>
 
@@ -182,8 +182,15 @@ export function VotingArena() {
         </div>
 
         <div className="animate-fade-in flex-shrink-0">
-          <div className="vs-badge w-14 h-14 rounded-full flex items-center justify-center text-xl shadow-xl">
-            VS
+          {/* Pulsing glow ring behind VS */}
+          <div className="relative">
+            <div
+              className="absolute inset-0 rounded-full bg-[var(--accent)]/20 blur-md"
+              style={{ animation: "pulseRing 2s ease-in-out infinite" }}
+            />
+            <div className="vs-badge relative w-16 h-16 rounded-full flex items-center justify-center text-xl shadow-xl">
+              VS
+            </div>
           </div>
         </div>
 
@@ -208,7 +215,7 @@ export function VotingArena() {
         <button
           onClick={handleSkip}
           disabled={voting}
-          className="px-5 py-2 rounded-xl text-sm font-medium border border-[var(--border)] bg-[var(--bg-card)] hover:bg-[var(--bg-card-hover)] transition-colors disabled:opacity-30"
+          className="px-5 py-2 rounded-full text-sm font-medium border border-[var(--border)] bg-transparent hover:border-[var(--text-secondary)] hover:text-[var(--text-primary)] text-[var(--text-secondary)] transition-all duration-300 disabled:opacity-30"
         >
           Skip
         </button>

@@ -15,8 +15,19 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="min-h-screen antialiased">
-        <Nav />
-        <main>{children}</main>
+        {/* Ambient gold glow */}
+        <div
+          className="fixed top-0 left-1/2 -translate-x-1/2 w-[800px] h-[600px] pointer-events-none z-0"
+          style={{
+            background:
+              "radial-gradient(ellipse at center, rgba(212,168,83,0.06) 0%, transparent 70%)",
+            filter: "blur(80px)",
+          }}
+        />
+        <div className="relative min-h-screen flex flex-col z-10">
+          <Nav />
+          <main className="flex-1">{children}</main>
+        </div>
       </body>
     </html>
   );
