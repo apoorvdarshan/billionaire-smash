@@ -30,6 +30,7 @@ model Vote {
   id        Int          @id @default(autoincrement())
   winnerId  Int
   loserId   Int
+  voterName String?
   winner    Billionaire  @relation("winner", fields: [winnerId], references: [id])
   loser     Billionaire  @relation("loser", fields: [loserId], references: [id])
   createdAt DateTime     @default(now())

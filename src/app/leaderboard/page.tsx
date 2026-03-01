@@ -3,6 +3,7 @@
 import { useState, useEffect } from "react";
 import Image from "next/image";
 import { countryToFlag } from "@/lib/flags";
+import { LiveFeed } from "@/components/LiveFeed";
 
 interface Billionaire {
   id: number;
@@ -79,6 +80,8 @@ export default function LeaderboardPage() {
           {total} billionaires ranked by community votes
         </p>
       </div>
+
+      <LiveFeed limit={5} className="mb-8 p-4 rounded-xl border border-[var(--border)] bg-[var(--bg-card)]" />
 
       <div className="mb-6">
         <input

@@ -2,6 +2,10 @@
 
 import { useState, useEffect, useCallback } from "react";
 import { BillionaireCard } from "./BillionaireCard";
+import { NamePrompt } from "./NamePrompt";
+import { ShareButton } from "./ShareButton";
+import { LiveFeed } from "./LiveFeed";
+import { usePlayerName } from "@/hooks/usePlayerName";
 
 interface Billionaire {
   id: number;
@@ -15,7 +19,13 @@ interface Billionaire {
 
 type VoteResult = { winnerId: number; loserId: number } | null;
 
+interface LastVote {
+  winnerName: string;
+  loserName: string;
+}
+
 export function VotingArena() {
+  const { name: playerName, loaded: nameLoaded, saveName } = usePlayerName();
   const [pair, setPair] = useState<[Billionaire, Billionaire] | null>(null);
   const [loading, setLoading] = useState(true);
   const [voting, setVoting] = useState(false);
@@ -24,6 +34,7 @@ export function VotingArena() {
   const [error, setError] = useState<string | null>(null);
   const [syncing, setSyncing] = useState(false);
   const [totalVotes, setTotalVotes] = useState(0);
+  const [lastVote, setLastVote] = useState<LastVote | null>(null);
 
   const fetchPair = useCallback(async () => {
     setLoading(true);
@@ -51,17 +62,23 @@ export function VotingArena() {
   }, [fetchPair]);
 
   const handleVote = async (winnerId: number, loserId: number) => {
-    if (voting) return;
+    if (voting || !pair) return;
     setVoting(true);
     setVoteResult({ winnerId, loserId });
+
+    const winnerName =
+      pair[0].id === winnerId ? pair[0].name : pair[1].name;
+    const loserName =
+      pair[0].id === loserId ? pair[0].name : pair[1].name;
 
     try {
       await fetch("/api/vote", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ winnerId, loserId }),
+        body: JSON.stringify({ winnerId, loserId, voterName: playerName }),
       });
       setTotalVotes((v) => v + 1);
+      setLastVote({ winnerName, loserName });
     } catch {
       // vote failed but still move on
     }
@@ -70,6 +87,12 @@ export function VotingArena() {
       setVoting(false);
       fetchPair();
     }, 1000);
+  };
+
+  const handleSkip = () => {
+    if (voting) return;
+    setLastVote(null);
+    fetchPair();
   };
 
   const handleSync = async () => {
@@ -89,6 +112,20 @@ export function VotingArena() {
       setSyncing(false);
     }
   };
+
+  // Don't render until we know if there's a stored name
+  if (!nameLoaded) {
+    return (
+      <div className="flex items-center justify-center min-h-[60vh]">
+        <div className="w-10 h-10 border-2 border-[var(--accent)] border-t-transparent rounded-full animate-spin" />
+      </div>
+    );
+  }
+
+  // Show name prompt if no name yet
+  if (!playerName) {
+    return <NamePrompt onSubmit={saveName} />;
+  }
 
   if (error) {
     return (
@@ -178,13 +215,31 @@ export function VotingArena() {
         </div>
       </div>
 
+      <div className="flex items-center gap-4">
+        <button
+          onClick={handleSkip}
+          disabled={voting}
+          className="px-5 py-2 rounded-xl text-sm font-medium border border-[var(--border)] bg-[var(--bg-card)] hover:bg-[var(--bg-card-hover)] transition-colors disabled:opacity-30"
+        >
+          Skip
+        </button>
+        {lastVote && (
+          <ShareButton
+            winnerName={lastVote.winnerName}
+            loserName={lastVote.loserName}
+          />
+        )}
+      </div>
+
       <button
         onClick={handleSync}
         disabled={syncing}
-        className="mt-4 text-xs text-[var(--text-secondary)] hover:text-[var(--accent)] transition-colors disabled:opacity-50"
+        className="text-xs text-[var(--text-secondary)] hover:text-[var(--accent)] transition-colors disabled:opacity-50"
       >
         {syncing ? "Syncing..." : "Refresh Forbes Data"}
       </button>
+
+      <LiveFeed className="max-w-2xl mt-4" />
     </div>
   );
 }

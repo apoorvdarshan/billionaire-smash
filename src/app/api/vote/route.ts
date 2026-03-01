@@ -4,7 +4,7 @@ import { calculateElo } from "@/lib/elo";
 
 export async function POST(request: NextRequest) {
   try {
-    const { winnerId, loserId } = await request.json();
+    const { winnerId, loserId, voterName } = await request.json();
 
     if (!winnerId || !loserId || winnerId === loserId) {
       return NextResponse.json({ error: "Invalid vote" }, { status: 400 });
@@ -34,7 +34,11 @@ export async function POST(request: NextRequest) {
         data: { elo: newLoserElo, losses: { increment: 1 } },
       }),
       prisma.vote.create({
-        data: { winnerId, loserId },
+        data: {
+          winnerId,
+          loserId,
+          voterName: typeof voterName === "string" ? voterName.slice(0, 30) : null,
+        },
       }),
     ]);
 
