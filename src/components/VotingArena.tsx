@@ -143,28 +143,31 @@ export function VotingArena() {
   if (!pair) return null;
 
   return (
-    <div className="flex flex-col items-center gap-4 md:gap-6 py-4 md:py-6 px-4">
+    <div className="flex flex-col items-center h-[calc(100dvh-100px)] px-4 overflow-hidden">
       {showNamePrompt && <NamePrompt onSubmit={handleNameSubmit} />}
-      <div className="text-center space-y-2">
-        <h1 className="text-2xl sm:text-3xl md:text-5xl font-black tracking-tight">
+
+      {/* Title */}
+      <div className="shrink-0 text-center py-2 md:py-3 space-y-1">
+        <h1 className="text-xl sm:text-2xl md:text-4xl font-black tracking-tight">
           Who&apos;s more{" "}
           <span className="text-gradient">smash</span>-worthy?
         </h1>
-        <p className="text-[var(--text-secondary)] text-xs md:text-sm">
+        <p className="text-[var(--text-secondary)] text-[10px] md:text-sm">
           Click the billionaire you prefer
         </p>
         {totalVotes > 0 && (
-          <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-semibold bg-[var(--accent)]/10 text-[var(--accent)] border border-[var(--accent)]/20">
+          <span className="inline-flex items-center px-2 py-0.5 rounded-full text-[10px] font-semibold bg-[var(--accent)]/10 text-[var(--accent)] border border-[var(--accent)]/20">
             {totalVotes} vote{totalVotes !== 1 ? "s" : ""} this session
           </span>
         )}
       </div>
 
+      {/* Cards — vertical on mobile, horizontal on desktop */}
       <div
         key={animKey}
-        className="flex flex-row items-center justify-center gap-3 sm:gap-6 md:gap-10 w-full max-w-4xl"
+        className="flex-1 min-h-0 w-full max-w-4xl flex flex-col md:flex-row items-center md:items-stretch justify-center gap-2 md:gap-8"
       >
-        <div className="animate-slide-left flex-1 flex justify-center max-w-[45%] md:max-w-sm w-full">
+        <div className="animate-slide-left flex-1 min-h-0 w-full max-w-[14rem] md:max-w-xs flex justify-center">
           <BillionaireCard
             billionaire={pair[0]}
             onClick={() => handleVote(pair[0].id, pair[1].id)}
@@ -180,20 +183,19 @@ export function VotingArena() {
           />
         </div>
 
-        <div className="animate-fade-in flex-shrink-0">
-          {/* Pulsing glow ring behind VS */}
+        <div className="animate-fade-in shrink-0 flex items-center justify-center">
           <div className="relative">
             <div
               className="absolute inset-0 rounded-full bg-[var(--accent)]/20 blur-md"
               style={{ animation: "pulseRing 2s ease-in-out infinite" }}
             />
-            <div className="vs-badge relative w-10 h-10 md:w-16 md:h-16 rounded-full flex items-center justify-center text-sm md:text-xl shadow-xl">
+            <div className="vs-badge relative w-8 h-8 md:w-14 md:h-14 rounded-full flex items-center justify-center text-xs md:text-lg shadow-xl">
               VS
             </div>
           </div>
         </div>
 
-        <div className="animate-slide-right flex-1 flex justify-center max-w-[45%] md:max-w-sm w-full">
+        <div className="animate-slide-right flex-1 min-h-0 w-full max-w-[14rem] md:max-w-xs flex justify-center">
           <BillionaireCard
             billionaire={pair[1]}
             onClick={() => handleVote(pair[1].id, pair[0].id)}
@@ -210,7 +212,8 @@ export function VotingArena() {
         </div>
       </div>
 
-      <div className="flex items-center gap-4">
+      {/* Skip + Share */}
+      <div className="shrink-0 flex items-center gap-4 py-2 md:py-3">
         <button
           onClick={handleSkip}
           disabled={voting}
@@ -225,7 +228,6 @@ export function VotingArena() {
           />
         )}
       </div>
-
     </div>
   );
 }

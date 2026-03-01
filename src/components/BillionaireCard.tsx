@@ -32,9 +32,9 @@ export function BillionaireCard({
     <button
       onClick={onClick}
       disabled={disabled}
-      className={`card-hover group relative flex flex-col items-center w-full max-w-sm rounded-2xl border border-[var(--border)] bg-gradient-to-b from-[var(--bg-card)] to-[var(--bg-primary)] overflow-hidden cursor-pointer disabled:cursor-default shadow-[0_4px_24px_rgba(0,0,0,0.3),inset_0_1px_0_rgba(255,255,255,0.04)] ${animationClass} ${resultClass || ""}`}
+      className={`card-hover group relative h-full w-full flex flex-col max-w-sm rounded-2xl border border-[var(--border)] bg-gradient-to-b from-[var(--bg-card)] to-[var(--bg-primary)] overflow-hidden cursor-pointer disabled:cursor-default shadow-[0_4px_24px_rgba(0,0,0,0.3),inset_0_1px_0_rgba(255,255,255,0.04)] ${animationClass} ${resultClass || ""}`}
     >
-      <div className="relative w-full aspect-[3/4] sm:aspect-[3/4] overflow-hidden bg-[var(--bg-card-hover)]">
+      <div className="relative w-full flex-1 min-h-0 overflow-hidden bg-[var(--bg-card-hover)]">
         <Image
           src={billionaire.photoUrl}
           alt={billionaire.name}
@@ -49,11 +49,11 @@ export function BillionaireCard({
         <div className="absolute inset-0 shadow-[inset_0_0_60px_rgba(0,0,0,0.3)]" />
       </div>
 
-      <div className="w-full p-3 sm:p-5 space-y-2 sm:space-y-3">
+      <div className="shrink-0 w-full p-2 sm:p-3 md:p-4 space-y-1 sm:space-y-2">
         {/* Gold accent divider */}
-        <div className="w-10 h-0.5 bg-gradient-to-r from-[var(--accent)] to-transparent rounded-full" />
+        <div className="w-8 h-0.5 bg-gradient-to-r from-[var(--accent)] to-transparent rounded-full" />
 
-        <h2 className="text-sm sm:text-xl font-bold leading-tight truncate tracking-tight">
+        <h2 className="text-sm sm:text-base md:text-xl font-bold leading-tight truncate tracking-tight">
           {billionaire.name}
         </h2>
 
