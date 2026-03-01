@@ -73,7 +73,7 @@ export default function LeaderboardPage() {
   return (
     <div className="flex flex-col lg:flex-row lg:items-start max-w-[1400px] mx-auto">
     {/* Live feed — top on mobile */}
-    <aside className="order-first lg:order-last w-full lg:w-96 lg:flex-shrink-0 px-4 pt-4 pb-2 lg:py-6 lg:pr-6 lg:pl-0">
+    <aside className="order-first lg:order-last w-full lg:w-96 lg:flex-shrink-0 lg:px-0 lg:py-6 lg:pr-6">
       <div className="lg:sticky lg:top-20">
         <LiveFeed
           limit={15}
