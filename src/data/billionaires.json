@@ -234,15 +234,6 @@
     "rank": 26
   },
   {
-    "forbesId": 2140814737,
-    "name": "Dieter Schwarz",
-    "netWorth": 67.2,
-    "country": "Germany",
-    "photoUrl": "/photos/2140814737.jpg",
-    "source": "Retail",
-    "rank": 27
-  },
-  {
     "forbesId": 1273919387,
     "name": "Germán Larrea Mota Velasco & family",
     "netWorth": 67.1,
@@ -529,15 +520,6 @@
     "photoUrl": "/photos/744202234.jpg",
     "source": "Fidelity",
     "rank": 60
-  },
-  {
-    "forbesId": 1067171337,
-    "name": "Zheng Shuliang & family",
-    "netWorth": 33.2,
-    "country": "China",
-    "photoUrl": "/photos/1067171337.jpg",
-    "source": "Aluminum products",
-    "rank": 61
   },
   {
     "forbesId": 1127302168,
@@ -837,15 +819,6 @@
     "rank": 95
   },
   {
-    "forbesId": 2053404029,
-    "name": "Yu Yong",
-    "netWorth": 25.4,
-    "country": "China",
-    "photoUrl": "/photos/2053404029.jpg",
-    "source": "Mining",
-    "rank": 96
-  },
-  {
     "forbesId": 1498475491,
     "name": "Vladimir Potanin",
     "netWorth": 24.7,
@@ -853,15 +826,6 @@
     "photoUrl": "/photos/1498475491.jpg",
     "source": "Metals",
     "rank": 97
-  },
-  {
-    "forbesId": 1856572652,
-    "name": "Huang Shilin",
-    "netWorth": 24.4,
-    "country": "China",
-    "photoUrl": "/photos/1856572652.jpg",
-    "source": "Batteries",
-    "rank": 98
   },
   {
     "forbesId": 489234349,
@@ -1134,15 +1098,6 @@
     "rank": 131
   },
   {
-    "forbesId": 641194608,
-    "name": "R. Budi Hartono",
-    "netWorth": 19.6,
-    "country": "Indonesia",
-    "photoUrl": "/photos/641194608.jpg",
-    "source": "Banking, tobacco",
-    "rank": 132
-  },
-  {
     "forbesId": 678830379,
     "name": "Alejandro Baillères Gual & family",
     "netWorth": 19.5,
@@ -1170,15 +1125,6 @@
     "rank": 135
   },
   {
-    "forbesId": 2101605840,
-    "name": "Chen Jianhua",
-    "netWorth": 19.3,
-    "country": "China",
-    "photoUrl": "/photos/2101605840.jpg",
-    "source": "Chemicals",
-    "rank": 136
-  },
-  {
     "forbesId": 875866265,
     "name": "Georg Schaeffler",
     "netWorth": 19.2,
@@ -1204,15 +1150,6 @@
     "photoUrl": "/photos/1493367608.jpg",
     "source": "Robots",
     "rank": 139
-  },
-  {
-    "forbesId": 106496714,
-    "name": "Karl Albrecht Jr. & family",
-    "netWorth": 19.1,
-    "country": "Germany",
-    "photoUrl": "/photos/106496714.jpg",
-    "source": "Supermarkets",
-    "rank": 140
   },
   {
     "forbesId": 1281187874,
@@ -1314,15 +1251,6 @@
     "rank": 152
   },
   {
-    "forbesId": 1459980112,
-    "name": "Theo Albrecht Jr & family",
-    "netWorth": 18,
-    "country": "Germany",
-    "photoUrl": "/photos/1459980112.jpg",
-    "source": "Aldi, Trader Joe's",
-    "rank": 153
-  },
-  {
     "forbesId": 934279847,
     "name": "Edwin Chen",
     "netWorth": 18,
@@ -1422,15 +1350,6 @@
     "rank": 164
   },
   {
-    "forbesId": 1557276409,
-    "name": "Lu Xiangyang",
-    "netWorth": 17,
-    "country": "China",
-    "photoUrl": "/photos/1557276409.jpg",
-    "source": "Automobiles, batteries",
-    "rank": 165
-  },
-  {
     "forbesId": 806563088,
     "name": "Stephen Ross",
     "netWorth": 17,
@@ -1438,15 +1357,6 @@
     "photoUrl": "/photos/806563088.jpg",
     "source": "Real estate",
     "rank": 166
-  },
-  {
-    "forbesId": 1351547638,
-    "name": "Li Shuirong & family",
-    "netWorth": 16.9,
-    "country": "China",
-    "photoUrl": "/photos/1351547638.jpg",
-    "source": "Petrochemicals",
-    "rank": 167
   },
   {
     "forbesId": 9747089,
@@ -1521,15 +1431,6 @@
     "rank": 176
   },
   {
-    "forbesId": 673374701,
-    "name": "Zou Zhinong & family",
-    "netWorth": 15.9,
-    "country": "China",
-    "photoUrl": "/photos/673374701.jpg",
-    "source": "Telecom equipment",
-    "rank": 177
-  },
-  {
     "forbesId": 1706330226,
     "name": "Johann Rupert & family",
     "netWorth": 15.8,
@@ -1564,15 +1465,6 @@
     "photoUrl": "/photos/37420901.jpg",
     "source": "Manufacturing",
     "rank": 182
-  },
-  {
-    "forbesId": 420303362,
-    "name": "Wang Liping & family",
-    "netWorth": 15.4,
-    "country": "China",
-    "photoUrl": "/photos/420303362.jpg",
-    "source": "Hydraulic machinery",
-    "rank": 183
   },
   {
     "forbesId": 687865447,
@@ -1755,15 +1647,6 @@
     "rank": 203
   },
   {
-    "forbesId": 1148105185,
-    "name": "Pei Zhenhua",
-    "netWorth": 14.1,
-    "country": "China",
-    "photoUrl": "/photos/1148105185.jpg",
-    "source": "Batteries",
-    "rank": 204
-  },
-  {
     "forbesId": 14022712,
     "name": "Robert Kraft",
     "netWorth": 13.8,
@@ -1843,15 +1726,6 @@
     "photoUrl": "/photos/1067346490.jpg",
     "source": "Mining",
     "rank": 216
-  },
-  {
-    "forbesId": 845813626,
-    "name": "Wang Weixiu & family",
-    "netWorth": 13.4,
-    "country": "China",
-    "photoUrl": "/photos/845813626.jpg",
-    "source": "Machinery",
-    "rank": 217
   },
   {
     "forbesId": 298088684,
@@ -1998,15 +1872,6 @@
     "rank": 235
   },
   {
-    "forbesId": 385656016,
-    "name": "Qi Shi & family",
-    "netWorth": 12.5,
-    "country": "China",
-    "photoUrl": "/photos/385656016.jpg",
-    "source": "Financial information",
-    "rank": 236
-  },
-  {
     "forbesId": 1056433772,
     "name": "George Roberts",
     "netWorth": 12.5,
@@ -2068,15 +1933,6 @@
     "photoUrl": "/photos/1866581343.jpg",
     "source": "Beverage, Real Estate",
     "rank": 245
-  },
-  {
-    "forbesId": 499510608,
-    "name": "Zhou Chaonan",
-    "netWorth": 12.2,
-    "country": "China",
-    "photoUrl": "/photos/499510608.jpg",
-    "source": "Manufacturing",
-    "rank": 246
   },
   {
     "forbesId": 1399816061,
@@ -2230,24 +2086,6 @@
     "photoUrl": "/photos/512659704.jpg",
     "source": "Biotech, investments",
     "rank": 267
-  },
-  {
-    "forbesId": 739200427,
-    "name": "Zhu Yi",
-    "netWorth": 11.6,
-    "country": "China",
-    "photoUrl": "/photos/739200427.jpg",
-    "source": "Pharmaceuticals",
-    "rank": 268
-  },
-  {
-    "forbesId": 439716074,
-    "name": "Wang Laisheng",
-    "netWorth": 11.5,
-    "country": "Hong Kong",
-    "photoUrl": "/photos/439716074.jpg",
-    "source": "Electronics components",
-    "rank": 269
   },
   {
     "forbesId": 1662978215,
@@ -2511,15 +2349,6 @@
     "rank": 302
   },
   {
-    "forbesId": 306938324,
-    "name": "Chen Tao & family",
-    "netWorth": 10.5,
-    "country": "China",
-    "photoUrl": "/photos/306938324.jpg",
-    "source": "Hardware",
-    "rank": 303
-  },
-  {
     "forbesId": 953527732,
     "name": "Patrick Soon-Shiong",
     "netWorth": 10.5,
@@ -2536,15 +2365,6 @@
     "photoUrl": "/photos/1294365175.jpg",
     "source": "Electronics",
     "rank": 305
-  },
-  {
-    "forbesId": 917359152,
-    "name": "Wu Jianshu",
-    "netWorth": 10.5,
-    "country": "Hong Kong",
-    "photoUrl": "/photos/917359152.jpg",
-    "source": "Auto parts",
-    "rank": 306
   },
   {
     "forbesId": 1039298796,
@@ -2862,15 +2682,6 @@
     "rank": 343
   },
   {
-    "forbesId": 349199657,
-    "name": "Fernando Roberto Moreira Salles",
-    "netWorth": 9.9,
-    "country": "Brazil",
-    "photoUrl": "/photos/349199657.jpg",
-    "source": "Banking, minerals",
-    "rank": 344
-  },
-  {
     "forbesId": 711130475,
     "name": "Antony Ressler",
     "netWorth": 9.9,
@@ -2887,24 +2698,6 @@
     "photoUrl": "/photos/750029142.jpg",
     "source": "Google",
     "rank": 346
-  },
-  {
-    "forbesId": 39358858,
-    "name": "Zeng Fangqin",
-    "netWorth": 9.8,
-    "country": "Hong Kong",
-    "photoUrl": "/photos/39358858.jpg",
-    "source": "Smartphone components",
-    "rank": 347
-  },
-  {
-    "forbesId": 726034672,
-    "name": "Yi Zheng",
-    "netWorth": 9.8,
-    "country": "China",
-    "photoUrl": "/photos/726034672.jpg",
-    "source": "Software",
-    "rank": 349
   },
   {
     "forbesId": 183126774,
@@ -3103,15 +2896,6 @@
     "photoUrl": "/photos/1264493640.jpg",
     "source": "Natural gas",
     "rank": 373
-  },
-  {
-    "forbesId": 648246443,
-    "name": "Zhang Xuexin & family",
-    "netWorth": 9.3,
-    "country": "China",
-    "photoUrl": "/photos/648246443.jpg",
-    "source": "Aluminum",
-    "rank": 375
   },
   {
     "forbesId": 1492920704,
@@ -3411,15 +3195,6 @@
     "rank": 412
   },
   {
-    "forbesId": 781002596,
-    "name": "Zhang Hejun",
-    "netWorth": 8.5,
-    "country": "China",
-    "photoUrl": "/photos/781002596.jpg",
-    "source": "Electronics",
-    "rank": 413
-  },
-  {
     "forbesId": 919972090,
     "name": "Ronda Stryker",
     "netWorth": 8.5,
@@ -3454,15 +3229,6 @@
     "photoUrl": "/photos/1651342729.jpg",
     "source": "Medical equipment",
     "rank": 418
-  },
-  {
-    "forbesId": 1957936761,
-    "name": "Pang Kang",
-    "netWorth": 8.5,
-    "country": "China",
-    "photoUrl": "/photos/1957936761.jpg",
-    "source": "Soy sauce ",
-    "rank": 419
   },
   {
     "forbesId": 456064239,
@@ -3526,15 +3292,6 @@
     "photoUrl": "/photos/2126413030.jpg",
     "source": "Finance ",
     "rank": 426
-  },
-  {
-    "forbesId": 1105405518,
-    "name": "Zhang Congyuan",
-    "netWorth": 8.3,
-    "country": "Taiwan",
-    "photoUrl": "/photos/1105405518.jpg",
-    "source": "Shoes",
-    "rank": 427
   },
   {
     "forbesId": 895067692,
@@ -3699,24 +3456,6 @@
     "rank": 446
   },
   {
-    "forbesId": 686669534,
-    "name": "Michael Herz",
-    "netWorth": 8.1,
-    "country": "Germany",
-    "photoUrl": "/photos/686669534.jpg",
-    "source": "Coffee",
-    "rank": 447
-  },
-  {
-    "forbesId": 1429614336,
-    "name": "Wolfgang Herz",
-    "netWorth": 8.1,
-    "country": "Germany",
-    "photoUrl": "/photos/1429614336.jpg",
-    "source": "Coffee",
-    "rank": 447
-  },
-  {
     "forbesId": 1429116381,
     "name": "Paul Tudor Jones II",
     "netWorth": 8.1,
@@ -3850,15 +3589,6 @@
     "photoUrl": "/photos/1208058440.jpg",
     "source": "Pest control",
     "rank": 465
-  },
-  {
-    "forbesId": 1532254559,
-    "name": "Alain Bouchard",
-    "netWorth": 7.9,
-    "country": "Canada",
-    "photoUrl": "/photos/1532254559.jpg",
-    "source": "Convinience stores",
-    "rank": 466
   },
   {
     "forbesId": 1320275163,
@@ -4113,15 +3843,6 @@
     "rank": 495
   },
   {
-    "forbesId": 513099137,
-    "name": "Hasmukh Chudgar & family",
-    "netWorth": 7.6,
-    "country": "India",
-    "photoUrl": "/photos/513099137.jpg",
-    "source": "Pharmaceuticals",
-    "rank": 496
-  },
-  {
     "forbesId": 189967493,
     "name": "Li Hua",
     "netWorth": 7.6,
@@ -4239,15 +3960,6 @@
     "rank": 511
   },
   {
-    "forbesId": 1685304612,
-    "name": "Yuan Fugen & family",
-    "netWorth": 7.5,
-    "country": "China",
-    "photoUrl": "/photos/1685304612.jpg",
-    "source": "Metal processing",
-    "rank": 512
-  },
-  {
     "forbesId": 659005157,
     "name": "Michael Milken",
     "netWorth": 7.5,
@@ -4255,15 +3967,6 @@
     "photoUrl": "/photos/659005157.jpg",
     "source": "Investments",
     "rank": 513
-  },
-  {
-    "forbesId": 2080132504,
-    "name": "Fan Hongwei",
-    "netWorth": 7.5,
-    "country": "China",
-    "photoUrl": "/photos/2080132504.jpg",
-    "source": "Petrochemicals",
-    "rank": 514
   },
   {
     "forbesId": 748840026,
@@ -4338,15 +4041,6 @@
     "rank": 523
   },
   {
-    "forbesId": 947103994,
-    "name": "Cen Junda",
-    "netWorth": 7.3,
-    "country": "China",
-    "photoUrl": "/photos/947103994.jpg",
-    "source": "Pharmaceuticals",
-    "rank": 524
-  },
-  {
     "forbesId": 647602742,
     "name": "Alain Merieux & family",
     "netWorth": 7.3,
@@ -4363,15 +4057,6 @@
     "photoUrl": "/photos/761309885.jpg",
     "source": "Medical devices",
     "rank": 526
-  },
-  {
-    "forbesId": 1050554515,
-    "name": "Tench Coxe",
-    "netWorth": 7.3,
-    "country": "United States",
-    "photoUrl": "/photos/1050554515.jpg",
-    "source": "Venture capital",
-    "rank": 527
   },
   {
     "forbesId": 606214261,
@@ -4651,15 +4336,6 @@
     "photoUrl": "/photos/917324132.jpg",
     "source": "Movies",
     "rank": 561
-  },
-  {
-    "forbesId": 1595934481,
-    "name": "Zhang Hongchao",
-    "netWorth": 7,
-    "country": "China",
-    "photoUrl": "/photos/1595934481.jpg",
-    "source": "Bubble tea",
-    "rank": 562
   },
   {
     "forbesId": 1674524789,
@@ -5256,15 +4932,6 @@
     "rank": 666
   },
   {
-    "forbesId": 1406489523,
-    "name": "Steve Lavin & family",
-    "netWorth": 6.3,
-    "country": "United States",
-    "photoUrl": "/photos/1406489523.jpg",
-    "source": "Meat processing",
-    "rank": 668
-  },
-  {
     "forbesId": 506979166,
     "name": "Giuseppe De'Longhi & family",
     "netWorth": 6.3,
@@ -5454,15 +5121,6 @@
     "rank": 697
   },
   {
-    "forbesId": 106562597,
-    "name": "Cai Haoyu",
-    "netWorth": 6,
-    "country": "China",
-    "photoUrl": "/photos/106562597.jpg",
-    "source": "Mobile games",
-    "rank": 698
-  },
-  {
     "forbesId": 512366775,
     "name": "William Goldring & family",
     "netWorth": 6,
@@ -5479,15 +5137,6 @@
     "photoUrl": "/photos/1046022320.jpg",
     "source": "Semiconductors",
     "rank": 702
-  },
-  {
-    "forbesId": 468954166,
-    "name": "Sky Xu",
-    "netWorth": 6,
-    "country": "China",
-    "photoUrl": "/photos/468954166.jpg",
-    "source": "E-commerce",
-    "rank": 703
   },
   {
     "forbesId": 1362008815,
@@ -5605,15 +5254,6 @@
     "photoUrl": "/photos/1742589805.jpg",
     "source": "Software",
     "rank": 718
-  },
-  {
-    "forbesId": 506302395,
-    "name": "Yu Renrong",
-    "netWorth": 5.8,
-    "country": "China",
-    "photoUrl": "/photos/506302395.jpg",
-    "source": "Semiconductors",
-    "rank": 719
   },
   {
     "forbesId": 2088747849,
@@ -5803,15 +5443,6 @@
     "photoUrl": "/photos/1806951330.jpg",
     "source": "Franklin Templeton",
     "rank": 742
-  },
-  {
-    "forbesId": 265832312,
-    "name": "Tomasz Biernacki",
-    "netWorth": 5.7,
-    "country": "Poland",
-    "photoUrl": "/photos/265832312.jpg",
-    "source": "Supermarkets",
-    "rank": 743
   },
   {
     "forbesId": 1042505710,
@@ -6093,15 +5724,6 @@
     "rank": 781
   },
   {
-    "forbesId": 1241037233,
-    "name": "Qiu Jianping & family",
-    "netWorth": 5.4,
-    "country": "China",
-    "photoUrl": "/photos/1241037233.jpg",
-    "source": "Hand tools ",
-    "rank": 782
-  },
-  {
     "forbesId": 126693301,
     "name": "Joesley Batista",
     "netWorth": 5.4,
@@ -6237,15 +5859,6 @@
     "rank": 798
   },
   {
-    "forbesId": 1661474440,
-    "name": "Ruan Xueping",
-    "netWorth": 5.3,
-    "country": "Hong Kong",
-    "photoUrl": "/photos/1661474440.jpg",
-    "source": "Power strip",
-    "rank": 800
-  },
-  {
     "forbesId": 1379250719,
     "name": "Thomas Tull",
     "netWorth": 5.3,
@@ -6352,15 +5965,6 @@
     "photoUrl": "/photos/684885324.jpg",
     "source": "Investments",
     "rank": 815
-  },
-  {
-    "forbesId": 1719869666,
-    "name": "Dan Kurzius",
-    "netWorth": 5.2,
-    "country": "United States",
-    "photoUrl": "/photos/1719869666.jpg",
-    "source": "Email marketing",
-    "rank": 816
   },
   {
     "forbesId": 1633184934,
@@ -6525,15 +6129,6 @@
     "rank": 834
   },
   {
-    "forbesId": 1644735938,
-    "name": "Luo Liguo & family",
-    "netWorth": 5.1,
-    "country": "China",
-    "photoUrl": "/photos/1644735938.jpg",
-    "source": "Chemicals",
-    "rank": 835
-  },
-  {
     "forbesId": 841408785,
     "name": "Alejandro Bulgheroni",
     "netWorth": 5.1,
@@ -6570,15 +6165,6 @@
     "rank": 839
   },
   {
-    "forbesId": 551769063,
-    "name": "Lin Tsung-Chi",
-    "netWorth": 5.1,
-    "country": "Taiwan",
-    "photoUrl": "/photos/551769063.jpg",
-    "source": "Furniture rails",
-    "rank": 840
-  },
-  {
     "forbesId": 1846767182,
     "name": "Barry Diller",
     "netWorth": 5.1,
@@ -6604,15 +6190,6 @@
     "photoUrl": "/photos/1403786492.jpg",
     "source": "Video games",
     "rank": 842
-  },
-  {
-    "forbesId": 771293809,
-    "name": "Zhu Yan & family",
-    "netWorth": 5,
-    "country": "China",
-    "photoUrl": "/photos/771293809.jpg",
-    "source": "Real estate",
-    "rank": 844
   },
   {
     "forbesId": 7491340,
@@ -6876,15 +6453,6 @@
     "rank": 878
   },
   {
-    "forbesId": 1970490845,
-    "name": "Bernard Fraisse & family",
-    "netWorth": 4.9,
-    "country": "France",
-    "photoUrl": "/photos/1970490845.jpg",
-    "source": "Pharmaceuticals",
-    "rank": 879
-  },
-  {
     "forbesId": 1081103924,
     "name": "Ivan Tavrin",
     "netWorth": 4.8,
@@ -6946,15 +6514,6 @@
     "photoUrl": "/photos/582257083.jpg",
     "source": "Auto dealers, investments",
     "rank": 886
-  },
-  {
-    "forbesId": 2026168238,
-    "name": "Winifred J. Marquart",
-    "netWorth": 4.8,
-    "country": "United States",
-    "photoUrl": "/photos/2026168238.jpg",
-    "source": "Cleaning products",
-    "rank": 888
   },
   {
     "forbesId": 1316498044,
@@ -7065,15 +6624,6 @@
     "rank": 902
   },
   {
-    "forbesId": 234831272,
-    "name": "Leonid Radvinsky",
-    "netWorth": 4.7,
-    "country": "United States",
-    "photoUrl": "/photos/234831272.jpg",
-    "source": "OnlyFans",
-    "rank": 904
-  },
-  {
     "forbesId": 1953990390,
     "name": "Jason Jiang",
     "netWorth": 4.7,
@@ -7101,15 +6651,6 @@
     "rank": 907
   },
   {
-    "forbesId": 1354311315,
-    "name": "Fang Wei",
-    "netWorth": 4.7,
-    "country": "China",
-    "photoUrl": "/photos/1354311315.jpg",
-    "source": "Steel",
-    "rank": 909
-  },
-  {
     "forbesId": 1110025545,
     "name": "Hansjoerg Wyss",
     "netWorth": 4.7,
@@ -7128,15 +6669,6 @@
     "rank": 911
   },
   {
-    "forbesId": 189972555,
-    "name": "Li Min",
-    "netWorth": 4.7,
-    "country": "China",
-    "photoUrl": "/photos/189972555.jpg",
-    "source": "Semiconductor",
-    "rank": 913
-  },
-  {
     "forbesId": 150481308,
     "name": "Rupert Johnson Jr",
     "netWorth": 4.7,
@@ -7144,15 +6676,6 @@
     "photoUrl": "/photos/150481308.jpg",
     "source": "Franklin Templeton",
     "rank": 914
-  },
-  {
-    "forbesId": 1336110807,
-    "name": "N. Murray Edwards",
-    "netWorth": 4.7,
-    "country": "Canada",
-    "photoUrl": "/photos/1336110807.jpg",
-    "source": "Oil & gas",
-    "rank": 915
   },
   {
     "forbesId": 526983912,
@@ -7263,15 +6786,6 @@
     "rank": 928
   },
   {
-    "forbesId": 1948510500,
-    "name": "Li Chunan",
-    "netWorth": 4.6,
-    "country": "China",
-    "photoUrl": "/photos/1948510500.jpg",
-    "source": "Solar wafers and modules",
-    "rank": 929
-  },
-  {
     "forbesId": 982678348,
     "name": "John Gandel",
     "netWorth": 4.6,
@@ -7333,15 +6847,6 @@
     "photoUrl": "/photos/631029851.jpg",
     "source": "Consumer goods",
     "rank": 937
-  },
-  {
-    "forbesId": 1571781041,
-    "name": "Song Zuowen",
-    "netWorth": 4.6,
-    "country": "China",
-    "photoUrl": "/photos/1571781041.jpg",
-    "source": "Aluminum, diversified",
-    "rank": 938
   },
   {
     "forbesId": 1385977252,
@@ -7542,15 +7047,6 @@
     "rank": 968
   },
   {
-    "forbesId": 883380298,
-    "name": "Angela Bennett",
-    "netWorth": 4.4,
-    "country": "Australia",
-    "photoUrl": "/photos/883380298.jpg",
-    "source": "Mining",
-    "rank": 969
-  },
-  {
     "forbesId": 532045636,
     "name": "Wang Jianlin",
     "netWorth": 4.3,
@@ -7567,15 +7063,6 @@
     "photoUrl": "/photos/28139884.jpg",
     "source": "Diversified",
     "rank": 971
-  },
-  {
-    "forbesId": 1198265905,
-    "name": "Hu Kaijun",
-    "netWorth": 4.3,
-    "country": "China",
-    "photoUrl": "/photos/1198265905.jpg",
-    "source": "Pharmaceuticals",
-    "rank": 972
   },
   {
     "forbesId": 112041877,
@@ -7812,15 +7299,6 @@
     "rank": 1000
   },
   {
-    "forbesId": 1260775830,
-    "name": "Yakir Gabay",
-    "netWorth": 4.2,
-    "country": "Cyprus",
-    "photoUrl": "/photos/1260775830.jpg",
-    "source": "Real estate",
-    "rank": 1002
-  },
-  {
     "forbesId": 1660287707,
     "name": "William Conway Jr",
     "netWorth": 4.2,
@@ -7974,15 +7452,6 @@
     "rank": 1020
   },
   {
-    "forbesId": 1200289333,
-    "name": "Lin Jianhua",
-    "netWorth": 4.2,
-    "country": "China",
-    "photoUrl": "/photos/1200289333.jpg",
-    "source": "Solar panel components",
-    "rank": 1021
-  },
-  {
     "forbesId": 1589584309,
     "name": "Willy Michel",
     "netWorth": 4.2,
@@ -7990,15 +7459,6 @@
     "photoUrl": "/photos/1589584309.jpg",
     "source": "Medical devices",
     "rank": 1022
-  },
-  {
-    "forbesId": 1885037664,
-    "name": "Xiang Guangda",
-    "netWorth": 4.2,
-    "country": "China",
-    "photoUrl": "/photos/1885037664.jpg",
-    "source": "Metals",
-    "rank": 1026
   },
   {
     "forbesId": 1250998901,
@@ -8046,15 +7506,6 @@
     "rank": 1031
   },
   {
-    "forbesId": 798595281,
-    "name": "Lam Wai-ying",
-    "netWorth": 4.1,
-    "country": "Hong Kong",
-    "photoUrl": "/photos/798595281.jpg",
-    "source": "Smartphone screens",
-    "rank": 1035
-  },
-  {
     "forbesId": 171089095,
     "name": "Xia Zuoquan",
     "netWorth": 4.1,
@@ -8071,15 +7522,6 @@
     "photoUrl": "/photos/205006299.jpg",
     "source": "Drug delivery devices",
     "rank": 1037
-  },
-  {
-    "forbesId": 1308913810,
-    "name": "Otto Happel",
-    "netWorth": 4.1,
-    "country": "Germany",
-    "photoUrl": "/photos/1308913810.jpg",
-    "source": "Engineering",
-    "rank": 1038
   },
   {
     "forbesId": 1815679333,
@@ -8179,15 +7621,6 @@
     "photoUrl": "/photos/2071861544.jpg",
     "source": "Hair care products",
     "rank": 1053
-  },
-  {
-    "forbesId": 1908017691,
-    "name": "Jose Roberto Marinho",
-    "netWorth": 4.1,
-    "country": "Brazil",
-    "photoUrl": "/photos/1908017691.jpg",
-    "source": "Media",
-    "rank": 1054
   },
   {
     "forbesId": 1890482131,
@@ -8307,15 +7740,6 @@
     "rank": 1074
   },
   {
-    "forbesId": 1766314791,
-    "name": "Jim Davis",
-    "netWorth": 4,
-    "country": "United States",
-    "photoUrl": "/photos/1766314791.jpg",
-    "source": "Staffing & recruiting",
-    "rank": 1075
-  },
-  {
     "forbesId": 563815802,
     "name": "Chan Laiwa & family",
     "netWorth": 4,
@@ -8330,15 +7754,6 @@
     "netWorth": 4,
     "country": "United States",
     "photoUrl": "/photos/1325909255.jpg",
-    "source": "Chemicals, building products",
-    "rank": 1079
-  },
-  {
-    "forbesId": 416554997,
-    "name": "Dorothy Chao Jenkins & family",
-    "netWorth": 4,
-    "country": "United States",
-    "photoUrl": "/photos/416554997.jpg",
     "source": "Chemicals, building products",
     "rank": 1079
   },
@@ -8442,15 +7857,6 @@
     "rank": 1091
   },
   {
-    "forbesId": 1967908939,
-    "name": "Chan Tan Ching-fen",
-    "netWorth": 4,
-    "country": "Hong Kong",
-    "photoUrl": "/photos/1967908939.jpg",
-    "source": "Real estate",
-    "rank": 1092
-  },
-  {
     "forbesId": 968773806,
     "name": "Edward DeBartolo Jr",
     "netWorth": 4,
@@ -8467,15 +7873,6 @@
     "photoUrl": "/photos/39333281.jpg",
     "source": "Bakeries",
     "rank": 1094
-  },
-  {
-    "forbesId": 1313307399,
-    "name": "Kailashchandra Nuwal",
-    "netWorth": 3.9,
-    "country": "India",
-    "photoUrl": "/photos/1313307399.jpg",
-    "source": "Industrial explosives",
-    "rank": 1095
   },
   {
     "forbesId": 808576194,
@@ -8649,15 +8046,6 @@
     "rank": 1118
   },
   {
-    "forbesId": 593810533,
-    "name": "Cai Dongchen",
-    "netWorth": 3.9,
-    "country": "China",
-    "photoUrl": "/photos/593810533.jpg",
-    "source": "Pharmaceuticals",
-    "rank": 1119
-  },
-  {
     "forbesId": 1833812214,
     "name": "Behdad Eghbali",
     "netWorth": 3.9,
@@ -8701,15 +8089,6 @@
     "photoUrl": "/photos/486434183.jpg",
     "source": "Pharmaceuticals",
     "rank": 1124
-  },
-  {
-    "forbesId": 511736986,
-    "name": "Wolfgang Leitner",
-    "netWorth": 3.8,
-    "country": "Austria",
-    "photoUrl": "/photos/511736986.jpg",
-    "source": "Engineering",
-    "rank": 1125
   },
   {
     "forbesId": 650515356,
@@ -8811,15 +8190,6 @@
     "rank": 1137
   },
   {
-    "forbesId": 478146296,
-    "name": "Su Hua",
-    "netWorth": 3.8,
-    "country": "China",
-    "photoUrl": "/photos/478146296.jpg",
-    "source": "Video streaming",
-    "rank": 1138
-  },
-  {
     "forbesId": 1595833245,
     "name": "Cameron Adams",
     "netWorth": 3.8,
@@ -8910,15 +8280,6 @@
     "rank": 1149
   },
   {
-    "forbesId": 130335308,
-    "name": "Hans Georg Naeder & family",
-    "netWorth": 3.7,
-    "country": "Germany",
-    "photoUrl": "/photos/130335308.jpg",
-    "source": "Prosthetics",
-    "rank": 1150
-  },
-  {
     "forbesId": 1017442768,
     "name": "Masahiro Miki",
     "netWorth": 3.7,
@@ -8962,15 +8323,6 @@
     "photoUrl": "/photos/151320888.jpg",
     "source": "Investments",
     "rank": 1160
-  },
-  {
-    "forbesId": 496302784,
-    "name": "Liu Wei",
-    "netWorth": 3.7,
-    "country": "China",
-    "photoUrl": "/photos/496302784.jpg",
-    "source": "Mobile gaming",
-    "rank": 1161
   },
   {
     "forbesId": 2033429069,
@@ -9025,15 +8377,6 @@
     "photoUrl": "/photos/17721738.jpg",
     "source": "Retail",
     "rank": 1168
-  },
-  {
-    "forbesId": 1592519702,
-    "name": "Hong Jie",
-    "netWorth": 3.7,
-    "country": "China",
-    "photoUrl": "/photos/1592519702.jpg",
-    "source": "Paint",
-    "rank": 1169
   },
   {
     "forbesId": 568610226,
@@ -9243,15 +8586,6 @@
     "rank": 1196
   },
   {
-    "forbesId": 423217384,
-    "name": "Zhou Jianping",
-    "netWorth": 3.6,
-    "country": "China",
-    "photoUrl": "/photos/423217384.jpg",
-    "source": "Fashion retail",
-    "rank": 1197
-  },
-  {
     "forbesId": 1875692439,
     "name": "Antonio Del Valle Ruiz & family",
     "netWorth": 3.6,
@@ -9342,24 +8676,6 @@
     "rank": 1208
   },
   {
-    "forbesId": 996449859,
-    "name": "Ted Alfond",
-    "netWorth": 3.5,
-    "country": "United States",
-    "photoUrl": "/photos/996449859.jpg",
-    "source": "Shoes",
-    "rank": 1208
-  },
-  {
-    "forbesId": 1671392105,
-    "name": "Bill Alfond",
-    "netWorth": 3.5,
-    "country": "United States",
-    "photoUrl": "/photos/1671392105.jpg",
-    "source": "Shoes",
-    "rank": 1210
-  },
-  {
     "forbesId": 1812598465,
     "name": "Eduard Schleicher",
     "netWorth": 3.5,
@@ -9423,15 +8739,6 @@
     "rank": 1218
   },
   {
-    "forbesId": 1660584584,
-    "name": "Luo Yuhao",
-    "netWorth": 3.5,
-    "country": "China",
-    "photoUrl": "/photos/1660584584.jpg",
-    "source": "Mobile gaming",
-    "rank": 1222
-  },
-  {
     "forbesId": 1080549471,
     "name": "Jack Cockwell",
     "netWorth": 3.5,
@@ -9475,15 +8782,6 @@
     "photoUrl": "/photos/203024079.jpg",
     "source": "Real estate",
     "rank": 1227
-  },
-  {
-    "forbesId": 1403248283,
-    "name": "Susan Ocampo & family",
-    "netWorth": 3.5,
-    "country": "United States",
-    "photoUrl": "/photos/1403248283.jpg",
-    "source": "Semiconductors",
-    "rank": 1228
   },
   {
     "forbesId": 934192834,
@@ -9567,15 +8865,6 @@
     "rank": 1238
   },
   {
-    "forbesId": 1255004588,
-    "name": "Wang Changtian",
-    "netWorth": 3.4,
-    "country": "China",
-    "photoUrl": "/photos/1255004588.jpg",
-    "source": "TV, movie production",
-    "rank": 1239
-  },
-  {
     "forbesId": 868247600,
     "name": "Sam Altman",
     "netWorth": 3.4,
@@ -9648,15 +8937,6 @@
     "rank": 1249
   },
   {
-    "forbesId": 891966722,
-    "name": "B. Partha Saradhi Reddy",
-    "netWorth": 3.4,
-    "country": "India",
-    "photoUrl": "/photos/891966722.jpg",
-    "source": "Pharmaceuticals",
-    "rank": 1250
-  },
-  {
     "forbesId": 929973263,
     "name": "Felix Baker",
     "netWorth": 3.4,
@@ -9700,15 +8980,6 @@
     "photoUrl": "/photos/61412435.jpg",
     "source": "Steel, Investments",
     "rank": 1257
-  },
-  {
-    "forbesId": 1333271221,
-    "name": "Xie Weitong",
-    "netWorth": 3.4,
-    "country": "Taiwan",
-    "photoUrl": "/photos/1333271221.jpg",
-    "source": "Cobalt",
-    "rank": 1258
   },
   {
     "forbesId": 1260681577,
@@ -9837,15 +9108,6 @@
     "rank": 1274
   },
   {
-    "forbesId": 247593203,
-    "name": "C.C. Leung",
-    "netWorth": 3.3,
-    "country": "Taiwan",
-    "photoUrl": "/photos/247593203.jpg",
-    "source": "Electronics",
-    "rank": 1275
-  },
-  {
     "forbesId": 405957777,
     "name": "Ma Yunsheng",
     "netWorth": 3.3,
@@ -9916,15 +9178,6 @@
     "photoUrl": "/photos/1510794424.jpg",
     "source": "Online games",
     "rank": 1285
-  },
-  {
-    "forbesId": 790049890,
-    "name": "Alpana Dangi",
-    "netWorth": 3.3,
-    "country": "India",
-    "photoUrl": "/photos/790049890.jpg",
-    "source": "Investments",
-    "rank": 1287
   },
   {
     "forbesId": 586407470,
@@ -10134,15 +9387,6 @@
     "rank": 1322
   },
   {
-    "forbesId": 1943472407,
-    "name": "John Dorrance III",
-    "netWorth": 3.2,
-    "country": "Ireland",
-    "photoUrl": "/photos/1943472407.jpg",
-    "source": "Campbell Soup",
-    "rank": 1323
-  },
-  {
     "forbesId": 315177069,
     "name": "Vladimir Litvinenko & family",
     "netWorth": 3.2,
@@ -10296,15 +9540,6 @@
     "rank": 1345
   },
   {
-    "forbesId": 1731057967,
-    "name": "Feng Hailiang",
-    "netWorth": 3.2,
-    "country": "China",
-    "photoUrl": "/photos/1731057967.jpg",
-    "source": "Copper, education",
-    "rank": 1346
-  },
-  {
     "forbesId": 752164078,
     "name": "Ferit Faik Sahenk",
     "netWorth": 3.2,
@@ -10321,15 +9556,6 @@
     "photoUrl": "/photos/905874331.jpg",
     "source": "Venture capital",
     "rank": 1348
-  },
-  {
-    "forbesId": 1701893219,
-    "name": "Leena Tewari",
-    "netWorth": 3.2,
-    "country": "India",
-    "photoUrl": "/photos/1701893219.jpg",
-    "source": "Pharmaceuticals",
-    "rank": 1349
   },
   {
     "forbesId": 233983963,
@@ -10413,15 +9639,6 @@
     "rank": 1364
   },
   {
-    "forbesId": 1028688157,
-    "name": "Liang Feng",
-    "netWorth": 3.1,
-    "country": "China",
-    "photoUrl": "/photos/1028688157.jpg",
-    "source": "Manufacturing",
-    "rank": 1365
-  },
-  {
     "forbesId": 619343947,
     "name": "Wilhelm Beier & family",
     "netWorth": 3.1,
@@ -10474,15 +9691,6 @@
     "photoUrl": "/photos/1383498346.jpg",
     "source": "Video streaming app",
     "rank": 1373
-  },
-  {
-    "forbesId": 1445224678,
-    "name": "Masaaki Arai",
-    "netWorth": 3.1,
-    "country": "Japan",
-    "photoUrl": "/photos/1445224678.jpg",
-    "source": "Real estate",
-    "rank": 1374
   },
   {
     "forbesId": 1727621562,
@@ -10656,15 +9864,6 @@
     "rank": 1396
   },
   {
-    "forbesId": 1494600304,
-    "name": "Richard Chandler",
-    "netWorth": 3,
-    "country": "New Zealand",
-    "photoUrl": "/photos/1494600304.jpg",
-    "source": "Investments",
-    "rank": 1397
-  },
-  {
     "forbesId": 463937411,
     "name": "Eugene Murtagh",
     "netWorth": 3,
@@ -10692,15 +9891,6 @@
     "rank": 1401
   },
   {
-    "forbesId": 1435215596,
-    "name": "Cao Longxiang & family",
-    "netWorth": 3,
-    "country": "China",
-    "photoUrl": "/photos/1435215596.jpg",
-    "source": "Pharmaceuticals",
-    "rank": 1402
-  },
-  {
     "forbesId": 2080428210,
     "name": "Edward Bass",
     "netWorth": 3,
@@ -10708,15 +9898,6 @@
     "photoUrl": "/photos/2080428210.jpg",
     "source": "Oil, investments",
     "rank": 1403
-  },
-  {
-    "forbesId": 1083432931,
-    "name": "Zhuo Jun",
-    "netWorth": 3,
-    "country": "Hong Kong",
-    "photoUrl": "/photos/1083432931.jpg",
-    "source": "Printed circuit boards",
-    "rank": 1404
   },
   {
     "forbesId": 431466172,
@@ -10809,15 +9990,6 @@
     "rank": 1418
   },
   {
-    "forbesId": 1295628060,
-    "name": "Park Soon-jae",
-    "netWorth": 2.9,
-    "country": "South Korea",
-    "photoUrl": "/photos/1295628060.jpg",
-    "source": "Biopharmaceuticals",
-    "rank": 1419
-  },
-  {
     "forbesId": 761343635,
     "name": "Lindsay Fox",
     "netWorth": 2.9,
@@ -10843,15 +10015,6 @@
     "photoUrl": "/photos/1129264641.jpg",
     "source": "Solar panels",
     "rank": 1425
-  },
-  {
-    "forbesId": 267613672,
-    "name": "Long Wan",
-    "netWorth": 2.9,
-    "country": "China",
-    "photoUrl": "/photos/267613672.jpg",
-    "source": "Food",
-    "rank": 1426
   },
   {
     "forbesId": 718335441,
@@ -10969,15 +10132,6 @@
     "photoUrl": "/photos/1966198865.jpg",
     "source": "Oil, investments",
     "rank": 1451
-  },
-  {
-    "forbesId": 705558420,
-    "name": "Chi Yufeng",
-    "netWorth": 2.9,
-    "country": "China",
-    "photoUrl": "/photos/705558420.jpg",
-    "source": "Software",
-    "rank": 1452
   },
   {
     "forbesId": 217976686,
@@ -11304,15 +10458,6 @@
     "rank": 1492
   },
   {
-    "forbesId": 1382343372,
-    "name": "Chen Hua & family",
-    "netWorth": 2.8,
-    "country": "China",
-    "photoUrl": "/photos/1382343372.jpg",
-    "source": "Real estate",
-    "rank": 1496
-  },
-  {
     "forbesId": 263479120,
     "name": "Jay-Z",
     "netWorth": 2.8,
@@ -11340,15 +10485,6 @@
     "rank": 1499
   },
   {
-    "forbesId": 942367265,
-    "name": "Chen Kaixuan",
-    "netWorth": 2.8,
-    "country": "China",
-    "photoUrl": "/photos/942367265.jpg",
-    "source": "Household chemicals",
-    "rank": 1500
-  },
-  {
     "forbesId": 922301329,
     "name": "Stefan Olsson",
     "netWorth": 2.8,
@@ -11365,15 +10501,6 @@
     "photoUrl": "/photos/403911291.jpg",
     "source": "Steel pipes, diversified",
     "rank": 1502
-  },
-  {
-    "forbesId": 1684670626,
-    "name": "Fan Daidi",
-    "netWorth": 2.8,
-    "country": "China",
-    "photoUrl": "/photos/1684670626.jpg",
-    "source": "Skincare",
-    "rank": 1504
   },
   {
     "forbesId": 1428888932,
@@ -11401,15 +10528,6 @@
     "photoUrl": "/photos/136917689.jpg",
     "source": "Electrical equipment",
     "rank": 1508
-  },
-  {
-    "forbesId": 1883921262,
-    "name": "Yoo Jung-hyun",
-    "netWorth": 2.8,
-    "country": "South Korea",
-    "photoUrl": "/photos/1883921262.jpg",
-    "source": "Online games",
-    "rank": 1509
   },
   {
     "forbesId": 276301206,
@@ -11520,15 +10638,6 @@
     "rank": 1525
   },
   {
-    "forbesId": 1408715931,
-    "name": "Lam Kong",
-    "netWorth": 2.8,
-    "country": "China",
-    "photoUrl": "/photos/1408715931.jpg",
-    "source": "Pharmaceuticals",
-    "rank": 1526
-  },
-  {
     "forbesId": 694410955,
     "name": "Maren Otto",
     "netWorth": 2.8,
@@ -11536,15 +10645,6 @@
     "photoUrl": "/photos/694410955.jpg",
     "source": "Retail, real estate",
     "rank": 1528
-  },
-  {
-    "forbesId": 605568670,
-    "name": "Zhu Gongshan & family",
-    "netWorth": 2.7,
-    "country": "China",
-    "photoUrl": "/photos/605568670.jpg",
-    "source": "Solar panel materials",
-    "rank": 1529
   },
   {
     "forbesId": 586392223,
@@ -11718,15 +10818,6 @@
     "rank": 1554
   },
   {
-    "forbesId": 1686939706,
-    "name": "Jeff Sutton",
-    "netWorth": 2.7,
-    "country": "United States",
-    "photoUrl": "/photos/1686939706.jpg",
-    "source": "Real estate",
-    "rank": 1555
-  },
-  {
     "forbesId": 1816333609,
     "name": "V. Prem Watsa",
     "netWorth": 2.7,
@@ -11743,15 +10834,6 @@
     "photoUrl": "/photos/463410551.jpg",
     "source": "Investment",
     "rank": 1557
-  },
-  {
-    "forbesId": 2076266804,
-    "name": "Anthony Hall",
-    "netWorth": 2.7,
-    "country": "Australia",
-    "photoUrl": "/photos/2076266804.jpg",
-    "source": "Technology ",
-    "rank": 1558
   },
   {
     "forbesId": 523616717,
@@ -11979,15 +11061,6 @@
     "rank": 1592
   },
   {
-    "forbesId": 1605287337,
-    "name": "Cheng Xue",
-    "netWorth": 2.6,
-    "country": "China",
-    "photoUrl": "/photos/1605287337.jpg",
-    "source": "Soy sauce",
-    "rank": 1593
-  },
-  {
     "forbesId": 1024009300,
     "name": "Henry Swieca",
     "netWorth": 2.6,
@@ -12069,24 +11142,6 @@
     "rank": 1604
   },
   {
-    "forbesId": 1152716747,
-    "name": "Sam Hupert",
-    "netWorth": 2.6,
-    "country": "Australia",
-    "photoUrl": "/photos/1152716747.jpg",
-    "source": "Technology",
-    "rank": 1605
-  },
-  {
-    "forbesId": 479874982,
-    "name": "Zhou Hongyi",
-    "netWorth": 2.6,
-    "country": "China",
-    "photoUrl": "/photos/479874982.jpg",
-    "source": "Security software",
-    "rank": 1606
-  },
-  {
     "forbesId": 1797457246,
     "name": "Walter P.J. Droege",
     "netWorth": 2.6,
@@ -12159,15 +11214,6 @@
     "rank": 1619
   },
   {
-    "forbesId": 28533218,
-    "name": "Sam Chong",
-    "netWorth": 2.6,
-    "country": "Australia",
-    "photoUrl": "/photos/28533218.jpg",
-    "source": "Mining",
-    "rank": 1620
-  },
-  {
     "forbesId": 1736873972,
     "name": "George Joseph",
     "netWorth": 2.6,
@@ -12220,15 +11266,6 @@
     "photoUrl": "/photos/2111610361.jpg",
     "source": "Investments",
     "rank": 1631
-  },
-  {
-    "forbesId": 2001187184,
-    "name": "Shu Ping",
-    "netWorth": 2.6,
-    "country": "Singapore",
-    "photoUrl": "/photos/2001187184.jpg",
-    "source": "Restaurants",
-    "rank": 1632
   },
   {
     "forbesId": 9019545,
@@ -12411,15 +11448,6 @@
     "rank": 1660
   },
   {
-    "forbesId": 1252399504,
-    "name": "Chu Lam Yiu",
-    "netWorth": 2.5,
-    "country": "Hong Kong",
-    "photoUrl": "/photos/1252399504.jpg",
-    "source": "Flavorings",
-    "rank": 1662
-  },
-  {
     "forbesId": 193365959,
     "name": "Vivek Chand Burman",
     "netWorth": 2.5,
@@ -12465,15 +11493,6 @@
     "rank": 1669
   },
   {
-    "forbesId": 1501336265,
-    "name": "Huijiao Yu",
-    "netWorth": 2.5,
-    "country": "China",
-    "photoUrl": "/photos/1501336265.jpg",
-    "source": "Package delivery",
-    "rank": 1670
-  },
-  {
     "forbesId": 1014812300,
     "name": "Wee Ee Lim",
     "netWorth": 2.5,
@@ -12490,15 +11509,6 @@
     "photoUrl": "/photos/77471167.jpg",
     "source": "Consumer products, banking",
     "rank": 1672
-  },
-  {
-    "forbesId": 1919455894,
-    "name": "Sun Shoukuan",
-    "netWorth": 2.5,
-    "country": "China",
-    "photoUrl": "/photos/1919455894.jpg",
-    "source": "Metals, coal",
-    "rank": 1674
   },
   {
     "forbesId": 1183820175,
@@ -12690,15 +11700,6 @@
     "rank": 1704
   },
   {
-    "forbesId": 159397964,
-    "name": "Kie Chie Wong",
-    "netWorth": 2.5,
-    "country": "Malaysia",
-    "photoUrl": "/photos/159397964.jpg",
-    "source": "Investments",
-    "rank": 1705
-  },
-  {
     "forbesId": 2144525266,
     "name": "Alexandra Andresen",
     "netWorth": 2.5,
@@ -12735,15 +11736,6 @@
     "rank": 1712
   },
   {
-    "forbesId": 435567302,
-    "name": "Alexandre Grendene Bartelle",
-    "netWorth": 2.5,
-    "country": "Brazil",
-    "photoUrl": "/photos/435567302.jpg",
-    "source": "Shoes",
-    "rank": 1713
-  },
-  {
     "forbesId": 867690079,
     "name": "John de Mol",
     "netWorth": 2.4,
@@ -12760,15 +11752,6 @@
     "photoUrl": "/photos/2076821196.jpg",
     "source": "Roku ",
     "rank": 1717
-  },
-  {
-    "forbesId": 423738806,
-    "name": "Zhu Yiming",
-    "netWorth": 2.4,
-    "country": "China",
-    "photoUrl": "/photos/423738806.jpg",
-    "source": "Semiconductors",
-    "rank": 1718
   },
   {
     "forbesId": 1078738408,
@@ -12825,15 +11808,6 @@
     "rank": 1725
   },
   {
-    "forbesId": 1382235696,
-    "name": "Lin Xiucheng & family",
-    "netWorth": 2.4,
-    "country": "China",
-    "photoUrl": "/photos/1382235696.jpg",
-    "source": "Electronics",
-    "rank": 1726
-  },
-  {
     "forbesId": 1365996173,
     "name": "Rafique Malik",
     "netWorth": 2.4,
@@ -12850,15 +11824,6 @@
     "photoUrl": "/photos/1807953310.jpg",
     "source": "Mining, steel",
     "rank": 1730
-  },
-  {
-    "forbesId": 1159547961,
-    "name": "Christopher Kwok",
-    "netWorth": 2.4,
-    "country": "Hong Kong",
-    "photoUrl": "/photos/1159547961.jpg",
-    "source": "Real estate",
-    "rank": 1731
   },
   {
     "forbesId": 1166416547,
@@ -12931,24 +11896,6 @@
     "photoUrl": "/photos/2138137228.jpg",
     "source": "Hedge funds",
     "rank": 1743
-  },
-  {
-    "forbesId": 1453477274,
-    "name": "Surender Saluja",
-    "netWorth": 2.4,
-    "country": "India",
-    "photoUrl": "/photos/1453477274.jpg",
-    "source": "Solar energy",
-    "rank": 1745
-  },
-  {
-    "forbesId": 720471083,
-    "name": "Ke Zunhong & family",
-    "netWorth": 2.4,
-    "country": "China",
-    "photoUrl": "/photos/720471083.jpg",
-    "source": "Pharmaceuticals",
-    "rank": 1747
   },
   {
     "forbesId": 1559622321,
@@ -13039,15 +11986,6 @@
     "photoUrl": "/photos/1937030080.jpg",
     "source": "Inherited",
     "rank": 1764
-  },
-  {
-    "forbesId": 1236731638,
-    "name": "Sylvia Stroeher",
-    "netWorth": 2.4,
-    "country": "Germany",
-    "photoUrl": "/photos/1236731638.jpg",
-    "source": "Cosmetics",
-    "rank": 1766
   },
   {
     "forbesId": 123777822,
@@ -13383,15 +12321,6 @@
     "rank": 1818
   },
   {
-    "forbesId": 1654779730,
-    "name": "Hisao Nagata",
-    "netWorth": 2.3,
-    "country": "Japan",
-    "photoUrl": "/photos/1654779730.jpg",
-    "source": "Retail",
-    "rank": 1822
-  },
-  {
     "forbesId": 1559584577,
     "name": "Steven Witkoff & family",
     "netWorth": 2.3,
@@ -13696,15 +12625,6 @@
     "photoUrl": "/photos/217915346.jpg",
     "source": "Hotels",
     "rank": 1889
-  },
-  {
-    "forbesId": 337051903,
-    "name": "Ruan Hongliang",
-    "netWorth": 2.2,
-    "country": "China",
-    "photoUrl": "/photos/337051903.jpg",
-    "source": "Glass",
-    "rank": 1890
   },
   {
     "forbesId": 781818870,
@@ -14112,15 +13032,6 @@
     "rank": 1954
   },
   {
-    "forbesId": 848477730,
-    "name": "An Kang",
-    "netWorth": 2.1,
-    "country": "China",
-    "photoUrl": "/photos/848477730.jpg",
-    "source": "Pharmaceuticals",
-    "rank": 1955
-  },
-  {
     "forbesId": 112952444,
     "name": "Manuel Lao Hernández & family",
     "netWorth": 2.1,
@@ -14526,15 +13437,6 @@
     "rank": 2022
   },
   {
-    "forbesId": 723688902,
-    "name": "Masateru Uno & family",
-    "netWorth": 2,
-    "country": "Japan",
-    "photoUrl": "/photos/723688902.jpg",
-    "source": "Drugstores",
-    "rank": 2023
-  },
-  {
     "forbesId": 544315557,
     "name": "Gao Yunfeng",
     "netWorth": 2,
@@ -14542,15 +13444,6 @@
     "photoUrl": "/photos/544315557.jpg",
     "source": "Industrial lasers",
     "rank": 2024
-  },
-  {
-    "forbesId": 1764059044,
-    "name": "Wu Shaoxun",
-    "netWorth": 2,
-    "country": "China",
-    "photoUrl": "/photos/1764059044.jpg",
-    "source": "Wine",
-    "rank": 2025
   },
   {
     "forbesId": 294488899,
@@ -14886,15 +13779,6 @@
     "rank": 2074
   },
   {
-    "forbesId": 332768971,
-    "name": "Joe Rogers Jr",
-    "netWorth": 2,
-    "country": "United States",
-    "photoUrl": "/photos/332768971.jpg",
-    "source": "Waffle House",
-    "rank": 2075
-  },
-  {
     "forbesId": 1340475968,
     "name": "John Van Lieshout",
     "netWorth": 2,
@@ -15064,24 +13948,6 @@
     "photoUrl": "/photos/693656088.jpg",
     "source": "Salsa",
     "rank": 2106
-  },
-  {
-    "forbesId": 885362324,
-    "name": "Liang Guangwei",
-    "netWorth": 1.9,
-    "country": "China",
-    "photoUrl": "/photos/885362324.jpg",
-    "source": "Conglomerate",
-    "rank": 2108
-  },
-  {
-    "forbesId": 112845736,
-    "name": "Yin Yee Lee",
-    "netWorth": 1.9,
-    "country": "China",
-    "photoUrl": "/photos/112845736.jpg",
-    "source": "Glass",
-    "rank": 2110
   },
   {
     "forbesId": 173549864,
@@ -15332,15 +14198,6 @@
     "netWorth": 1.9,
     "country": "United States",
     "photoUrl": "/photos/1891602087.jpg",
-    "source": "Fintech",
-    "rank": 2150
-  },
-  {
-    "forbesId": 1962010858,
-    "name": "Karim Atiyeh",
-    "netWorth": 1.9,
-    "country": "United States",
-    "photoUrl": "/photos/1962010858.jpg",
     "source": "Fintech",
     "rank": 2150
   },
@@ -15687,15 +14544,6 @@
     "rank": 2200
   },
   {
-    "forbesId": 1308249159,
-    "name": "Lei Jufang",
-    "netWorth": 1.8,
-    "country": "China",
-    "photoUrl": "/photos/1308249159.jpg",
-    "source": "Pharmaceuticals",
-    "rank": 2201
-  },
-  {
     "forbesId": 1815396766,
     "name": "Alexander Isaev",
     "netWorth": 1.8,
@@ -15712,15 +14560,6 @@
     "photoUrl": "/photos/1108564665.jpg",
     "source": "Bloomberg LP",
     "rank": 2209
-  },
-  {
-    "forbesId": 550568120,
-    "name": "Zhou Jian",
-    "netWorth": 1.8,
-    "country": "China",
-    "photoUrl": "/photos/550568120.jpg",
-    "source": "robotics",
-    "rank": 2211
   },
   {
     "forbesId": 1014520226,
@@ -16281,15 +15120,6 @@
     "rank": 2317
   },
   {
-    "forbesId": 977957257,
-    "name": "Lau Cho Kun",
-    "netWorth": 1.7,
-    "country": "Malaysia",
-    "photoUrl": "/photos/977957257.jpg",
-    "source": "Palm oil, property",
-    "rank": 2320
-  },
-  {
     "forbesId": 888936043,
     "name": "Fang Hongbo",
     "netWorth": 1.7,
@@ -16524,15 +15354,6 @@
     "rank": 2365
   },
   {
-    "forbesId": 664315190,
-    "name": "Hao Hong",
-    "netWorth": 1.7,
-    "country": "United States",
-    "photoUrl": "/photos/664315190.jpg",
-    "source": "Pharmaceuticals",
-    "rank": 2366
-  },
-  {
     "forbesId": 638489819,
     "name": "Jahm Najafi",
     "netWorth": 1.7,
@@ -16587,15 +15408,6 @@
     "rank": 2372
   },
   {
-    "forbesId": 1853130249,
-    "name": "Sze Man Bok",
-    "netWorth": 1.7,
-    "country": "China",
-    "photoUrl": "/photos/1853130249.jpg",
-    "source": "Hygiene products",
-    "rank": 2374
-  },
-  {
     "forbesId": 2146416425,
     "name": "Kenny Troutt",
     "netWorth": 1.7,
@@ -16603,15 +15415,6 @@
     "photoUrl": "/photos/2146416425.jpg",
     "source": "Telecom",
     "rank": 2376
-  },
-  {
-    "forbesId": 870403908,
-    "name": "Yoshiaki Yoshida",
-    "netWorth": 1.7,
-    "country": "Japan",
-    "photoUrl": "/photos/870403908.jpg",
-    "source": "Cosmetics",
-    "rank": 2377
   },
   {
     "forbesId": 143720554,
@@ -16711,15 +15514,6 @@
     "photoUrl": "/photos/1535145151.jpg",
     "source": "Sports drink",
     "rank": 2393
-  },
-  {
-    "forbesId": 477346423,
-    "name": "Liu Gexin & family",
-    "netWorth": 1.6,
-    "country": "China",
-    "photoUrl": "/photos/477346423.jpg",
-    "source": "Pharmaceuticals",
-    "rank": 2395
   },
   {
     "forbesId": 1810891523,
@@ -17154,15 +15948,6 @@
     "rank": 2487
   },
   {
-    "forbesId": 2017435458,
-    "name": "Wu Chung-yi",
-    "netWorth": 1.5,
-    "country": "Taiwan",
-    "photoUrl": "/photos/2017435458.jpg",
-    "source": "Manufacturing",
-    "rank": 2489
-  },
-  {
     "forbesId": 45338205,
     "name": "William Heinecke",
     "netWorth": 1.5,
@@ -17179,15 +15964,6 @@
     "photoUrl": "/photos/476338218.jpg",
     "source": "Financial services",
     "rank": 2491
-  },
-  {
-    "forbesId": 1985106574,
-    "name": "Chang Chung-Hsing",
-    "netWorth": 1.5,
-    "country": "Taiwan",
-    "photoUrl": "/photos/1985106574.jpg",
-    "source": "High-precision gearboxes",
-    "rank": 2492
   },
   {
     "forbesId": 309423207,
@@ -17224,15 +16000,6 @@
     "photoUrl": "/photos/1335235079.jpg",
     "source": "Metals, investments",
     "rank": 2497
-  },
-  {
-    "forbesId": 1790740872,
-    "name": "David Feffer",
-    "netWorth": 1.5,
-    "country": "Brazil",
-    "photoUrl": "/photos/1790740872.jpg",
-    "source": "Pulp and paper",
-    "rank": 2498
   },
   {
     "forbesId": 1570104471,
@@ -17433,15 +16200,6 @@
     "rank": 2535
   },
   {
-    "forbesId": 785221239,
-    "name": "Zhang Changhong",
-    "netWorth": 1.5,
-    "country": "China",
-    "photoUrl": "/photos/785221239.jpg",
-    "source": "financial information service",
-    "rank": 2537
-  },
-  {
     "forbesId": 1910609700,
     "name": "John Morgan",
     "netWorth": 1.5,
@@ -17514,15 +16272,6 @@
     "rank": 2556
   },
   {
-    "forbesId": 982979308,
-    "name": "Wang Linpeng",
-    "netWorth": 1.5,
-    "country": "China",
-    "photoUrl": "/photos/982979308.jpg",
-    "source": "Furniture retailing",
-    "rank": 2558
-  },
-  {
     "forbesId": 222585914,
     "name": "Dan Gertler",
     "netWorth": 1.5,
@@ -17566,15 +16315,6 @@
     "photoUrl": "/photos/967155684.jpg",
     "source": "payments technology",
     "rank": 2563
-  },
-  {
-    "forbesId": 245592333,
-    "name": "Daniel Feffer",
-    "netWorth": 1.5,
-    "country": "Brazil",
-    "photoUrl": "/photos/245592333.jpg",
-    "source": "Pulp and paper",
-    "rank": 2564
   },
   {
     "forbesId": 720928726,
@@ -17629,15 +16369,6 @@
     "photoUrl": "/photos/1593661134.jpg",
     "source": "Retail",
     "rank": 2572
-  },
-  {
-    "forbesId": 1315310226,
-    "name": "Chris Wallin",
-    "netWorth": 1.5,
-    "country": "Australia",
-    "photoUrl": "/photos/1315310226.jpg",
-    "source": "Mining",
-    "rank": 2573
   },
   {
     "forbesId": 373689828,
@@ -17703,15 +16434,6 @@
     "rank": 2583
   },
   {
-    "forbesId": 1345061605,
-    "name": "Yan Zhi",
-    "netWorth": 1.4,
-    "country": "China",
-    "photoUrl": "/photos/1345061605.jpg",
-    "source": "Real estate",
-    "rank": 2585
-  },
-  {
     "forbesId": 1164811034,
     "name": "Lucy Guo",
     "netWorth": 1.4,
@@ -17773,24 +16495,6 @@
     "photoUrl": "/photos/864249980.jpg",
     "source": "Real estate",
     "rank": 2594
-  },
-  {
-    "forbesId": 484209368,
-    "name": "David Xueling Li",
-    "netWorth": 1.4,
-    "country": "China",
-    "photoUrl": "/photos/484209368.jpg",
-    "source": "Live streaming service",
-    "rank": 2595
-  },
-  {
-    "forbesId": 561787365,
-    "name": "Swift Xie",
-    "netWorth": 1.4,
-    "country": "China",
-    "photoUrl": "/photos/561787365.jpg",
-    "source": "Drones",
-    "rank": 2596
   },
   {
     "forbesId": 1079858186,
@@ -17881,15 +16585,6 @@
     "photoUrl": "/photos/1517173118.jpg",
     "source": "Food delivery service",
     "rank": 2619
-  },
-  {
-    "forbesId": 1905436261,
-    "name": "Wu Kaiting",
-    "netWorth": 1.4,
-    "country": "Hong Kong",
-    "photoUrl": "/photos/1905436261.jpg",
-    "source": "Electronics",
-    "rank": 2621
   },
   {
     "forbesId": 1661748778,
@@ -18216,15 +16911,6 @@
     "rank": 2695
   },
   {
-    "forbesId": 1179301771,
-    "name": "Yu Peidi",
-    "netWorth": 1.4,
-    "country": "Hong Kong",
-    "photoUrl": "/photos/1179301771.jpg",
-    "source": "Real estate",
-    "rank": 2697
-  },
-  {
     "forbesId": 1844442325,
     "name": "Michael Spencer",
     "netWorth": 1.4,
@@ -18315,15 +17001,6 @@
     "rank": 2713
   },
   {
-    "forbesId": 315309246,
-    "name": "Sun Huaiqing & family",
-    "netWorth": 1.4,
-    "country": "China",
-    "photoUrl": "/photos/315309246.jpg",
-    "source": "Cosmetics",
-    "rank": 2714
-  },
-  {
     "forbesId": 1676096931,
     "name": "Tope Awotona",
     "netWorth": 1.4,
@@ -18385,15 +17062,6 @@
     "photoUrl": "/photos/295473176.jpg",
     "source": "auto parts",
     "rank": 2730
-  },
-  {
-    "forbesId": 652125641,
-    "name": "Sun Guangxin",
-    "netWorth": 1.3,
-    "country": "China",
-    "photoUrl": "/photos/652125641.jpg",
-    "source": "Diversified",
-    "rank": 2732
   },
   {
     "forbesId": 655479989,
@@ -18792,15 +17460,6 @@
     "rank": 2821
   },
   {
-    "forbesId": 427589984,
-    "name": "Zhou Zongwen & family",
-    "netWorth": 1.3,
-    "country": "China",
-    "photoUrl": "/photos/427589984.jpg",
-    "source": "Jewelry",
-    "rank": 2822
-  },
-  {
     "forbesId": 611309393,
     "name": "Ron Shaich",
     "netWorth": 1.3,
@@ -18936,29 +17595,11 @@
     "rank": 2854
   },
   {
-    "forbesId": 1751851283,
-    "name": "Nancy Lerner",
-    "netWorth": 1.2,
-    "country": "United States",
-    "photoUrl": "/photos/1751851283.jpg",
-    "source": "Banking, credit cards",
-    "rank": 2855
-  },
-  {
     "forbesId": 1320451454,
     "name": "Clemens Toennies",
     "netWorth": 1.2,
     "country": "Germany",
     "photoUrl": "/photos/1320451454.jpg",
-    "source": "Meat processing",
-    "rank": 2856
-  },
-  {
-    "forbesId": 1175935813,
-    "name": "Robert Toennies",
-    "netWorth": 1.2,
-    "country": "Germany",
-    "photoUrl": "/photos/1175935813.jpg",
     "source": "Meat processing",
     "rank": 2856
   },
@@ -19186,15 +17827,6 @@
     "photoUrl": "/photos/1941228928.jpg",
     "source": "Online universities",
     "rank": 2903
-  },
-  {
-    "forbesId": 919888706,
-    "name": "Benjamin Zhengmin Pan & family",
-    "netWorth": 1.2,
-    "country": "China",
-    "photoUrl": "/photos/919888706.jpg",
-    "source": "Electronics",
-    "rank": 2904
   },
   {
     "forbesId": 2124517515,
@@ -19512,15 +18144,6 @@
     "rank": 2957
   },
   {
-    "forbesId": 1434430593,
-    "name": "Cheng Lili",
-    "netWorth": 1.2,
-    "country": "China",
-    "photoUrl": "/photos/1434430593.jpg",
-    "source": "Poultry breeding",
-    "rank": 2958
-  },
-  {
     "forbesId": 1724055331,
     "name": "Xiu Laigui",
     "netWorth": 1.2,
@@ -19708,15 +18331,6 @@
     "photoUrl": "/photos/1592568816.jpg",
     "source": "meat processing",
     "rank": 2993
-  },
-  {
-    "forbesId": 1397703293,
-    "name": "Zhang Xuansong",
-    "netWorth": 1.1,
-    "country": "China",
-    "photoUrl": "/photos/1397703293.jpg",
-    "source": "Supermarkets",
-    "rank": 2994
   },
   {
     "forbesId": 940087736,
@@ -19998,15 +18612,6 @@
     "rank": 3065
   },
   {
-    "forbesId": 522530265,
-    "name": "Huang Qiaoling",
-    "netWorth": 1.1,
-    "country": "China",
-    "photoUrl": "/photos/522530265.jpg",
-    "source": "Amusement parks",
-    "rank": 3067
-  },
-  {
     "forbesId": 1051631116,
     "name": "Hary Tanoesoedibjo",
     "netWorth": 1.1,
@@ -20014,15 +18619,6 @@
     "photoUrl": "/photos/1051631116.jpg",
     "source": "Media, real estate",
     "rank": 3068
-  },
-  {
-    "forbesId": 1974088987,
-    "name": "Li Li",
-    "netWorth": 1.1,
-    "country": "China",
-    "photoUrl": "/photos/1974088987.jpg",
-    "source": "Pharmaceuticals",
-    "rank": 3069
   },
   {
     "forbesId": 1008802803,
@@ -20059,15 +18655,6 @@
     "photoUrl": "/photos/814106670.jpg",
     "source": "Real Estate",
     "rank": 3075
-  },
-  {
-    "forbesId": 628596740,
-    "name": "Cai Hongbin",
-    "netWorth": 1.1,
-    "country": "China",
-    "photoUrl": "/photos/628596740.jpg",
-    "source": "Pharmaceuticals",
-    "rank": 3076
   },
   {
     "forbesId": 1663227574,
@@ -20122,15 +18709,6 @@
     "photoUrl": "/photos/727521758.jpg",
     "source": "photo sharing app",
     "rank": 3095
-  },
-  {
-    "forbesId": 947317067,
-    "name": "K. Rai Sahi",
-    "netWorth": 1.1,
-    "country": "Canada",
-    "photoUrl": "/photos/947317067.jpg",
-    "source": "real estate",
-    "rank": 3096
   },
   {
     "forbesId": 1132322772,
@@ -20250,15 +18828,6 @@
     "rank": 3119
   },
   {
-    "forbesId": 1810983945,
-    "name": "Alan Rydge",
-    "netWorth": 1,
-    "country": "Australia",
-    "photoUrl": "/photos/1810983945.jpg",
-    "source": "Entertainment",
-    "rank": 3120
-  },
-  {
     "forbesId": 830670404,
     "name": "Radhe Shyam Agarwal",
     "netWorth": 1,
@@ -20266,15 +18835,6 @@
     "photoUrl": "/photos/830670404.jpg",
     "source": "consumer goods",
     "rank": 3121
-  },
-  {
-    "forbesId": 1171473107,
-    "name": "Huang Guanlin",
-    "netWorth": 1,
-    "country": "China",
-    "photoUrl": "/photos/1171473107.jpg",
-    "source": "Textiles, apparel",
-    "rank": 3122
   },
   {
     "forbesId": 312415106,
@@ -20311,15 +18871,6 @@
     "photoUrl": "/photos/270090352.jpg",
     "source": "Grocery stores",
     "rank": 3127
-  },
-  {
-    "forbesId": 2053152470,
-    "name": "Yu Rong",
-    "netWorth": 1,
-    "country": "China",
-    "photoUrl": "/photos/2053152470.jpg",
-    "source": "Health clinics",
-    "rank": 3129
   },
   {
     "forbesId": 1839562686,
@@ -20574,15 +19125,6 @@
     "rank": 3168
   },
   {
-    "forbesId": 1707321700,
-    "name": "Neerja Sethi",
-    "netWorth": 1,
-    "country": "United States",
-    "photoUrl": "/photos/1707321700.jpg",
-    "source": "IT consulting",
-    "rank": 3169
-  },
-  {
     "forbesId": 1104492259,
     "name": "Edwin Soeryadjaya",
     "netWorth": 1,
@@ -20599,15 +19141,6 @@
     "photoUrl": "/photos/1582763685.jpg",
     "source": "Under Armour",
     "rank": 3171
-  },
-  {
-    "forbesId": 2056679707,
-    "name": "Anne Dinning",
-    "netWorth": 1,
-    "country": "United States",
-    "photoUrl": "/photos/2056679707.jpg",
-    "source": "Hedge funds",
-    "rank": 3173
   },
   {
     "forbesId": 1389380257,
