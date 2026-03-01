@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server";
 import { prisma } from "@/lib/prisma";
-import { fetchForbesBillionaires, fixPhotoUrl } from "@/lib/forbes";
+import { fetchForbesBillionaires, fixPhotoUrl, uriToId } from "@/lib/forbes";
 
 export async function POST() {
   try {
@@ -9,7 +9,7 @@ export async function POST() {
     let synced = 0;
 
     for (const b of data) {
-      const forbesId = parseInt(b.uri?.replace(/\D/g, "") || "0") || b.rank;
+      const forbesId = uriToId(b.uri || b.personName);
       const photoUrl = fixPhotoUrl(b.squareImage);
 
       await prisma.billionaire.upsert({

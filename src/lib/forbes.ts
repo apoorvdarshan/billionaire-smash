@@ -13,6 +13,15 @@ export function fixPhotoUrl(url: string): string {
   return url;
 }
 
+/** Generate a stable numeric ID from a URI string */
+export function uriToId(uri: string): number {
+  let hash = 5381;
+  for (let i = 0; i < uri.length; i++) {
+    hash = ((hash << 5) + hash + uri.charCodeAt(i)) & 0x7fffffff;
+  }
+  return hash;
+}
+
 export async function fetchForbesBillionaires(): Promise<ForbesBillionaire[]> {
   const res = await fetch("https://forbes400.onrender.com/api/forbes400", {
     next: { revalidate: 0 },

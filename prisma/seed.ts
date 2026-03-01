@@ -17,6 +17,14 @@ function fixPhotoUrl(url: string): string {
   return url;
 }
 
+function uriToId(uri: string): number {
+  let hash = 5381;
+  for (let i = 0; i < uri.length; i++) {
+    hash = ((hash << 5) + hash + uri.charCodeAt(i)) & 0x7fffffff;
+  }
+  return hash;
+}
+
 async function main() {
   console.log("Fetching Forbes billionaires data...");
 
@@ -32,7 +40,7 @@ async function main() {
 
   let count = 0;
   for (const b of valid) {
-    const forbesId = parseInt(b.uri?.replace(/\D/g, "") || "0") || b.rank;
+    const forbesId = uriToId(b.uri || b.personName);
     const photoUrl = fixPhotoUrl(b.squareImage);
 
     await prisma.billionaire.upsert({
