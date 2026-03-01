@@ -34,7 +34,7 @@ export function BillionaireCard({
       disabled={disabled}
       className={`card-hover group relative flex flex-col items-center w-full max-w-sm rounded-2xl border border-[var(--border)] bg-gradient-to-b from-[var(--bg-card)] to-[var(--bg-primary)] overflow-hidden cursor-pointer disabled:cursor-default shadow-[0_4px_24px_rgba(0,0,0,0.3),inset_0_1px_0_rgba(255,255,255,0.04)] ${animationClass} ${resultClass || ""}`}
     >
-      <div className="relative w-full aspect-[3/4] overflow-hidden bg-[var(--bg-card-hover)]">
+      <div className="relative w-full aspect-[3/4] sm:aspect-[3/4] overflow-hidden bg-[var(--bg-card-hover)]">
         <Image
           src={billionaire.photoUrl}
           alt={billionaire.name}
@@ -49,25 +49,25 @@ export function BillionaireCard({
         <div className="absolute inset-0 shadow-[inset_0_0_60px_rgba(0,0,0,0.3)]" />
       </div>
 
-      <div className="w-full p-5 space-y-3">
+      <div className="w-full p-3 sm:p-5 space-y-2 sm:space-y-3">
         {/* Gold accent divider */}
         <div className="w-10 h-0.5 bg-gradient-to-r from-[var(--accent)] to-transparent rounded-full" />
 
-        <h2 className="text-xl font-bold leading-tight truncate tracking-tight">
+        <h2 className="text-sm sm:text-xl font-bold leading-tight truncate tracking-tight">
           {billionaire.name}
         </h2>
 
-        <div className="flex items-center gap-2 flex-wrap">
-          <span className="inline-flex items-center px-3 py-1 rounded-full text-sm font-bold bg-[var(--accent)]/15 text-[var(--accent)] border border-[var(--accent)]/30">
+        <div className="flex items-center gap-1 sm:gap-2 flex-wrap">
+          <span className="inline-flex items-center px-2 sm:px-3 py-0.5 sm:py-1 rounded-full text-xs sm:text-sm font-bold bg-[var(--accent)]/15 text-[var(--accent)] border border-[var(--accent)]/30">
             ${billionaire.netWorth}B
           </span>
-          <span className="inline-flex items-center gap-1 px-3 py-1 rounded-full text-xs font-medium bg-[var(--bg-card-hover)] text-[var(--text-secondary)] border border-[var(--border)]">
+          <span className="inline-flex items-center gap-1 px-2 sm:px-3 py-0.5 sm:py-1 rounded-full text-[10px] sm:text-xs font-medium bg-[var(--bg-card-hover)] text-[var(--text-secondary)] border border-[var(--border)]">
             <span>{countryToFlag(billionaire.country)}</span>
-            {billionaire.country}
+            <span className="hidden sm:inline">{billionaire.country}</span>
           </span>
         </div>
 
-        <p className="text-xs text-[var(--text-tertiary)] truncate">
+        <p className="text-[10px] sm:text-xs text-[var(--text-tertiary)] truncate">
           {billionaire.source}
         </p>
       </div>

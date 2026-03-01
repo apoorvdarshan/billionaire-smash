@@ -65,7 +65,7 @@ export function LiveFeed({ limit = 20, className = "" }: LiveFeedProps) {
         </span>
         Live Feed
       </h3>
-      <div className="max-h-64 overflow-y-auto space-y-0.5 scrollbar-thin">
+      <div className="max-h-48 lg:max-h-[70vh] overflow-y-auto space-y-0.5 scrollbar-thin">
         {feed.map((item) => (
           <div
             key={item.id}

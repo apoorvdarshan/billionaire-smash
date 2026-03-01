@@ -71,8 +71,18 @@ export default function LeaderboardPage() {
   }
 
   return (
-    <div className="flex flex-col xl:flex-row xl:items-start max-w-[1400px] mx-auto">
-    <div className="flex-1 min-w-0 px-4 py-10 max-w-4xl xl:max-w-none xl:mx-0 mx-auto">
+    <div className="flex flex-col lg:flex-row lg:items-start max-w-[1400px] mx-auto">
+    {/* Live feed — top on mobile */}
+    <aside className="order-first lg:order-last w-full lg:w-96 lg:flex-shrink-0 px-4 pt-4 pb-2 lg:py-6 lg:pr-6 lg:pl-0">
+      <div className="lg:sticky lg:top-20">
+        <LiveFeed
+          limit={15}
+          className="p-5 rounded-2xl border border-[var(--border)] bg-[var(--bg-card)]"
+        />
+      </div>
+    </aside>
+
+    <div className="flex-1 min-w-0 px-4 py-10 max-w-4xl lg:max-w-none lg:mx-0 mx-auto">
       <div className="text-center mb-10">
         <h1 className="text-4xl md:text-5xl font-black tracking-tight">
           <span className="text-gradient">Elo</span> Leaderboard
@@ -260,15 +270,6 @@ export default function LeaderboardPage() {
       )}
     </div>
 
-    {/* Sidebar feed */}
-    <aside className="w-full xl:w-80 xl:flex-shrink-0 px-4 pb-8 xl:py-10 xl:pr-6 xl:pl-0">
-      <div className="xl:sticky xl:top-24">
-        <LiveFeed
-          limit={15}
-          className="p-4 rounded-2xl border border-[var(--border)] bg-[var(--bg-card)]"
-        />
-      </div>
-    </aside>
     </div>
   );
 }

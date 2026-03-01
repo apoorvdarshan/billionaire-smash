@@ -143,14 +143,14 @@ export function VotingArena() {
   if (!pair) return null;
 
   return (
-    <div className="flex flex-col items-center gap-8 py-10 px-4">
+    <div className="flex flex-col items-center gap-4 md:gap-6 py-4 md:py-6 px-4">
       {showNamePrompt && <NamePrompt onSubmit={handleNameSubmit} />}
-      <div className="text-center space-y-3">
-        <h1 className="text-4xl md:text-5xl font-black tracking-tight">
+      <div className="text-center space-y-2">
+        <h1 className="text-2xl sm:text-3xl md:text-5xl font-black tracking-tight">
           Who&apos;s more{" "}
           <span className="text-gradient">smash</span>-worthy?
         </h1>
-        <p className="text-[var(--text-secondary)] text-sm">
+        <p className="text-[var(--text-secondary)] text-xs md:text-sm">
           Click the billionaire you prefer
         </p>
         {totalVotes > 0 && (
@@ -162,9 +162,9 @@ export function VotingArena() {
 
       <div
         key={animKey}
-        className="flex flex-col md:flex-row items-center justify-center gap-6 md:gap-10 w-full max-w-4xl"
+        className="flex flex-row items-center justify-center gap-3 sm:gap-6 md:gap-10 w-full max-w-4xl"
       >
-        <div className="animate-slide-left flex-1 flex justify-center max-w-sm w-full">
+        <div className="animate-slide-left flex-1 flex justify-center max-w-[45%] md:max-w-sm w-full">
           <BillionaireCard
             billionaire={pair[0]}
             onClick={() => handleVote(pair[0].id, pair[1].id)}
@@ -187,13 +187,13 @@ export function VotingArena() {
               className="absolute inset-0 rounded-full bg-[var(--accent)]/20 blur-md"
               style={{ animation: "pulseRing 2s ease-in-out infinite" }}
             />
-            <div className="vs-badge relative w-16 h-16 rounded-full flex items-center justify-center text-xl shadow-xl">
+            <div className="vs-badge relative w-10 h-10 md:w-16 md:h-16 rounded-full flex items-center justify-center text-sm md:text-xl shadow-xl">
               VS
             </div>
           </div>
         </div>
 
-        <div className="animate-slide-right flex-1 flex justify-center max-w-sm w-full">
+        <div className="animate-slide-right flex-1 flex justify-center max-w-[45%] md:max-w-sm w-full">
           <BillionaireCard
             billionaire={pair[1]}
             onClick={() => handleVote(pair[1].id, pair[0].id)}
