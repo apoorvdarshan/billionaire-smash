@@ -11,6 +11,7 @@
     "db:migrate": "prisma migrate dev",
     "db:push": "prisma db push",
     "db:seed": "npx tsx prisma/seed.ts",
+    "generate-data": "npx tsx scripts/generate-billionaires.ts",
     "postinstall": "prisma generate"
   },
   "dependencies": {

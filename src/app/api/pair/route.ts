@@ -1,26 +1,24 @@
 import { NextResponse } from "next/server";
 import { prisma } from "@/lib/prisma";
-import { fetchForbesBillionaires, fixPhotoUrl, uriToId } from "@/lib/forbes";
+import { getBillionaires } from "@/lib/forbes";
 
 async function ensureBillionaires() {
   const count = await prisma.billionaire.count();
   if (count >= 2) return;
 
-  const data = await fetchForbesBillionaires();
-  for (const b of data) {
-    await prisma.billionaire.create({
-      data: {
-        forbesId: uriToId(b.uri || b.personName),
-        name: b.personName,
-        netWorth: Math.round((b.finalWorth / 1000) * 10) / 10,
-        country: b.countryOfCitizenship,
-        photoUrl: fixPhotoUrl(b.squareImage),
-        source: b.source,
-        rank: b.rank,
-        elo: 1400,
-      },
-    });
-  }
+  const data = getBillionaires();
+  await prisma.billionaire.createMany({
+    data: data.map((b) => ({
+      forbesId: b.forbesId,
+      name: b.name,
+      netWorth: b.netWorth,
+      country: b.country,
+      photoUrl: b.photoUrl,
+      source: b.source,
+      rank: b.rank,
+      elo: 1400,
+    })),
+  });
 }
 
 export async function GET() {

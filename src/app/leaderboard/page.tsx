@@ -64,7 +64,7 @@ export default function LeaderboardPage() {
     return (
       <div className="flex flex-col items-center justify-center min-h-[60vh] gap-4">
         <p className="text-[var(--text-secondary)] text-lg">
-          No data yet. Sync billionaires and start voting!
+          No data yet. Start voting to see rankings!
         </p>
       </div>
     );
