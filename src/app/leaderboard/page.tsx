@@ -21,9 +21,11 @@ export default function LeaderboardPage() {
   const [loading, setLoading] = useState(true);
   const [total, setTotal] = useState(0);
   const [search, setSearch] = useState("");
+  const [page, setPage] = useState(1);
+  const PAGE_SIZE = 100;
 
   useEffect(() => {
-    fetch("/api/leaderboard?limit=100")
+    fetch("/api/leaderboard?limit=10000")
       .then((res) => res.json())
       .then((data) => {
         setBillionaires(data.billionaires || []);
@@ -42,6 +44,11 @@ export default function LeaderboardPage() {
       b.source.toLowerCase().includes(q)
     );
   });
+
+  const totalPages = Math.ceil(filtered.length / PAGE_SIZE);
+  const paginated = search
+    ? filtered
+    : filtered.slice((page - 1) * PAGE_SIZE, page * PAGE_SIZE);
 
   if (loading) {
     return (
@@ -77,7 +84,7 @@ export default function LeaderboardPage() {
           type="text"
           placeholder="Search by name, country, or source..."
           value={search}
-          onChange={(e) => setSearch(e.target.value)}
+          onChange={(e) => { setSearch(e.target.value); setPage(1); }}
           className="w-full px-4 py-3 rounded-xl border border-[var(--border)] bg-[var(--bg-card)] text-[var(--text-primary)] placeholder-[var(--text-secondary)] focus:outline-none focus:border-[var(--accent)] transition-colors"
         />
         {search && (
@@ -88,7 +95,8 @@ export default function LeaderboardPage() {
       </div>
 
       <div className="space-y-2">
-        {filtered.map((b, i) => {
+        {paginated.map((b, i) => {
+          const globalIndex = search ? i : (page - 1) * PAGE_SIZE + i;
           const totalGames = b.wins + b.losses;
           const winRate =
             totalGames > 0 ? Math.round((b.wins / totalGames) * 100) : 0;
@@ -97,21 +105,21 @@ export default function LeaderboardPage() {
             <div
               key={b.id}
               className={`animate-fade-in flex items-center gap-4 p-4 rounded-xl border border-[var(--border)] bg-[var(--bg-card)] hover:bg-[var(--bg-card-hover)] transition-colors ${
-                i < 3 ? "border-[var(--accent)]/30" : ""
+                globalIndex < 3 ? "border-[var(--accent)]/30" : ""
               }`}
               style={{ animationDelay: `${i * 30}ms`, animationFillMode: "backwards" }}
             >
               {/* Rank */}
               <div className="flex-shrink-0 w-10 text-center">
-                {i === 0 ? (
+                {globalIndex === 0 ? (
                   <span className="text-2xl">&#x1f947;</span>
-                ) : i === 1 ? (
+                ) : globalIndex === 1 ? (
                   <span className="text-2xl">&#x1f948;</span>
-                ) : i === 2 ? (
+                ) : globalIndex === 2 ? (
                   <span className="text-2xl">&#x1f949;</span>
                 ) : (
                   <span className="text-lg font-bold text-[var(--text-secondary)]">
-                    {i + 1}
+                    {globalIndex + 1}
                   </span>
                 )}
               </div>
@@ -165,6 +173,38 @@ export default function LeaderboardPage() {
           );
         })}
       </div>
+
+      {!search && totalPages > 1 && (
+        <div className="flex items-center justify-center gap-2 mt-8">
+          <button
+            onClick={() => setPage((p) => Math.max(1, p - 1))}
+            disabled={page === 1}
+            className="px-4 py-2 rounded-lg border border-[var(--border)] bg-[var(--bg-card)] text-sm font-medium hover:bg-[var(--bg-card-hover)] transition-colors disabled:opacity-30 disabled:cursor-not-allowed"
+          >
+            Prev
+          </button>
+          {Array.from({ length: totalPages }, (_, i) => i + 1).map((p) => (
+            <button
+              key={p}
+              onClick={() => setPage(p)}
+              className={`w-10 h-10 rounded-lg text-sm font-bold transition-colors ${
+                p === page
+                  ? "bg-[var(--accent)] text-[var(--bg-primary)]"
+                  : "border border-[var(--border)] bg-[var(--bg-card)] hover:bg-[var(--bg-card-hover)]"
+              }`}
+            >
+              {p}
+            </button>
+          ))}
+          <button
+            onClick={() => setPage((p) => Math.min(totalPages, p + 1))}
+            disabled={page === totalPages}
+            className="px-4 py-2 rounded-lg border border-[var(--border)] bg-[var(--bg-card)] text-sm font-medium hover:bg-[var(--bg-card-hover)] transition-colors disabled:opacity-30 disabled:cursor-not-allowed"
+          >
+            Next
+          </button>
+        </div>
+      )}
     </div>
   );
 }
