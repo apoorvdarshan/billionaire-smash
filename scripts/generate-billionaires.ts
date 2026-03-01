@@ -1,5 +1,6 @@
 import { writeFileSync, mkdirSync } from "fs";
 import { join } from "path";
+import { createHash } from "crypto";
 
 interface ForbesRTBPerson {
   uri: string;
@@ -34,10 +35,11 @@ function uriToId(uri: string): number {
 
 async function downloadPhoto(
   url: string,
-  destPath: string
+  destPath: string,
+  headers?: Record<string, string>
 ): Promise<boolean> {
   try {
-    const res = await fetch(url);
+    const res = await fetch(url, headers ? { headers } : undefined);
     if (!res.ok) return false;
     const buffer = Buffer.from(await res.arrayBuffer());
     if (buffer.length < 100) return false; // skip tiny/empty responses
@@ -46,6 +48,74 @@ async function downloadPhoto(
   } catch {
     return false;
   }
+}
+
+// --- Wikidata / Wikimedia Commons helpers ---
+
+const WIKI_UA = "BillionaireSmashBot/1.0 (https://github.com/billionaire-smash)";
+const WIKI_HEADERS = { "User-Agent": WIKI_UA };
+
+function cleanNameForSearch(name: string): string {
+  return name.replace(/\s*&\s*family$/i, "").trim();
+}
+
+async function wikiFetch(url: string): Promise<any> {
+  const res = await fetch(url, { headers: WIKI_HEADERS });
+  if (!res.ok) return null;
+  return res.json();
+}
+
+function commonsThumbUrl(filename: string, width = 416): string {
+  const normalized = filename.replace(/ /g, "_");
+  const md5 = createHash("md5").update(normalized).digest("hex");
+  const a = md5[0];
+  const ab = md5.slice(0, 2);
+  const encoded = encodeURIComponent(normalized);
+  return `https://upload.wikimedia.org/wikipedia/commons/thumb/${a}/${ab}/${encoded}/${width}px-${encoded}`;
+}
+
+async function searchWikidata(name: string): Promise<string | null> {
+  const url = `https://www.wikidata.org/w/api.php?action=wbsearchentities&search=${encodeURIComponent(name)}&language=en&limit=5&format=json`;
+  const data = await wikiFetch(url);
+  if (!data?.search?.length) return null;
+
+  // Prefer results whose description contains business-related keywords
+  const bizKeywords = [
+    "business", "entrepreneur", "investor", "billionaire", "founder",
+    "executive", "magnate", "tycoon", "chairman", "ceo", "philanthropist",
+    "industrialist", "banker", "financier",
+  ];
+
+  for (const result of data.search) {
+    const desc = (result.description || "").toLowerCase();
+    if (bizKeywords.some((kw) => desc.includes(kw))) {
+      return result.id as string;
+    }
+  }
+  // Fallback: return first result if it's a human (we'll verify via P18)
+  return data.search[0].id as string;
+}
+
+async function getWikidataImage(qid: string): Promise<string | null> {
+  const url = `https://www.wikidata.org/w/api.php?action=wbgetclaims&entity=${qid}&property=P18&format=json`;
+  const data = await wikiFetch(url);
+  const claims = data?.claims?.P18;
+  if (!claims?.length) return null;
+  const filename = claims[0]?.mainsnak?.datavalue?.value;
+  return filename || null;
+}
+
+async function findWikidataPhoto(name: string): Promise<string | null> {
+  const cleaned = cleanNameForSearch(name);
+  const qid = await searchWikidata(cleaned);
+  if (!qid) return null;
+  const filename = await getWikidataImage(qid);
+  if (!filename) return null;
+  return commonsThumbUrl(filename);
+}
+
+function sleep(ms: number): Promise<void> {
+  return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
 async function main() {
@@ -110,6 +180,46 @@ async function main() {
       b.photoUrl = `/photos/placeholder.svg`;
     }
   }
+
+  // --- Wikidata second pass: fill missing photos ---
+  const missing = billionaires.filter((b) => b.photoUrl === "/photos/placeholder.svg");
+  console.log(`\nWikidata pass: attempting to find photos for ${missing.length} billionaires...`);
+
+  let wikiFound = 0;
+  let wikiErrors = 0;
+  const wikiBatchSize = 5;
+
+  for (let i = 0; i < missing.length; i += wikiBatchSize) {
+    const batch = missing.slice(i, i + wikiBatchSize);
+    await Promise.all(
+      batch.map(async (b) => {
+        try {
+          const thumbUrl = await findWikidataPhoto(b.name);
+          if (!thumbUrl) return;
+
+          const dest = join(photosDir, `${b.forbesId}.jpg`);
+          const ok = await downloadPhoto(thumbUrl, dest, WIKI_HEADERS);
+          if (ok) {
+            b.photoUrl = `/photos/${b.forbesId}.jpg`;
+            wikiFound++;
+          }
+        } catch {
+          wikiErrors++;
+        }
+      })
+    );
+
+    const done = Math.min(i + wikiBatchSize, missing.length);
+    if (done % 50 === 0 || done === missing.length) {
+      console.log(`Wikidata: checked ${done}/${missing.length} (found ${wikiFound} so far)`);
+    }
+
+    await sleep(200);
+  }
+
+  const stillMissing = billionaires.filter((b) => b.photoUrl === "/photos/placeholder.svg").length;
+  console.log(`\nWikidata pass complete: found ${wikiFound} photos, ${stillMissing} still missing`);
+  if (wikiErrors > 0) console.warn(`Wikidata errors: ${wikiErrors}`);
 
   const outPath = join(__dirname, "..", "src", "data", "billionaires.json");
   writeFileSync(outPath, JSON.stringify(billionaires, null, 2) + "\n");
