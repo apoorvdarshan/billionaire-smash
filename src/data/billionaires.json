@@ -4,7 +4,7 @@
     "name": "Elon Musk",
     "netWorth": 839,
     "country": "United States",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/62d700cd6094d2c180f269b9/416x416.jpg?background=000000&cropX1=0&cropX2=959&cropY1=0&cropY2=959",
+    "photoUrl": "/photos/2004799680.jpg",
     "source": "Tesla, SpaceX",
     "rank": 1
   },
@@ -13,7 +13,7 @@
     "name": "Larry Page",
     "netWorth": 257.1,
     "country": "United States",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/5c76bcaaa7ea43100043c836/416x416.jpg?background=000000&cropX1=227&cropX2=2022&cropY1=22&cropY2=1817",
+    "photoUrl": "/photos/666328121.jpg",
     "source": "Google",
     "rank": 2
   },
@@ -22,7 +22,7 @@
     "name": "Sergey Brin",
     "netWorth": 237.2,
     "country": "United States",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/5c7d7c254bbe6f78090d831f/416x416.jpg?background=000000&cropX1=475&cropX2=2887&cropY1=168&cropY2=2582",
+    "photoUrl": "/photos/1451334156.jpg",
     "source": "Google",
     "rank": 3
   },
@@ -31,7 +31,7 @@
     "name": "Jeff Bezos",
     "netWorth": 223.7,
     "country": "United States",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/67531eb2b5f7c9e191f632d7/416x416.jpg?background=000000&cropX1=316&cropX2=1027&cropY1=125&cropY2=838",
+    "photoUrl": "/photos/355766416.jpg",
     "source": "Amazon",
     "rank": 4
   },
@@ -40,7 +40,7 @@
     "name": "Mark Zuckerberg",
     "netWorth": 222.3,
     "country": "United States",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/5c76b7d331358e35dd2773a9/416x416.jpg?background=000000&cropX1=0&cropX2=4401&cropY1=0&cropY2=4401",
+    "photoUrl": "/photos/2031080625.jpg",
     "source": "Facebook",
     "rank": 5
   },
@@ -49,7 +49,7 @@
     "name": "Larry Ellison",
     "netWorth": 192.9,
     "country": "United States",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/5e8b62cfc095010007bffea0/416x416.jpg?background=000000&cropX1=0&cropX2=4529&cropY1=652&cropY2=5184",
+    "photoUrl": "/photos/506455090.jpg",
     "source": "Oracle",
     "rank": 6
   },
@@ -58,7 +58,7 @@
     "name": "Bernard Arnault & family",
     "netWorth": 171.1,
     "country": "France",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/5dc05518ca425400079c659f/416x416.jpg?background=000000&cropX1=0&cropX2=4000&cropY1=1209&cropY2=5212",
+    "photoUrl": "/photos/1970733383.jpg",
     "source": "LVMH",
     "rank": 7
   },
@@ -67,7 +67,7 @@
     "name": "Jensen Huang",
     "netWorth": 153.6,
     "country": "United States",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/68750a2d250de42ce7c5301b/416x416.jpg?background=000000&cropX1=832&cropX2=2632&cropY1=152&cropY2=1951",
+    "photoUrl": "/photos/92214504.jpg",
     "source": "Semiconductors",
     "rank": 8
   },
@@ -76,7 +76,7 @@
     "name": "Warren Buffett",
     "netWorth": 149.4,
     "country": "United States",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/5babb7f1a7ea4342a948b79a/416x416.jpg?background=000000&cropX1=748&cropX2=3075&cropY1=1753&cropY2=4082",
+    "photoUrl": "/photos/390604849.jpg",
     "source": "Berkshire Hathaway",
     "rank": 9
   },
@@ -85,7 +85,7 @@
     "name": "Amancio Ortega",
     "netWorth": 147.9,
     "country": "Spain",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/5c76b94131358e35dd27748e/416x416.jpg?background=000000&cropX1=179&cropX2=2232&cropY1=216&cropY2=2269",
+    "photoUrl": "/photos/2388620.jpg",
     "source": "Zara",
     "rank": 10
   },
@@ -94,7 +94,7 @@
     "name": "Rob Walton & family",
     "netWorth": 146.1,
     "country": "United States",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/59d50a9e4bbe6f37dd9ff712/416x416.jpg?background=000000&cropX1=244&cropX2=1841&cropY1=60&cropY2=1658",
+    "photoUrl": "/photos/439749706.jpg",
     "source": "Walmart",
     "rank": 11
   },
@@ -103,7 +103,7 @@
     "name": "Jim Walton & family",
     "netWorth": 143.3,
     "country": "United States",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/5c7ef2fea7ea434b351bca5a/416x416.jpg?background=000000&cropX1=49&cropX2=934&cropY1=65&cropY2=951",
+    "photoUrl": "/photos/1707803367.jpg",
     "source": "Walmart",
     "rank": 12
   },
@@ -112,7 +112,7 @@
     "name": "Michael Dell",
     "netWorth": 140.7,
     "country": "United States",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/615c93f9da61f2ff5b9ecf9b/416x416.jpg?background=000000&cropX1=0&cropX2=1678&cropY1=118&cropY2=1797",
+    "photoUrl": "/photos/686525574.jpg",
     "source": "Dell Technologies",
     "rank": 13
   },
@@ -121,7 +121,7 @@
     "name": "Alice Walton",
     "netWorth": 134.1,
     "country": "United States",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/5c7ef270a7ea434b351bca52/416x416.jpg?background=000000&cropX1=232&cropX2=998&cropY1=222&cropY2=988",
+    "photoUrl": "/photos/923722533.jpg",
     "source": "Walmart",
     "rank": 14
   },
@@ -130,7 +130,7 @@
     "name": "Carlos Slim Helu & family",
     "netWorth": 125.1,
     "country": "Mexico",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/5c76ba144bbe6f24ad99c613/416x416.jpg?background=000000&cropX1=0&cropX2=3005&cropY1=389&cropY2=3395",
+    "photoUrl": "/photos/521973638.jpg",
     "source": "Telecom",
     "rank": 15
   },
@@ -139,7 +139,7 @@
     "name": "Steve Ballmer",
     "netWorth": 124.3,
     "country": "United States",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/59d50c47a7ea436b47b36d66/416x416.jpg?background=000000&cropX1=553&cropX2=2940&cropY1=322&cropY2=2708",
+    "photoUrl": "/photos/469722680.jpg",
     "source": "Microsoft",
     "rank": 16
   },
@@ -148,7 +148,7 @@
     "name": "Michael Bloomberg",
     "netWorth": 109.4,
     "country": "United States",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/5c76b4104bbe6f24ad99c35d/416x416.jpg?background=000000&cropX1=165&cropX2=5613&cropY1=321&cropY2=5769",
+    "photoUrl": "/photos/1094998366.jpg",
     "source": "Bloomberg LP",
     "rank": 17
   },
@@ -157,7 +157,7 @@
     "name": "Bill Gates",
     "netWorth": 108.2,
     "country": "United States",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/62d599ede3ff49f348f9b9b4/416x416.jpg?background=000000&cropX1=155&cropX2=976&cropY1=340&cropY2=1161",
+    "photoUrl": "/photos/512910217.jpg",
     "source": "Microsoft",
     "rank": 18
   },
@@ -166,7 +166,7 @@
     "name": "Mukesh Ambani",
     "netWorth": 99.7,
     "country": "India",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/5c7d7829a7ea434b351ba0b6/416x416.jpg?background=000000&cropX1=206&cropX2=2043&cropY1=250&cropY2=2089",
+    "photoUrl": "/photos/778648487.jpg",
     "source": "Diversified",
     "rank": 19
   },
@@ -175,7 +175,7 @@
     "name": "Francoise Bettencourt Meyers & family",
     "netWorth": 97,
     "country": "France",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/605e26e3c65f7c2596bd3e15/416x416.jpg?background=000000&cropX1=0&cropX2=1080&cropY1=0&cropY2=1080",
+    "photoUrl": "/photos/226790141.jpg",
     "source": "L'Oréal",
     "rank": 20
   },
@@ -184,7 +184,7 @@
     "name": "Thomas Peterffy",
     "netWorth": 82.9,
     "country": "United States",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/5d8a5c6218444200084e6532/416x416.jpg?background=000000&cropX1=466&cropX2=1132&cropY1=297&cropY2=962",
+    "photoUrl": "/photos/229598787.jpg",
     "source": "Discount brokerage",
     "rank": 21
   },
@@ -193,7 +193,7 @@
     "name": "Julia Koch & family",
     "netWorth": 81.2,
     "country": "United States",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/6601ce61b79552a97c9e786c/416x416.jpg?background=000000&cropX1=0&cropX2=2583&cropY1=522&cropY2=3106",
+    "photoUrl": "/photos/1124441100.jpg",
     "source": "Koch, Inc.",
     "rank": 22
   },
@@ -202,7 +202,7 @@
     "name": "Charles Koch & family",
     "netWorth": 73.8,
     "country": "United States",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/615c94bd2aac2936a52682d1/416x416.jpg?background=000000&cropX1=286&cropX2=848&cropY1=110&cropY2=672",
+    "photoUrl": "/photos/1979759449.jpg",
     "source": "Koch, Inc.",
     "rank": 23
   },
@@ -211,7 +211,7 @@
     "name": "Zhang Yiming",
     "netWorth": 69.3,
     "country": "China",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/618e91e427fcd6441f93c0c6/416x416.jpg?background=000000&cropX1=227&cropX2=1294&cropY1=14&cropY2=1080",
+    "photoUrl": "/photos/673422103.jpg",
     "source": "TikTok",
     "rank": 24
   },
@@ -220,7 +220,7 @@
     "name": "Zhong Shanshan",
     "netWorth": 68.1,
     "country": "China",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/60380e390357bc1fbfc0bc32/416x416.jpg?background=000000&cropX1=116&cropX2=1327&cropY1=201&cropY2=1413",
+    "photoUrl": "/photos/2057306156.jpg",
     "source": "Beverages, pharmaceuticals",
     "rank": 25
   },
@@ -229,7 +229,7 @@
     "name": "Jeff Yass",
     "netWorth": 67.4,
     "country": "United States",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/60649a21472ae5b09dad20b1/416x416.jpg?background=000000&cropX1=3&cropX2=819&cropY1=0&cropY2=816",
+    "photoUrl": "/photos/11602765.jpg",
     "source": "Trading, investments",
     "rank": 26
   },
@@ -238,7 +238,7 @@
     "name": "Dieter Schwarz",
     "netWorth": 67.2,
     "country": "Germany",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/6050f48ca1ab099ed6e290cc/416x416.jpg?background=000000&cropX1=0&cropX2=800&cropY1=0&cropY2=800",
+    "photoUrl": "/photos/2140814737.jpg",
     "source": "Retail",
     "rank": 27
   },
@@ -247,7 +247,7 @@
     "name": "Germán Larrea Mota Velasco & family",
     "netWorth": 67.1,
     "country": "Mexico",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/597a47174bbe6f3eb800b6b8/416x416.jpg?background=000000&cropX1=1901&cropX2=3603&cropY1=368&cropY2=2069",
+    "photoUrl": "/photos/1273919387.jpg",
     "source": "Mining",
     "rank": 28
   },
@@ -256,7 +256,7 @@
     "name": "Gautam Adani",
     "netWorth": 63.8,
     "country": "India",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/68e693f20b749254082e47fe/416x416.jpg?background=000000&cropX1=0&cropX2=2041&cropY1=161&cropY2=2203",
+    "photoUrl": "/photos/121199596.jpg",
     "source": "Infrastructure, commodities",
     "rank": 29
   },
@@ -265,7 +265,7 @@
     "name": "Changpeng Zhao",
     "netWorth": 63.6,
     "country": "Canada",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/61115ac5b4c5d23845419c4e/416x416.jpg?background=000000&cropX1=0&cropX2=911&cropY1=0&cropY2=911",
+    "photoUrl": "/photos/1657513103.jpg",
     "source": "Cryptocurrency exchange",
     "rank": 30
   },
@@ -274,7 +274,7 @@
     "name": "Tadashi Yanai & family",
     "netWorth": 61.8,
     "country": "Japan",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/66560a756b74351d5b0711e8/416x416.jpg?background=000000&cropX1=689&cropX2=1604&cropY1=78&cropY2=992",
+    "photoUrl": "/photos/1669252386.jpg",
     "source": "Fashion retail",
     "rank": 31
   },
@@ -283,7 +283,7 @@
     "name": "Ma Huateng",
     "netWorth": 53.8,
     "country": "China",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/605e23c0f0986f688fbd3e15/416x416.jpg?background=000000&cropX1=0&cropX2=1080&cropY1=0&cropY2=1080",
+    "photoUrl": "/photos/1989658700.jpg",
     "source": "Online games",
     "rank": 32
   },
@@ -292,7 +292,7 @@
     "name": "Robin Zeng",
     "netWorth": 53.2,
     "country": "Hong Kong",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/690239904c2185472de3db28/416x416.jpg?background=000000&cropX1=305&cropX2=1307&cropY1=145&cropY2=1147",
+    "photoUrl": "/photos/205016832.jpg",
     "source": "Batteries",
     "rank": 33
   },
@@ -301,7 +301,7 @@
     "name": "Iris Fontbona & family",
     "netWorth": 52.6,
     "country": "Chile",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/5c6db2974bbe6f0ec75418f0/416x416.jpg?background=000000&cropX1=124&cropX2=491&cropY1=0&cropY2=367",
+    "photoUrl": "/photos/1354273728.jpg",
     "source": "Mining",
     "rank": 34
   },
@@ -310,7 +310,7 @@
     "name": "Masayoshi Son",
     "netWorth": 51.5,
     "country": "Japan",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/5e8b632801879f000703e485/416x416.jpg?background=000000&cropX1=0&cropX2=4500&cropY1=833&cropY2=5330",
+    "photoUrl": "/photos/1127506320.jpg",
     "source": "Telecom, Investments",
     "rank": 35
   },
@@ -319,7 +319,7 @@
     "name": "Ken Griffin",
     "netWorth": 49.8,
     "country": "United States",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/6247575a5af6af682d503f2f/416x416.jpg?background=000000&cropX1=0&cropX2=1966&cropY1=0&cropY2=1966",
+    "photoUrl": "/photos/1621101269.jpg",
     "source": "Hedge funds",
     "rank": 36
   },
@@ -328,7 +328,7 @@
     "name": "Jacqueline Mars",
     "netWorth": 49.1,
     "country": "United States",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/59d50d06a7ea436b47b36d84/416x416.jpg?background=000000&cropX1=147&cropX2=1649&cropY1=377&cropY2=1879",
+    "photoUrl": "/photos/248534694.jpg",
     "source": "Candy, pet food",
     "rank": 37
   },
@@ -337,7 +337,7 @@
     "name": "John Mars",
     "netWorth": 49.1,
     "country": "United States",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/5ba41e08a7ea434e4c6948eb/416x416.jpg?background=000000&cropX1=53&cropX2=1401&cropY1=9&cropY2=1357",
+    "photoUrl": "/photos/1742374388.jpg",
     "source": "Candy, pet food",
     "rank": 37
   },
@@ -346,7 +346,7 @@
     "name": "Lukas Walton",
     "netWorth": 48.9,
     "country": "United States",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/5d89f3c36de3150009a4e5bd/416x416.jpg?background=000000&cropX1=122&cropX2=576&cropY1=26&cropY2=480",
+    "photoUrl": "/photos/209463847.jpg",
     "source": "Walmart ",
     "rank": 39
   },
@@ -355,7 +355,7 @@
     "name": "Giovanni Ferrero",
     "netWorth": 48.8,
     "country": "Italy",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/5b11bc5ca7ea436b547f29cb/416x416.jpg?background=000000&cropX1=622&cropX2=1844&cropY1=361&cropY2=1582",
+    "photoUrl": "/photos/1794173346.jpg",
     "source": "Nutella, chocolates",
     "rank": 40
   },
@@ -364,7 +364,7 @@
     "name": "Li Ka-shing",
     "netWorth": 47,
     "country": "Hong Kong",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/65d4c4432a6eece8368e841b/416x416.jpg?background=000000&cropX1=250&cropX2=1494&cropY1=226&cropY2=1471",
+    "photoUrl": "/photos/744791321.jpg",
     "source": "Diversified",
     "rank": 41
   },
@@ -373,7 +373,7 @@
     "name": "Mark Mateschitz",
     "netWorth": 45.8,
     "country": "Austria",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/642b2ae09caa113a6ce1c15e/416x416.jpg?background=000000&cropX1=898&cropX2=3376&cropY1=239&cropY2=2714",
+    "photoUrl": "/photos/753630521.jpg",
     "source": "Red Bull",
     "rank": 42
   },
@@ -382,7 +382,7 @@
     "name": "Gianluigi Aponte",
     "netWorth": 45.6,
     "country": "Switzerland",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/5e77ceeac7b02d000666de20/416x416.jpg?background=000000&cropX1=1096&cropX2=5302&cropY1=46&cropY2=4249",
+    "photoUrl": "/photos/662815410.jpg",
     "source": "Shipping",
     "rank": 44
   },
@@ -391,7 +391,7 @@
     "name": "Andrea Pignataro",
     "netWorth": 43,
     "country": "Italy",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/660c251294ad0b108cfcdf06/416x416.jpg?background=000000&cropX1=711&cropX2=2015&cropY1=56&cropY2=1360",
+    "photoUrl": "/photos/1876754530.jpg",
     "source": "Financial software",
     "rank": 45
   },
@@ -400,7 +400,7 @@
     "name": "Klaus-Michael Kuehne",
     "netWorth": 41.9,
     "country": "Germany",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/5e762e4fc7b02d000666c89b/416x416.jpg?background=000000&cropX1=792&cropX2=4141&cropY1=0&cropY2=3347",
+    "photoUrl": "/photos/818093842.jpg",
     "source": "Shipping",
     "rank": 46
   },
@@ -409,7 +409,7 @@
     "name": "Thomas Frist Jr & family",
     "netWorth": 41.1,
     "country": "United States",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/ee825ff539047091cda533423b10d65b/416x416.jpg?background=000000&cropX1=16&cropX2=947&cropY1=153&cropY2=1084",
+    "photoUrl": "/photos/589752879.jpg",
     "source": "Hospitals",
     "rank": 47
   },
@@ -418,7 +418,7 @@
     "name": "Gerard Wertheimer",
     "netWorth": 39.4,
     "country": "France",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/645d02e2c7d39022642796dd/416x416.jpg?background=000000&cropX1=1150&cropX2=4216&cropY1=0&cropY2=3068",
+    "photoUrl": "/photos/1745886945.jpg",
     "source": "Chanel",
     "rank": 48
   },
@@ -427,7 +427,7 @@
     "name": "Alain Wertheimer",
     "netWorth": 39.4,
     "country": "France",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/645d0add2a0a83a54a9aa149/416x416.jpg?background=000000&cropX1=0&cropX2=2730&cropY1=100&cropY2=2831",
+    "photoUrl": "/photos/569236307.jpg",
     "source": "Chanel",
     "rank": 48
   },
@@ -436,7 +436,7 @@
     "name": "Savitri Jindal & family",
     "netWorth": 39.1,
     "country": "India",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/55f77874e4b0ffa7afe4940e/416x416.jpg?background=000000&cropX1=90&cropX2=676&cropY1=53&cropY2=640",
+    "photoUrl": "/photos/580113542.jpg",
     "source": "Steel",
     "rank": 50
   },
@@ -445,7 +445,7 @@
     "name": "Stephen Schwarzman",
     "netWorth": 38.3,
     "country": "United States",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/5d89f4d318444200084e5265/416x416.jpg?background=000000&cropX1=1911&cropX2=5305&cropY1=26&cropY2=3418",
+    "photoUrl": "/photos/75947207.jpg",
     "source": "Investments",
     "rank": 51
   },
@@ -454,7 +454,7 @@
     "name": "William Ding",
     "netWorth": 37.9,
     "country": "China",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/65496210455fdb2807b461fc/416x416.jpg?background=000000&cropX1=376&cropX2=1713&cropY1=341&cropY2=1679",
+    "photoUrl": "/photos/960036451.jpg",
     "source": "Online games",
     "rank": 52
   },
@@ -463,7 +463,7 @@
     "name": "Miriam Adelson & family",
     "netWorth": 37.5,
     "country": "United States",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/6488d2e2af4e79d11875c367/416x416.jpg?background=000000&cropX1=741&cropX2=1624&cropY1=351&cropY2=1233",
+    "photoUrl": "/photos/405052503.jpg",
     "source": "Casinos",
     "rank": 53
   },
@@ -472,7 +472,7 @@
     "name": "Alexey Mordashov & family",
     "netWorth": 37.2,
     "country": "Russia",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/5e87b07fbf94c200067fcf57/416x416.jpg?background=000000&cropX1=1002&cropX2=4157&cropY1=163&cropY2=3318",
+    "photoUrl": "/photos/620484333.jpg",
     "source": "Steel, investments",
     "rank": 54
   },
@@ -481,7 +481,7 @@
     "name": "Colin Huang",
     "netWorth": 36.6,
     "country": "China",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/5dc0500b3195ed0007eab3f7/416x416.jpg?background=000000&cropX1=1059&cropX2=3699&cropY1=45&cropY2=2683",
+    "photoUrl": "/photos/1316147514.jpg",
     "source": "E-commerce",
     "rank": 55
   },
@@ -490,7 +490,7 @@
     "name": "Eduardo Saverin",
     "netWorth": 35.9,
     "country": "Brazil",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/61114d7c57eb065321419c4e/416x416.jpg?background=000000&cropX1=0&cropX2=2236&cropY1=0&cropY2=2235",
+    "photoUrl": "/photos/2084495182.jpg",
     "source": "Facebook",
     "rank": 56
   },
@@ -499,7 +499,7 @@
     "name": "Eric Schmidt",
     "netWorth": 35.5,
     "country": "United States",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/5f4526a6f048a75b8e14e6b2/416x416.jpg?background=000000&cropX1=0&cropX2=3235&cropY1=381&cropY2=3615",
+    "photoUrl": "/photos/1256619745.jpg",
     "source": "Google",
     "rank": 57
   },
@@ -508,7 +508,7 @@
     "name": "Idan Ofer",
     "netWorth": 34.6,
     "country": "Israel",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/5e76cd8010380d0006fbb808/416x416.jpg?background=000000&cropX1=25&cropX2=1096&cropY1=93&cropY2=1164",
+    "photoUrl": "/photos/833843802.jpg",
     "source": "Shipping",
     "rank": 58
   },
@@ -517,7 +517,7 @@
     "name": "Eyal Ofer",
     "netWorth": 33.6,
     "country": "Israel",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/660c1a1c7931863e499fb8c4/416x416.jpg?background=000000&cropX1=137&cropX2=1211&cropY1=52&cropY2=1127",
+    "photoUrl": "/photos/1014879113.jpg",
     "source": "Real estate, shipping",
     "rank": 59
   },
@@ -526,7 +526,7 @@
     "name": "Abigail Johnson",
     "netWorth": 33.2,
     "country": "United States",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/6333a5b13de1fff2da377afb/416x416.jpg?background=000000&cropX1=0&cropX2=1077&cropY1=3&cropY2=1080",
+    "photoUrl": "/photos/744202234.jpg",
     "source": "Fidelity",
     "rank": 60
   },
@@ -535,7 +535,7 @@
     "name": "Zheng Shuliang & family",
     "netWorth": 33.2,
     "country": "China",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/6724f9cdf203631b720a86fe/416x416.jpg?background=000000&cropX1=2&cropX2=800&cropY1=1&cropY2=799",
+    "photoUrl": "/photos/1067171337.jpg",
     "source": "Aluminum products",
     "rank": 61
   },
@@ -544,7 +544,7 @@
     "name": "He Xiangjian & family",
     "netWorth": 33.2,
     "country": "China",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/5f88aa3c6e0f7a6ca036fc64/416x416.jpg?background=000000&cropX1=1462&cropX2=2567&cropY1=1200&cropY2=2305",
+    "photoUrl": "/photos/1127302168.jpg",
     "source": "Home appliances",
     "rank": 62
   },
@@ -553,7 +553,7 @@
     "name": "Marilyn Simons & family",
     "netWorth": 32.5,
     "country": "United States",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/66fb374ccc56f1359fc8a29f/416x416.jpg?background=000000&cropX1=415&cropX2=1146&cropY1=156&cropY2=886",
+    "photoUrl": "/photos/1017040231.jpg",
     "source": "Hedge funds",
     "rank": 63
   },
@@ -562,7 +562,7 @@
     "name": "Vagit Alekperov",
     "netWorth": 31.8,
     "country": "Russia",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/62291dbe5c22ffeaf37a7528/416x416.jpg?background=000000&cropX1=232&cropX2=1762&cropY1=83&cropY2=1614",
+    "photoUrl": "/photos/632685942.jpg",
     "source": "Oil",
     "rank": 64
   },
@@ -571,7 +571,7 @@
     "name": "Robert Pera",
     "netWorth": 31.7,
     "country": "United States",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/5f1f2df0e0da1e7313d9879a/416x416.jpg?background=000000&cropX1=217&cropX2=1125&cropY1=71&cropY2=980",
+    "photoUrl": "/photos/911644680.jpg",
     "source": "Wireless networking",
     "rank": 65
   },
@@ -580,7 +580,7 @@
     "name": "Phil Knight & family",
     "netWorth": 31.1,
     "country": "United States",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/6488d5874961598251b12f50/416x416.jpg?background=000000&cropX1=598&cropX2=3344&cropY1=0&cropY2=2747",
+    "photoUrl": "/photos/1688910468.jpg",
     "source": "Nike",
     "rank": 66
   },
@@ -589,7 +589,7 @@
     "name": "Emmanuel Besnier",
     "netWorth": 31,
     "country": "France",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/5e759e31c7b02d000666c445/416x416.jpg?background=000000&cropX1=283&cropX2=1696&cropY1=1002&cropY2=2414",
+    "photoUrl": "/photos/226101486.jpg",
     "source": "Cheese",
     "rank": 67
   },
@@ -598,7 +598,7 @@
     "name": "Lakshmi Mittal",
     "netWorth": 31,
     "country": "India",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/65256679cd4895fa7365b15a/416x416.jpg?background=000000&cropX1=672&cropX2=1309&cropY1=40&cropY2=678",
+    "photoUrl": "/photos/789731366.jpg",
     "source": "Steel",
     "rank": 68
   },
@@ -607,7 +607,7 @@
     "name": "Shiv Nadar",
     "netWorth": 30.9,
     "country": "India",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/68e696c624e6cebf6aa2b00a/416x416.jpg?background=000000&cropX1=693&cropX2=1633&cropY1=144&cropY2=1083",
+    "photoUrl": "/photos/742972818.jpg",
     "source": "Software services",
     "rank": 70
   },
@@ -616,7 +616,7 @@
     "name": "Henry Samueli",
     "netWorth": 30.8,
     "country": "United States",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/5d8aa0fd6de3150009a5030b/416x416.jpg?background=000000&cropX1=376&cropX2=1438&cropY1=38&cropY2=1100",
+    "photoUrl": "/photos/724394856.jpg",
     "source": "Semiconductors",
     "rank": 71
   },
@@ -625,7 +625,7 @@
     "name": "Melinda French Gates",
     "netWorth": 30.3,
     "country": "United States",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/667c353f73ede9cb9df2aefe/416x416.jpg?background=000000&cropX1=371&cropX2=1022&cropY1=145&cropY2=796",
+    "photoUrl": "/photos/278608355.jpg",
     "source": "Microsoft",
     "rank": 72
   },
@@ -634,7 +634,7 @@
     "name": "Reinhold Wuerth & family",
     "netWorth": 30.1,
     "country": "Germany",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/5e76350710380d0006fbadf8/416x416.jpg?background=000000&cropX1=2132&cropX2=5568&cropY1=0&cropY2=3434",
+    "photoUrl": "/photos/1214141126.jpg",
     "source": "Fasteners",
     "rank": 73
   },
@@ -643,7 +643,7 @@
     "name": "Stefan Quandt",
     "netWorth": 30.1,
     "country": "Germany",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/f257c2f96ce1171be43e685e6d8f9fa3/416x416.jpg?background=000000&cropX1=124&cropX2=725&cropY1=92&cropY2=693",
+    "photoUrl": "/photos/1010592736.jpg",
     "source": "BMW",
     "rank": 74
   },
@@ -652,7 +652,7 @@
     "name": "Lyndal Stephens Greth & family",
     "netWorth": 30,
     "country": "United States",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/66fb2bd596806737569ab7ef/416x416.jpg?background=000000&cropX1=0&cropX2=2143&cropY1=180&cropY2=2323",
+    "photoUrl": "/photos/1821726087.jpg",
     "source": "Oil & gas",
     "rank": 75
   },
@@ -661,7 +661,7 @@
     "name": "Len Blavatnik",
     "netWorth": 29.9,
     "country": "United States",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/5c745d7b4bbe6f072958dac9/416x416.jpg?background=000000&cropX1=473&cropX2=2103&cropY1=123&cropY2=1753",
+    "photoUrl": "/photos/1163930349.jpg",
     "source": "Music, chemicals",
     "rank": 76
   },
@@ -670,7 +670,7 @@
     "name": "Susanne Klatten",
     "netWorth": 29.7,
     "country": "Germany",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/605e281e4f49584f571c9c42/416x416.jpg?background=000000&cropX1=0&cropX2=1080&cropY1=0&cropY2=1080",
+    "photoUrl": "/photos/1898587330.jpg",
     "source": "BMW, pharmaceuticals",
     "rank": 77
   },
@@ -679,7 +679,7 @@
     "name": "François Pinault & family",
     "netWorth": 29.5,
     "country": "France",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/5f1eeca8e77f92a058fb1a81/416x416.jpg?background=000000&cropX1=1806&cropX2=3901&cropY1=36&cropY2=2133",
+    "photoUrl": "/photos/1316471300.jpg",
     "source": "Luxury goods",
     "rank": 78
   },
@@ -688,7 +688,7 @@
     "name": "Jack Ma",
     "netWorth": 29.1,
     "country": "China",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/69023fd7dbc29e6c2ee6b085/416x416.jpg?background=000000&cropX1=151&cropX2=1610&cropY1=279&cropY2=1737",
+    "photoUrl": "/photos/1289494169.jpg",
     "source": "E-commerce",
     "rank": 79
   },
@@ -697,7 +697,7 @@
     "name": "Prajogo Pangestu",
     "netWorth": 28.6,
     "country": "Indonesia",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/656f8476e94e04b7e93336c8/416x416.jpg?background=000000&cropX1=0&cropX2=2961&cropY1=0&cropY2=2961",
+    "photoUrl": "/photos/1200144139.jpg",
     "source": "Petrochemicals, energy",
     "rank": 80
   },
@@ -706,7 +706,7 @@
     "name": "MacKenzie Scott",
     "netWorth": 28.6,
     "country": "United States",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/63325f33de0e387de2dd5389/416x416.jpg?background=000000&cropX1=0&cropX2=1080&cropY1=0&cropY2=1080",
+    "photoUrl": "/photos/1305792790.jpg",
     "source": "Amazon",
     "rank": 81
   },
@@ -715,7 +715,7 @@
     "name": "Aliko Dangote",
     "netWorth": 28.5,
     "country": "Nigeria",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/5c33a1554bbe6f7020fb2fd2/416x416.jpg?background=000000&cropX1=865&cropX2=2774&cropY1=206&cropY2=2115",
+    "photoUrl": "/photos/262588868.jpg",
     "source": "Cement, sugar",
     "rank": 82
   },
@@ -724,7 +724,7 @@
     "name": "Peter Thiel",
     "netWorth": 28.4,
     "country": "United States",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/5a836fff31358e4955ad6549/416x416.jpg?background=000000&cropX1=234&cropX2=790&cropY1=7&cropY2=563",
+    "photoUrl": "/photos/324380616.jpg",
     "source": "Facebook, investments",
     "rank": 83
   },
@@ -733,7 +733,7 @@
     "name": "Andreas von Bechtolsheim & family",
     "netWorth": 27.9,
     "country": "Germany",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/5e761636d8e1ae0007b718e0/416x416.jpg?background=000000&cropX1=240&cropX2=1726&cropY1=407&cropY2=1894",
+    "photoUrl": "/photos/68567079.jpg",
     "source": "Google",
     "rank": 84
   },
@@ -742,7 +742,7 @@
     "name": "Lei Jun",
     "netWorth": 27.9,
     "country": "China",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/69023e83755dddf7584780f9/416x416.jpg?background=000000&cropX1=527&cropX2=2213&cropY1=170&cropY2=1856",
+    "photoUrl": "/photos/1886442169.jpg",
     "source": "Smartphones, automobiles",
     "rank": 85
   },
@@ -751,7 +751,7 @@
     "name": "Daniel Gilbert",
     "netWorth": 27.9,
     "country": "United States",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/5e444fcb112160000621ed4c/416x416.jpg?background=000000&cropX1=0&cropX2=2000&cropY1=307&cropY2=2307",
+    "photoUrl": "/photos/969593832.jpg",
     "source": "Rocket Mortgage",
     "rank": 86
   },
@@ -760,7 +760,7 @@
     "name": "Pham Nhat Vuong",
     "netWorth": 27.7,
     "country": "Vietnam",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/64e7640cfb10a26d2f4af6bf/416x416.jpg?background=000000&cropX1=389&cropX2=1225&cropY1=106&cropY2=944",
+    "photoUrl": "/photos/1567149311.jpg",
     "source": "Diversified",
     "rank": 87
   },
@@ -769,7 +769,7 @@
     "name": "Jay Y. Lee",
     "netWorth": 27,
     "country": "South Korea",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/661d531ae908e033f6c8e551/416x416.jpg?background=000000&cropX1=1080&cropX2=2007&cropY1=93&cropY2=1020",
+    "photoUrl": "/photos/108786866.jpg",
     "source": "Samsung",
     "rank": 89
   },
@@ -778,7 +778,7 @@
     "name": "Vladimir Lisin",
     "netWorth": 26.6,
     "country": "Russia",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/5e77914ec7b02d000666d900/416x416.jpg?background=000000&cropX1=825&cropX2=3235&cropY1=50&cropY2=2459",
+    "photoUrl": "/photos/1562166121.jpg",
     "source": "Steel, transport",
     "rank": 90
   },
@@ -787,7 +787,7 @@
     "name": "Leonid Mikhelson & family",
     "netWorth": 26.4,
     "country": "Russia",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/6229141941920264022edc8a/416x416.jpg?background=000000&cropX1=81&cropX2=3456&cropY1=941&cropY2=4318",
+    "photoUrl": "/photos/595961303.jpg",
     "source": "Gas, chemicals",
     "rank": 91
   },
@@ -796,7 +796,7 @@
     "name": "Rick Cohen & family",
     "netWorth": 26.3,
     "country": "United States",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/632cd1f8e06f3f48e97d2c34/416x416.jpg?background=000000&cropX1=1133&cropX2=2085&cropY1=255&cropY2=1207",
+    "photoUrl": "/photos/1135596840.jpg",
     "source": "Warehouse automation",
     "rank": 92
   },
@@ -805,7 +805,7 @@
     "name": "Cyrus Poonawalla",
     "netWorth": 26.2,
     "country": "India",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/6345b0f307bca24e9e6bc226/416x416.jpg?background=000000&cropX1=303&cropX2=2284&cropY1=451&cropY2=2434",
+    "photoUrl": "/photos/1884196790.jpg",
     "source": "Vaccines",
     "rank": 93
   },
@@ -814,7 +814,7 @@
     "name": "Dilip Shanghvi",
     "netWorth": 25.6,
     "country": "India",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/68e6977871d3d968e2192572/416x416.jpg?background=000000&cropX1=441&cropX2=1576&cropY1=630&cropY2=1766",
+    "photoUrl": "/photos/690551740.jpg",
     "source": "Pharmaceuticals",
     "rank": 94
   },
@@ -823,7 +823,7 @@
     "name": "Gina Rinehart",
     "netWorth": 25.5,
     "country": "Australia",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/67aa659166c227f5f4d5062f/416x416.jpg?background=000000&cropX1=102&cropX2=1428&cropY1=416&cropY2=1744",
+    "photoUrl": "/photos/262781966.jpg",
     "source": "Mining",
     "rank": 95
   },
@@ -832,7 +832,7 @@
     "name": "Yu Yong",
     "netWorth": 25.4,
     "country": "China",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/6724fbb693c9f0eb0822547c/416x416.jpg?background=000000&cropX1=2&cropX2=797&cropY1=5&cropY2=800",
+    "photoUrl": "/photos/2053404029.jpg",
     "source": "Mining",
     "rank": 96
   },
@@ -841,7 +841,7 @@
     "name": "Vladimir Potanin",
     "netWorth": 24.7,
     "country": "Russia",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/5e87ae86582b5d00068ce78c/416x416.jpg?background=000000&cropX1=1187&cropX2=4259&cropY1=272&cropY2=3347",
+    "photoUrl": "/photos/1498475491.jpg",
     "source": "Metals",
     "rank": 97
   },
@@ -850,7 +850,7 @@
     "name": "Huang Shilin",
     "netWorth": 24.4,
     "country": "China",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/6724f66a677dfa37e85e605f/416x416.jpg?background=000000&cropX1=2&cropX2=800&cropY1=2&cropY2=800",
+    "photoUrl": "/photos/1856572652.jpg",
     "source": "Batteries",
     "rank": 98
   },
@@ -859,7 +859,7 @@
     "name": "Christy Walton",
     "netWorth": 24.3,
     "country": "United States",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/f12075ee278b0ce676c90b51cc5e60d6/416x416.jpg?background=000000&cropX1=13&cropX2=744&cropY1=29&cropY2=761",
+    "photoUrl": "/photos/489234349.jpg",
     "source": "Walmart",
     "rank": 99
   },
@@ -868,7 +868,7 @@
     "name": "Stefan Persson",
     "netWorth": 24.2,
     "country": "Sweden",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/5c721cd64bbe6f51818ab844/416x416.jpg?background=000000&cropX1=1176&cropX2=2731&cropY1=522&cropY2=2076",
+    "photoUrl": "/photos/1387511581.jpg",
     "source": "H&M",
     "rank": 100
   },
@@ -877,7 +877,7 @@
     "name": "David Tepper",
     "netWorth": 23.7,
     "country": "United States",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/5f4e9ddf5539e4341ae861af/416x416.jpg?background=000000&cropX1=1423&cropX2=4003&cropY1=121&cropY2=2699",
+    "photoUrl": "/photos/191522986.jpg",
     "source": "Hedge funds",
     "rank": 101
   },
@@ -886,7 +886,7 @@
     "name": "Harry Triguboff",
     "netWorth": 23.4,
     "country": "Australia",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/63ea5408a2141a8698e3c457/416x416.jpg?background=000000&cropX1=0&cropX2=1080&cropY1=0&cropY2=1079",
+    "photoUrl": "/photos/1307949152.jpg",
     "source": "Real estate",
     "rank": 102
   },
@@ -895,7 +895,7 @@
     "name": "Steve Cohen",
     "netWorth": 23,
     "country": "United States",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/5a8d946e4bbe6f2652f61ca6/416x416.jpg?background=000000&cropX1=703&cropX2=3292&cropY1=80&cropY2=2667",
+    "photoUrl": "/photos/1396303974.jpg",
     "source": "Hedge funds",
     "rank": 103
   },
@@ -904,7 +904,7 @@
     "name": "Rupert Murdoch & family",
     "netWorth": 22.7,
     "country": "United States",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/6067bf2f800a3f1324d4c89c/416x416.jpg?background=000000&cropX1=0&cropX2=1080&cropY1=0&cropY2=1080",
+    "photoUrl": "/photos/971287974.jpg",
     "source": "Newspapers, TV network",
     "rank": 104
   },
@@ -913,7 +913,7 @@
     "name": "Gennady Timchenko",
     "netWorth": 22.5,
     "country": "Russia",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/622b778d7c4aefebd5cbea11/416x416.jpg?background=000000&cropX1=0&cropX2=2317&cropY1=426&cropY2=2744",
+    "photoUrl": "/photos/1364770874.jpg",
     "source": "Oil, gas",
     "rank": 105
   },
@@ -922,7 +922,7 @@
     "name": "Diane Hendricks",
     "netWorth": 22.3,
     "country": "United States",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/64a853a98e6fe5954491cf23/416x416.jpg?background=000000&cropX1=319&cropX2=1470&cropY1=22&cropY2=1174",
+    "photoUrl": "/photos/721585006.jpg",
     "source": "Building supplies",
     "rank": 107
   },
@@ -931,7 +931,7 @@
     "name": "Stanley Kroenke",
     "netWorth": 22.2,
     "country": "United States",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/5d8a620422254b0008e15a49/416x416.jpg?background=000000&cropX1=401&cropX2=2960&cropY1=0&cropY2=2557",
+    "photoUrl": "/photos/388711873.jpg",
     "source": "Sports, real estate",
     "rank": 108
   },
@@ -940,7 +940,7 @@
     "name": "Todd Graves",
     "netWorth": 22,
     "country": "United States",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/661036f84ba410f780e6ff8c/416x416.jpg?background=000000&cropX1=1086&cropX2=1758&cropY1=39&cropY2=711",
+    "photoUrl": "/photos/1692026693.jpg",
     "source": "Fast food",
     "rank": 109
   },
@@ -949,7 +949,7 @@
     "name": "Wang Chuanfu",
     "netWorth": 21.5,
     "country": "China",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/6902404b2ffc12e03e0d702e/416x416.jpg?background=000000&cropX1=201&cropX2=1643&cropY1=58&cropY2=1500",
+    "photoUrl": "/photos/65822377.jpg",
     "source": "Batteries, automobiles",
     "rank": 110
   },
@@ -958,7 +958,7 @@
     "name": "Ernest Garcia II",
     "netWorth": 21.5,
     "country": "United States",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/5ba3dab8a7ea434e4c693d17/416x416.jpg?background=000000&cropX1=263&cropX2=600&cropY1=192&cropY2=529",
+    "photoUrl": "/photos/1155357321.jpg",
     "source": "Used cars",
     "rank": 111
   },
@@ -967,7 +967,7 @@
     "name": "John Fredriksen",
     "netWorth": 21.2,
     "country": "Cyprus",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/5e7587f4d8e1ae0007b7161f/416x416.jpg?background=000000&cropX1=169&cropX2=817&cropY1=7&cropY2=655",
+    "photoUrl": "/photos/1928929070.jpg",
     "source": "Shipping",
     "rank": 112
   },
@@ -976,7 +976,7 @@
     "name": "Kumar Birla",
     "netWorth": 21.1,
     "country": "India",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/68e6984ce57eab8e6daf6a24/416x416.jpg?background=000000&cropX1=191&cropX2=1156&cropY1=241&cropY2=1207",
+    "photoUrl": "/photos/1467727740.jpg",
     "source": "Diversified",
     "rank": 113
   },
@@ -985,7 +985,7 @@
     "name": "Michael Platt",
     "netWorth": 20.9,
     "country": "United Kingdom",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/5c726aa34bbe6f51818abcd5/416x416.jpg?background=000000&cropX1=1450&cropX2=3510&cropY1=309&cropY2=2368",
+    "photoUrl": "/photos/1194978474.jpg",
     "source": "Hedge funds",
     "rank": 114
   },
@@ -994,7 +994,7 @@
     "name": "Qin Yinglin",
     "netWorth": 20.8,
     "country": "China",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/a3722ff48b63420aa857d7c876d5c521/416x416.jpg?background=000000&cropX1=18&cropX2=744&cropY1=34&cropY2=761",
+    "photoUrl": "/photos/1709934388.jpg",
     "source": "Pig breeding",
     "rank": 116
   },
@@ -1003,7 +1003,7 @@
     "name": "Kwong Siu-hing",
     "netWorth": 20.7,
     "country": "Hong Kong",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/603522f7a9db4e55a215df75/416x416.jpg?background=000000&cropX1=144&cropX2=656&cropY1=1&cropY2=513",
+    "photoUrl": "/photos/527522972.jpg",
     "source": "Real estate",
     "rank": 117
   },
@@ -1012,7 +1012,7 @@
     "name": "Dang Yanbao",
     "netWorth": 20.7,
     "country": "China",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/6182bfc1fb85e417104d179a/416x416.jpg?background=000000&cropX1=1515&cropX2=2926&cropY1=166&cropY2=1576",
+    "photoUrl": "/photos/1357705766.jpg",
     "source": "Coal",
     "rank": 118
   },
@@ -1021,7 +1021,7 @@
     "name": "Chen Tianshi",
     "netWorth": 20.7,
     "country": "China",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/690240ad85f168b25a40e248/416x416.jpg?background=000000&cropX1=316&cropX2=1020&cropY1=54&cropY2=758",
+    "photoUrl": "/photos/2131395200.jpg",
     "source": "Semiconductors",
     "rank": 119
   },
@@ -1030,7 +1030,7 @@
     "name": "Henry Nicholas III",
     "netWorth": 20.6,
     "country": "United States",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/5f49795b4ab4bd09fe628b58/416x416.jpg?background=000000&cropX1=208&cropX2=1476&cropY1=88&cropY2=1355",
+    "photoUrl": "/photos/1680456337.jpg",
     "source": "Semiconductors",
     "rank": 120
   },
@@ -1039,7 +1039,7 @@
     "name": "Takemitsu Takizaki",
     "netWorth": 20.3,
     "country": "Japan",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/5eaa4141ed706b0007e62bd7/416x416.jpg?background=000000&cropX1=1310&cropX2=2754&cropY1=224&cropY2=1667",
+    "photoUrl": "/photos/1451491585.jpg",
     "source": "Sensors",
     "rank": 121
   },
@@ -1048,7 +1048,7 @@
     "name": "Jerry Jones & family",
     "netWorth": 20.3,
     "country": "United States",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/5d8a639e6de3150009a4f883/416x416.jpg?background=000000&cropX1=943&cropX2=2577&cropY1=0&cropY2=1633",
+    "photoUrl": "/photos/598668765.jpg",
     "source": "Dallas Cowboys",
     "rank": 122
   },
@@ -1057,7 +1057,7 @@
     "name": "Andrew Forrest & family",
     "netWorth": 20.3,
     "country": "Australia",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/65ca49b8ad26e48437eb62c6/416x416.jpg?background=000000&cropX1=224&cropX2=890&cropY1=0&cropY2=666",
+    "photoUrl": "/photos/426854232.jpg",
     "source": "Mining",
     "rank": 123
   },
@@ -1066,7 +1066,7 @@
     "name": "Andre Esteves",
     "netWorth": 20.2,
     "country": "Brazil",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/5c6cc7434bbe6f3a74231dba/416x416.jpg?background=000000&cropX1=238&cropX2=3600&cropY1=0&cropY2=3360",
+    "photoUrl": "/photos/1569601115.jpg",
     "source": "Banking",
     "rank": 125
   },
@@ -1075,7 +1075,7 @@
     "name": "Low Tuck Kwong",
     "netWorth": 20.2,
     "country": "Indonesia",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/638e24ef7ed4f1a8cd55d457/416x416.jpg?background=000000&cropX1=0&cropX2=1080&cropY1=212&cropY2=1292",
+    "photoUrl": "/photos/882988878.jpg",
     "source": "Coal",
     "rank": 126
   },
@@ -1084,7 +1084,7 @@
     "name": "Nancy Walton Laurie",
     "netWorth": 20,
     "country": "United States",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/669e75a291732d69b35c2ab2/416x416.jpg?background=000000&cropX1=0&cropX2=370&cropY1=21&cropY2=392",
+    "photoUrl": "/photos/1805005935.jpg",
     "source": "Walmart",
     "rank": 127
   },
@@ -1093,7 +1093,7 @@
     "name": "Dhanin Chearavanont",
     "netWorth": 19.9,
     "country": "Thailand",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/64a6e56a5b21dc15ce4c321c/416x416.jpg?background=000000&cropX1=5&cropX2=1894&cropY1=0&cropY2=1889",
+    "photoUrl": "/photos/410183422.jpg",
     "source": "Diversified",
     "rank": 128
   },
@@ -1102,7 +1102,7 @@
     "name": "Jorge Paulo Lemann & family",
     "netWorth": 19.8,
     "country": "Brazil",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/5c6cc0bfa7ea437e33f375c1/416x416.jpg?background=000000&cropX1=1589&cropX2=3189&cropY1=0&cropY2=1599",
+    "photoUrl": "/photos/25274066.jpg",
     "source": "Beer",
     "rank": 129
   },
@@ -1111,7 +1111,7 @@
     "name": "John Doerr",
     "netWorth": 19.8,
     "country": "United States",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/5c9d17e74bbe6f277fd241e6/416x416.jpg?background=000000&cropX1=151&cropX2=1830&cropY1=6&cropY2=1685",
+    "photoUrl": "/photos/1653595709.jpg",
     "source": "Venture capital",
     "rank": 130
   },
@@ -1120,7 +1120,7 @@
     "name": "Prince Alwaleed Bin Talal Alsaud",
     "netWorth": 19.7,
     "country": "Saudi Arabia",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/5e779508d8e1ae0007b72f3e/416x416.jpg?background=000000&cropX1=950&cropX2=4271&cropY1=14&cropY2=3334",
+    "photoUrl": "/photos/2117406778.jpg",
     "source": "investments",
     "rank": 131
   },
@@ -1129,7 +1129,7 @@
     "name": "R. Budi Hartono",
     "netWorth": 19.6,
     "country": "Indonesia",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/6050f48ca1ab099ed6e290cc/416x416.jpg?background=000000&cropX1=0&cropX2=800&cropY1=0&cropY2=800",
+    "photoUrl": "/photos/641194608.jpg",
     "source": "Banking, tobacco",
     "rank": 132
   },
@@ -1138,7 +1138,7 @@
     "name": "Alejandro Baillères Gual & family",
     "netWorth": 19.5,
     "country": "Mexico",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/62443652a45fa465e7b19281/416x416.jpg?background=000000&cropX1=1765&cropX2=2862&cropY1=434&cropY2=1530",
+    "photoUrl": "/photos/678830379.jpg",
     "source": "Diversified",
     "rank": 133
   },
@@ -1147,7 +1147,7 @@
     "name": "John Menard Jr",
     "netWorth": 19.4,
     "country": "United States",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/5f0f870a933def00067666de/416x416.jpg?background=000000&cropX1=223&cropX2=1909&cropY1=133&cropY2=1820",
+    "photoUrl": "/photos/851996801.jpg",
     "source": "Home improvement stores",
     "rank": 134
   },
@@ -1156,7 +1156,7 @@
     "name": "Philip Anschutz",
     "netWorth": 19.4,
     "country": "United States",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/5efa16915f1126000639e990/416x416.jpg?background=000000&cropX1=522&cropX2=4000&cropY1=840&cropY2=4320",
+    "photoUrl": "/photos/1822172488.jpg",
     "source": "Energy, sports, entertainment",
     "rank": 135
   },
@@ -1165,7 +1165,7 @@
     "name": "Chen Jianhua",
     "netWorth": 19.3,
     "country": "China",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/6050f48ca1ab099ed6e290cc/416x416.jpg?background=000000&cropX1=0&cropX2=800&cropY1=0&cropY2=800",
+    "photoUrl": "/photos/2101605840.jpg",
     "source": "Chemicals",
     "rank": 136
   },
@@ -1174,7 +1174,7 @@
     "name": "Georg Schaeffler",
     "netWorth": 19.2,
     "country": "Germany",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/5e762609c7b02d000666c810/416x416.jpg?background=000000&cropX1=605&cropX2=1884&cropY1=0&cropY2=1279",
+    "photoUrl": "/photos/875866265.jpg",
     "source": "Auto parts",
     "rank": 137
   },
@@ -1183,7 +1183,7 @@
     "name": "Donald Bren",
     "netWorth": 19.2,
     "country": "United States",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/5d9b6d9867dd830006a2db41/416x416.jpg?background=000000&cropX1=513&cropX2=1983&cropY1=80&cropY2=1551",
+    "photoUrl": "/photos/1020999883.jpg",
     "source": "Real estate",
     "rank": 138
   },
@@ -1192,7 +1192,7 @@
     "name": "Brett Adcock",
     "netWorth": 19.1,
     "country": "United States",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/660c21fad6a07497a1384c08/416x416.jpg?background=000000&cropX1=312&cropX2=1301&cropY1=58&cropY2=1048",
+    "photoUrl": "/photos/1493367608.jpg",
     "source": "Robots",
     "rank": 139
   },
@@ -1201,7 +1201,7 @@
     "name": "Karl Albrecht Jr. & family",
     "netWorth": 19.1,
     "country": "Germany",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/6050f48ca1ab099ed6e290cc/416x416.jpg?background=000000&cropX1=0&cropX2=800&cropY1=0&cropY2=800",
+    "photoUrl": "/photos/106496714.jpg",
     "source": "Supermarkets",
     "rank": 140
   },
@@ -1210,7 +1210,7 @@
     "name": "Israel Englander",
     "netWorth": 18.9,
     "country": "United States",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/5d8a74d16de3150009a4fafc/416x416.jpg?background=000000&cropX1=0&cropX2=770&cropY1=122&cropY2=892",
+    "photoUrl": "/photos/1281187874.jpg",
     "source": "Hedge funds",
     "rank": 142
   },
@@ -1219,7 +1219,7 @@
     "name": "Michael Hartono",
     "netWorth": 18.9,
     "country": "Indonesia",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/5c70b46c4bbe6f79c5473f84/416x416.jpg?background=000000&cropX1=286&cropX2=2548&cropY1=78&cropY2=2340",
+    "photoUrl": "/photos/2099295264.jpg",
     "source": "Banking, tobacco ",
     "rank": 143
   },
@@ -1228,7 +1228,7 @@
     "name": "Zhong Huijuan",
     "netWorth": 18.7,
     "country": "China",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/5e9f5b3df0b8cf0006295fec/416x416.jpg?background=000000&cropX1=1080&cropX2=1674&cropY1=936&cropY2=1530",
+    "photoUrl": "/photos/1992363532.jpg",
     "source": "Pharmaceuticals",
     "rank": 144
   },
@@ -1237,7 +1237,7 @@
     "name": "Eric Li",
     "netWorth": 18.7,
     "country": "China",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/69024198a0a2a4f9d2933da7/416x416.jpg?background=000000&cropX1=129&cropX2=1047&cropY1=7&cropY2=925",
+    "photoUrl": "/photos/1946734954.jpg",
     "source": "Automobiles",
     "rank": 145
   },
@@ -1246,7 +1246,7 @@
     "name": "Dietmar Hopp & family",
     "netWorth": 18.6,
     "country": "Germany",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/5e7621d6c7b02d000666c78a/416x416.jpg?background=000000&cropX1=1529&cropX2=4122&cropY1=700&cropY2=3294",
+    "photoUrl": "/photos/1534462543.jpg",
     "source": "Software",
     "rank": 146
   },
@@ -1255,7 +1255,7 @@
     "name": "Suleiman Kerimov & family",
     "netWorth": 18.5,
     "country": "Russia",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/62471d5c3ff014e6ce2b15f6/416x416.jpg?background=000000&cropX1=146&cropX2=2785&cropY1=0&cropY2=2639",
+    "photoUrl": "/photos/2022982044.jpg",
     "source": "Gold",
     "rank": 147
   },
@@ -1264,7 +1264,7 @@
     "name": "Wang Ning & family",
     "netWorth": 18.4,
     "country": "China",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/606c82db99e962b0d731e4a3/416x416.jpg?background=000000&cropX1=585&cropX2=2019&cropY1=265&cropY2=1700",
+    "photoUrl": "/photos/605854891.jpg",
     "source": "Toys",
     "rank": 148
   },
@@ -1273,7 +1273,7 @@
     "name": "Torstein Hagen",
     "netWorth": 18.4,
     "country": "Norway",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/5e7b9a2c15b23e00065239fc/416x416.jpg?background=000000&cropX1=735&cropX2=2850&cropY1=0&cropY2=2114",
+    "photoUrl": "/photos/967575469.jpg",
     "source": "Cruises",
     "rank": 149
   },
@@ -1282,7 +1282,7 @@
     "name": "James Ratcliffe",
     "netWorth": 18.4,
     "country": "United Kingdom",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/5c726a0f31358e35dd2701e3/416x416.jpg?background=000000&cropX1=715&cropX2=2215&cropY1=115&cropY2=1614",
+    "photoUrl": "/photos/378941330.jpg",
     "source": "Chemicals",
     "rank": 150
   },
@@ -1291,7 +1291,7 @@
     "name": "Ludwig Merckle",
     "netWorth": 18.3,
     "country": "Germany",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/58a1dd824bbe6f0e5586a942/416x416.jpg?background=000000&cropX1=0&cropX2=744&cropY1=256&cropY2=1000",
+    "photoUrl": "/photos/930853985.jpg",
     "source": "Pharmaceuticals",
     "rank": 151
   },
@@ -1300,7 +1300,7 @@
     "name": "Sarath Ratanavadi",
     "netWorth": 18.1,
     "country": "Thailand",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/6863fb67c048d4c3b9daafa2/416x416.jpg?background=000000&cropX1=348&cropX2=994&cropY1=298&cropY2=945",
+    "photoUrl": "/photos/869538416.jpg",
     "source": "Energy",
     "rank": 152
   },
@@ -1309,7 +1309,7 @@
     "name": "Theo Albrecht Jr & family",
     "netWorth": 18,
     "country": "Germany",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/6050f48ca1ab099ed6e290cc/416x416.jpg?background=000000&cropX1=0&cropX2=800&cropY1=0&cropY2=800",
+    "photoUrl": "/photos/1459980112.jpg",
     "source": "Aldi, Trader Joe's",
     "rank": 153
   },
@@ -1318,7 +1318,7 @@
     "name": "Edwin Chen",
     "netWorth": 18,
     "country": "United States",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/68e3f4a2b481719999b5b19c/416x416.jpg?background=000000&cropX1=7&cropX2=3699&cropY1=281&cropY2=3975",
+    "photoUrl": "/photos/934279847.jpg",
     "source": "Artificial intelligence",
     "rank": 154
   },
@@ -1327,7 +1327,7 @@
     "name": "Andrey Melnichenko & family",
     "netWorth": 18,
     "country": "Russia",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/5c7eb6524bbe6f42abffe4ca/416x416.jpg?background=000000&cropX1=665&cropX2=2917&cropY1=100&cropY2=2353",
+    "photoUrl": "/photos/852958626.jpg",
     "source": "Fertilizers, coal",
     "rank": 155
   },
@@ -1336,7 +1336,7 @@
     "name": "Eric Smidt",
     "netWorth": 17.9,
     "country": "United States",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/68b7220cad0392b745d27d34/416x416.jpg?background=000000&cropX1=0&cropX2=589&cropY1=77&cropY2=666",
+    "photoUrl": "/photos/1247803958.jpg",
     "source": "Hardware stores",
     "rank": 156
   },
@@ -1345,7 +1345,7 @@
     "name": "Charlene de Carvalho-Heineken & family",
     "netWorth": 17.9,
     "country": "Netherlands",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/5e76fd5fd8e1ae0007b72836/416x416.jpg?background=000000&cropX1=40&cropX2=1122&cropY1=61&cropY2=1144",
+    "photoUrl": "/photos/1460465614.jpg",
     "source": "Heineken",
     "rank": 157
   },
@@ -1354,7 +1354,7 @@
     "name": "Patrick Collison",
     "netWorth": 17.5,
     "country": "Ireland",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/619e651e6b47f0c29e025b72/416x416.jpg?background=000000&cropX1=0&cropX2=1080&cropY1=0&cropY2=1080",
+    "photoUrl": "/photos/926915491.jpg",
     "source": "Payment software",
     "rank": 158
   },
@@ -1363,7 +1363,7 @@
     "name": "John Collison",
     "netWorth": 17.5,
     "country": "Ireland",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/5e76c91ed8e1ae0007b725d7/416x416.jpg?background=000000&cropX1=389&cropX2=1167&cropY1=132&cropY2=910",
+    "photoUrl": "/photos/699354660.jpg",
     "source": "Payment software",
     "rank": 158
   },
@@ -1372,7 +1372,7 @@
     "name": "John Tu",
     "netWorth": 17.4,
     "country": "United States",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/a8e97df48d0b22d58aa783577ec6c714/416x416.jpg?background=000000&cropX1=3&cropX2=744&cropY1=63&cropY2=804",
+    "photoUrl": "/photos/1843427338.jpg",
     "source": "Computer hardware",
     "rank": 160
   },
@@ -1381,7 +1381,7 @@
     "name": "David Sun",
     "netWorth": 17.4,
     "country": "United States",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/56dbf33ff9a34972aa0637c95ea9c36b/416x416.jpg?background=000000&cropX1=0&cropX2=744&cropY1=85&cropY2=829",
+    "photoUrl": "/photos/1864121200.jpg",
     "source": "Computer hardware",
     "rank": 161
   },
@@ -1390,7 +1390,7 @@
     "name": "Brad Jacobs",
     "netWorth": 17.1,
     "country": "United States",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/5d92021b6de3150009a58b52/416x416.jpg?background=000000&cropX1=525&cropX2=1914&cropY1=812&cropY2=2203",
+    "photoUrl": "/photos/952941821.jpg",
     "source": "Logistics",
     "rank": 162
   },
@@ -1399,7 +1399,7 @@
     "name": "Jan Koum",
     "netWorth": 17.1,
     "country": "United States",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/5d8a61aa22254b0008e15a3f/416x416.jpg?background=000000&cropX1=46&cropX2=1310&cropY1=63&cropY2=1329",
+    "photoUrl": "/photos/2110311527.jpg",
     "source": "WhatsApp",
     "rank": 163
   },
@@ -1408,7 +1408,7 @@
     "name": "Zhou Qunfei & family",
     "netWorth": 17.1,
     "country": "Hong Kong",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/6724fc55963e6ec9e66025bc/416x416.jpg?background=000000&cropX1=366&cropX2=1023&cropY1=221&cropY2=878",
+    "photoUrl": "/photos/839207296.jpg",
     "source": "Smartphone screens",
     "rank": 164
   },
@@ -1417,7 +1417,7 @@
     "name": "Lu Xiangyang",
     "netWorth": 17,
     "country": "China",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/6050f48ca1ab099ed6e290cc/416x416.jpg?background=000000&cropX1=0&cropX2=800&cropY1=0&cropY2=800",
+    "photoUrl": "/photos/1557276409.jpg",
     "source": "Automobiles, batteries",
     "rank": 165
   },
@@ -1426,7 +1426,7 @@
     "name": "Stephen Ross",
     "netWorth": 17,
     "country": "United States",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/6155d324dc08886dde5040d8/416x416.jpg?background=000000&cropX1=811&cropX2=2999&cropY1=83&cropY2=2268",
+    "photoUrl": "/photos/806563088.jpg",
     "source": "Real estate",
     "rank": 166
   },
@@ -1435,7 +1435,7 @@
     "name": "Li Shuirong & family",
     "netWorth": 16.9,
     "country": "China",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/61a52212402ed8086d7a1ac9/416x416.jpg?background=000000&cropX1=0&cropX2=800&cropY1=0&cropY2=800",
+    "photoUrl": "/photos/1351547638.jpg",
     "source": "Petrochemicals",
     "rank": 167
   },
@@ -1444,7 +1444,7 @@
     "name": "Anders Holch Povlsen",
     "netWorth": 16.9,
     "country": "Denmark",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/5e75908fc7b02d000666c3be/416x416.jpg?background=000000&cropX1=329&cropX2=1870&cropY1=44&cropY2=1585",
+    "photoUrl": "/photos/9747089.jpg",
     "source": "Fashion retail",
     "rank": 169
   },
@@ -1453,7 +1453,7 @@
     "name": "Wang Wei",
     "netWorth": 16.6,
     "country": "China",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/6902420314aab20d2b740f5e/416x416.jpg?background=000000&cropX1=55&cropX2=1136&cropY1=0&cropY2=1080",
+    "photoUrl": "/photos/18368900.jpg",
     "source": "Package delivery",
     "rank": 170
   },
@@ -1462,7 +1462,7 @@
     "name": "Enrique Razon Jr.",
     "netWorth": 16.5,
     "country": "Philippines",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/64cbd17ca2ba31d32cc6f9a3/416x416.jpg?background=000000&cropX1=531&cropX2=1354&cropY1=17&cropY2=840",
+    "photoUrl": "/photos/1303135294.jpg",
     "source": "Ports",
     "rank": 171
   },
@@ -1471,7 +1471,7 @@
     "name": "George Kaiser",
     "netWorth": 16.2,
     "country": "United States",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/5ba439ef31358e5690cd9d73/416x416.jpg?background=000000&cropX1=2031&cropX2=5125&cropY1=15&cropY2=3107",
+    "photoUrl": "/photos/1759061994.jpg",
     "source": "Oil & gas, banking",
     "rank": 172
   },
@@ -1480,7 +1480,7 @@
     "name": "Mikhail Fridman",
     "netWorth": 16.1,
     "country": "Russia",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/622a4eacebc226db357a752a/416x416.jpg?background=000000&cropX1=228&cropX2=1253&cropY1=0&cropY2=1025",
+    "photoUrl": "/photos/357224722.jpg",
     "source": "Oil, banking, telecom",
     "rank": 173
   },
@@ -1489,7 +1489,7 @@
     "name": "Charles Ergen",
     "netWorth": 16.1,
     "country": "United States",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/5f4e9b86504b236199de396e/416x416.jpg?background=000000&cropX1=655&cropX2=2985&cropY1=0&cropY2=2328",
+    "photoUrl": "/photos/900549029.jpg",
     "source": "Satellite TV",
     "rank": 174
   },
@@ -1498,7 +1498,7 @@
     "name": "Zhang Zhidong",
     "netWorth": 16.1,
     "country": "China",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/5bcf8eec31358e5b4334465b/416x416.jpg?background=000000&cropX1=249&cropX2=943&cropY1=98&cropY2=793",
+    "photoUrl": "/photos/1995503549.jpg",
     "source": "Online games",
     "rank": 175
   },
@@ -1507,7 +1507,7 @@
     "name": "Harold Hamm & family",
     "netWorth": 16,
     "country": "United States",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/5d8a634322254b0008e15a64/416x416.jpg?background=000000&cropX1=880&cropX2=1549&cropY1=0&cropY2=668",
+    "photoUrl": "/photos/1464371535.jpg",
     "source": "Oil & gas",
     "rank": 176
   },
@@ -1516,7 +1516,7 @@
     "name": "Zou Zhinong & family",
     "netWorth": 15.9,
     "country": "China",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/6902486ac275c8fc3cb0ddcb/416x416.jpg?background=000000&cropX1=0&cropX2=800&cropY1=0&cropY2=800",
+    "photoUrl": "/photos/673374701.jpg",
     "source": "Telecom equipment",
     "rank": 177
   },
@@ -1525,7 +1525,7 @@
     "name": "Johann Rupert & family",
     "netWorth": 15.8,
     "country": "South Africa",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/5e77abf210380d0006fbc437/416x416.jpg?background=000000&cropX1=69&cropX2=901&cropY1=177&cropY2=1009",
+    "photoUrl": "/photos/1706330226.jpg",
     "source": "Luxury goods",
     "rank": 178
   },
@@ -1534,7 +1534,7 @@
     "name": "Adam Foroughi",
     "netWorth": 15.8,
     "country": "United States",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/66cf593d5bf6b6d6d4ab3206/416x416.jpg?background=000000&cropX1=231&cropX2=823&cropY1=14&cropY2=606",
+    "photoUrl": "/photos/1850772488.jpg",
     "source": "advertising technology",
     "rank": 179
   },
@@ -1543,7 +1543,7 @@
     "name": "Peter Woo",
     "netWorth": 15.5,
     "country": "Hong Kong",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/620d2693995b45d70b8590b0/416x416.jpg?background=000000&cropX1=806&cropX2=1851&cropY1=642&cropY2=1687",
+    "photoUrl": "/photos/1940727367.jpg",
     "source": "Real estate",
     "rank": 181
   },
@@ -1552,7 +1552,7 @@
     "name": "Friedhelm Loh",
     "netWorth": 15.5,
     "country": "Germany",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/5e76256710380d0006fbacf3/416x416.jpg?background=000000&cropX1=359&cropX2=1453&cropY1=0&cropY2=1092",
+    "photoUrl": "/photos/37420901.jpg",
     "source": "Manufacturing",
     "rank": 182
   },
@@ -1561,7 +1561,7 @@
     "name": "Wang Liping & family",
     "netWorth": 15.4,
     "country": "China",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/6725006e5f4e9e8ea36f7cd7/416x416.jpg?background=000000&cropX1=1&cropX2=800&cropY1=1&cropY2=800",
+    "photoUrl": "/photos/420303362.jpg",
     "source": "Hydraulic machinery",
     "rank": 183
   },
@@ -1570,7 +1570,7 @@
     "name": "Ray Dalio",
     "netWorth": 15.4,
     "country": "United States",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/5ac959f74bbe6f2310f1e05c/416x416.jpg?background=000000&cropX1=657&cropX2=3206&cropY1=80&cropY2=2627",
+    "photoUrl": "/photos/687865447.jpg",
     "source": "Hedge funds",
     "rank": 184
   },
@@ -1579,7 +1579,7 @@
     "name": "Shahid Khan",
     "netWorth": 15.3,
     "country": "United States",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/5d8a654022254b0008e15acc/416x416.jpg?background=000000&cropX1=261&cropX2=2362&cropY1=268&cropY2=2372",
+    "photoUrl": "/photos/361824997.jpg",
     "source": "Sports teams, auto parts",
     "rank": 185
   },
@@ -1588,7 +1588,7 @@
     "name": "Terry Gou",
     "netWorth": 15.3,
     "country": "Taiwan",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/66560d208c7542387afde2f5/416x416.jpg?background=000000&cropX1=130&cropX2=704&cropY1=15&cropY2=589",
+    "photoUrl": "/photos/1249634419.jpg",
     "source": "Electronics",
     "rank": 186
   },
@@ -1597,7 +1597,7 @@
     "name": "Hussain Sajwani",
     "netWorth": 15.3,
     "country": "United Arab Emirates",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/603d60e6d1100129fa70b050/416x416.jpg?background=000000&cropX1=382&cropX2=1181&cropY1=216&cropY2=1015",
+    "photoUrl": "/photos/1803044474.jpg",
     "source": "Real estate",
     "rank": 187
   },
@@ -1606,7 +1606,7 @@
     "name": "Donald Newhouse",
     "netWorth": 15.3,
     "country": "United States",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/5f4e9fd63fe2632db7de396e/416x416.jpg?background=000000&cropX1=421&cropX2=2796&cropY1=63&cropY2=2436",
+    "photoUrl": "/photos/172012114.jpg",
     "source": "Media",
     "rank": 188
   },
@@ -1615,7 +1615,7 @@
     "name": "David Velez & family",
     "netWorth": 15,
     "country": "Colombia",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/60638457e39799801c5746a7/416x416.jpg?background=000000&cropX1=20&cropX2=1334&cropY1=129&cropY2=1443",
+    "photoUrl": "/photos/658923488.jpg",
     "source": "Fintech",
     "rank": 189
   },
@@ -1624,7 +1624,7 @@
     "name": "James Dyson",
     "netWorth": 15,
     "country": "United Kingdom",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/5e77f331d8e1ae0007b738e9/416x416.jpg?background=000000&cropX1=477&cropX2=2227&cropY1=59&cropY2=1808",
+    "photoUrl": "/photos/2138718127.jpg",
     "source": "Vacuums",
     "rank": 190
   },
@@ -1633,7 +1633,7 @@
     "name": "Jaime Gilinski Bacal",
     "netWorth": 14.9,
     "country": "Colombia",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/4f07d582150616600588bf39ab92e054/416x416.jpg?background=000000&cropX1=0&cropX2=744&cropY1=66&cropY2=810",
+    "photoUrl": "/photos/1952391826.jpg",
     "source": "Banking",
     "rank": 191
   },
@@ -1642,7 +1642,7 @@
     "name": "Antonia Ax:son Johnson & family",
     "netWorth": 14.8,
     "country": "Sweden",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/5c721c55a7ea431000435142/416x416.jpg?background=000000&cropX1=624&cropX2=2349&cropY1=0&cropY2=1724",
+    "photoUrl": "/photos/1041283121.jpg",
     "source": "Diversified",
     "rank": 192
   },
@@ -1651,7 +1651,7 @@
     "name": "Xavier Niel & family",
     "netWorth": 14.6,
     "country": "France",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/5e75a6c2d8e1ae0007b716d8/416x416.jpg?background=000000&cropX1=1022&cropX2=3225&cropY1=122&cropY2=2324",
+    "photoUrl": "/photos/2068750057.jpg",
     "source": "Internet, telecom",
     "rank": 193
   },
@@ -1660,7 +1660,7 @@
     "name": "Ann Walton Kroenke",
     "netWorth": 14.6,
     "country": "United States",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/5ba4d59031358e5690cda47f/416x416.jpg?background=000000&cropX1=21&cropX2=1217&cropY1=133&cropY2=1329",
+    "photoUrl": "/photos/1741562592.jpg",
     "source": "Walmart",
     "rank": 194
   },
@@ -1669,7 +1669,7 @@
     "name": "Uday Kotak",
     "netWorth": 14.4,
     "country": "India",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/652572b911abb7271c0656fe/416x416.jpg?background=000000&cropX1=1401&cropX2=3921&cropY1=88&cropY2=2607",
+    "photoUrl": "/photos/1730015967.jpg",
     "source": "Banking",
     "rank": 195
   },
@@ -1678,7 +1678,7 @@
     "name": "Alisher Usmanov",
     "netWorth": 14.3,
     "country": "Russia",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/607a044ee9910fe868a69505/416x416.jpg?background=000000&cropX1=183&cropX2=812&cropY1=23&cropY2=651",
+    "photoUrl": "/photos/1895307843.jpg",
     "source": "Steel, telecom, investments",
     "rank": 196
   },
@@ -1687,7 +1687,7 @@
     "name": "Jack Dangermond",
     "netWorth": 14.3,
     "country": "United States",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/5d8aa41f22254b0008e161e8/416x416.jpg?background=000000&cropX1=85&cropX2=443&cropY1=0&cropY2=358",
+    "photoUrl": "/photos/1761088714.jpg",
     "source": "Mapping software",
     "rank": 197
   },
@@ -1696,7 +1696,7 @@
     "name": "Joseph Lau",
     "netWorth": 14.3,
     "country": "Hong Kong",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/65d4c5dda401ff9cf4b74438/416x416.jpg?background=000000&cropX1=583&cropX2=1313&cropY1=100&cropY2=830",
+    "photoUrl": "/photos/1896206301.jpg",
     "source": "Real estate",
     "rank": 198
   },
@@ -1705,7 +1705,7 @@
     "name": "Barry Lam",
     "netWorth": 14.2,
     "country": "Taiwan",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/56cc32c1e4b062f6b59a4fdd/416x416.jpg?background=000000&cropX1=81&cropX2=596&cropY1=118&cropY2=634",
+    "photoUrl": "/photos/1756673612.jpg",
     "source": "Electronics",
     "rank": 199
   },
@@ -1714,7 +1714,7 @@
     "name": "Jason Chang",
     "netWorth": 14.2,
     "country": "Singapore",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/5fc2a1468e3fa5f7e688c992791f5e72/416x416.jpg?background=000000&cropX1=26&cropX2=698&cropY1=102&cropY2=774",
+    "photoUrl": "/photos/1945653006.jpg",
     "source": "Semiconductors",
     "rank": 200
   },
@@ -1723,7 +1723,7 @@
     "name": "Sunil Mittal",
     "netWorth": 14.2,
     "country": "India",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/68e69504d678f93a6fd3b32e/416x416.jpg?background=000000&cropX1=343&cropX2=2458&cropY1=259&cropY2=2374",
+    "photoUrl": "/photos/474470406.jpg",
     "source": "Telecom",
     "rank": 201
   },
@@ -1732,7 +1732,7 @@
     "name": "Robert Kuok",
     "netWorth": 14.2,
     "country": "Malaysia",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/5c70f2834bbe6f79c547439c/416x416.jpg?background=000000&cropX1=86&cropX2=2585&cropY1=350&cropY2=2851",
+    "photoUrl": "/photos/911482330.jpg",
     "source": "Palm oil, shipping, property",
     "rank": 202
   },
@@ -1741,7 +1741,7 @@
     "name": "Ralph Lauren & Family",
     "netWorth": 14.1,
     "country": "United States",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/5f4d624c9203e6bccfc46e87/416x416.jpg?background=000000&cropX1=1084&cropX2=2223&cropY1=371&cropY2=1511",
+    "photoUrl": "/photos/1954060767.jpg",
     "source": "Apparel",
     "rank": 203
   },
@@ -1750,7 +1750,7 @@
     "name": "Pei Zhenhua",
     "netWorth": 14.1,
     "country": "China",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/6724fd2e068e56b31f39b825/416x416.jpg?background=000000&cropX1=2&cropX2=800&cropY1=1&cropY2=799",
+    "photoUrl": "/photos/1148105185.jpg",
     "source": "Batteries",
     "rank": 204
   },
@@ -1759,7 +1759,7 @@
     "name": "Robert Kraft",
     "netWorth": 13.8,
     "country": "United States",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/64a85309b1ebfd68d09b888d/416x416.jpg?background=000000&cropX1=0&cropX2=898&cropY1=318&cropY2=1219",
+    "photoUrl": "/photos/14022712.jpg",
     "source": "Manufacturing, New England Patriots",
     "rank": 205
   },
@@ -1768,7 +1768,7 @@
     "name": "Hasso Plattner & family",
     "netWorth": 13.8,
     "country": "Germany",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/5e762726d8e1ae0007b71a6b/416x416.jpg?background=000000&cropX1=1757&cropX2=3583&cropY1=0&cropY2=1827",
+    "photoUrl": "/photos/319088378.jpg",
     "source": "Software",
     "rank": 206
   },
@@ -1777,7 +1777,7 @@
     "name": "Dan Cathy",
     "netWorth": 13.7,
     "country": "United States",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/5601a7fbe4b0ffa7afe4f321/416x416.jpg?background=000000&cropX1=27&cropX2=678&cropY1=21&cropY2=672",
+    "photoUrl": "/photos/2069839230.jpg",
     "source": "Chick-fil-A",
     "rank": 207
   },
@@ -1786,7 +1786,7 @@
     "name": "Bubba Cathy",
     "netWorth": 13.7,
     "country": "United States",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/5601a7bae4b0ffa7afe4f31b/416x416.jpg?background=000000&cropX1=5&cropX2=744&cropY1=2&cropY2=742",
+    "photoUrl": "/photos/1972506311.jpg",
     "source": "Chick-fil-A",
     "rank": 209
   },
@@ -1795,7 +1795,7 @@
     "name": "Laurene Powell Jobs",
     "netWorth": 13.7,
     "country": "United States",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/5d8e17856c7c8f0009907ebd/416x416.jpg?background=000000&cropX1=217&cropX2=1524&cropY1=0&cropY2=1308",
+    "photoUrl": "/photos/1296247084.jpg",
     "source": "Apple, Disney",
     "rank": 210
   },
@@ -1804,7 +1804,7 @@
     "name": "Igor Bukhman",
     "netWorth": 13.6,
     "country": "Israel",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/62475447958a861c14859098/416x416.jpg?background=000000&cropX1=0&cropX2=1743&cropY1=0&cropY2=1743",
+    "photoUrl": "/photos/1289002793.jpg",
     "source": "Online games",
     "rank": 212
   },
@@ -1813,7 +1813,7 @@
     "name": "Dmitri Bukhman",
     "netWorth": 13.6,
     "country": "Israel",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/5e77f0e6c7b02d000666e1b2/416x416.jpg?background=000000&cropX1=64&cropX2=671&cropY1=19&cropY2=626",
+    "photoUrl": "/photos/714756577.jpg",
     "source": "Online games",
     "rank": 212
   },
@@ -1822,7 +1822,7 @@
     "name": "Hamdi Ulukaya",
     "netWorth": 13.5,
     "country": "Turkey",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/5e77e12210380d0006fbc828/416x416.jpg?background=000000&cropX1=303&cropX2=2947&cropY1=23&cropY2=2667",
+    "photoUrl": "/photos/365996561.jpg",
     "source": "Greek yogurt",
     "rank": 215
   },
@@ -1831,7 +1831,7 @@
     "name": "Ivan Glasenberg",
     "netWorth": 13.4,
     "country": "Switzerland",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/5e77d02310380d0006fbc6b6/416x416.jpg?background=000000&cropX1=1345&cropX2=4926&cropY1=255&cropY2=3840",
+    "photoUrl": "/photos/1067346490.jpg",
     "source": "Mining",
     "rank": 216
   },
@@ -1840,7 +1840,7 @@
     "name": "Wang Weixiu & family",
     "netWorth": 13.4,
     "country": "China",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/67250cfc37fcfbc89abf0fae/416x416.jpg?background=000000&cropX1=1&cropX2=799&cropY1=2&cropY2=800",
+    "photoUrl": "/photos/845813626.jpg",
     "source": "Machinery",
     "rank": 217
   },
@@ -1849,7 +1849,7 @@
     "name": "Joseph Tsai",
     "netWorth": 13.3,
     "country": "Canada",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/67be4bab704990dc451c69cc/416x416.jpg?background=000000&cropX1=115&cropX2=1006&cropY1=637&cropY2=1529",
+    "photoUrl": "/photos/298088684.jpg",
     "source": "E-commerce",
     "rank": 218
   },
@@ -1858,7 +1858,7 @@
     "name": "David Reuben",
     "netWorth": 13.3,
     "country": "United Kingdom",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/5e77ef2bc7b02d000666e18c/416x416.jpg?background=000000&cropX1=67&cropX2=1744&cropY1=3&cropY2=1680",
+    "photoUrl": "/photos/113416635.jpg",
     "source": "Investments, real estate",
     "rank": 219
   },
@@ -1867,7 +1867,7 @@
     "name": "Simon Reuben",
     "netWorth": 13.3,
     "country": "United Kingdom",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/5e77f9a510380d0006fbc995/416x416.jpg?background=000000&cropX1=922&cropX2=2645&cropY1=72&cropY2=1796",
+    "photoUrl": "/photos/1627953433.jpg",
     "source": "Real estate, investments",
     "rank": 219
   },
@@ -1876,7 +1876,7 @@
     "name": "Sandra Ortega Mera",
     "netWorth": 13.2,
     "country": "Spain",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/cf7804ae82275751814f94dc5378387a/416x416.jpg?background=000000&cropX1=31&cropX2=648&cropY1=15&cropY2=632",
+    "photoUrl": "/photos/183119775.jpg",
     "source": "Zara ",
     "rank": 221
   },
@@ -1885,7 +1885,7 @@
     "name": "Ken Fisher",
     "netWorth": 13.2,
     "country": "United States",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/59dbd16931358e542c038093/416x416.jpg?background=000000&cropX1=119&cropX2=540&cropY1=34&cropY2=455",
+    "photoUrl": "/photos/1561483409.jpg",
     "source": "Money management",
     "rank": 222
   },
@@ -1894,7 +1894,7 @@
     "name": "Alexander Karp",
     "netWorth": 13.1,
     "country": "United States",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/67604f9532a49a6580ba2826/416x416.jpg?background=000000&cropX1=137&cropX2=1882&cropY1=132&cropY2=1875",
+    "photoUrl": "/photos/445516436.jpg",
     "source": "Software firm",
     "rank": 223
   },
@@ -1903,7 +1903,7 @@
     "name": "Nik Storonsky",
     "netWorth": 13.1,
     "country": "United Kingdom",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/5e7781e910380d0006fbbec0/416x416.jpg?background=000000&cropX1=565&cropX2=3221&cropY1=11&cropY2=2667",
+    "photoUrl": "/photos/1669107248.jpg",
     "source": "Fintech",
     "rank": 224
   },
@@ -1912,7 +1912,7 @@
     "name": "J. Christopher Reyes",
     "netWorth": 13.1,
     "country": "United States",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/033ba8ea1f4e0697e1ca957753400dc9/416x416.jpg?background=000000&cropX1=35&cropX2=698&cropY1=3&cropY2=667",
+    "photoUrl": "/photos/971284028.jpg",
     "source": "Food distribution",
     "rank": 224
   },
@@ -1921,7 +1921,7 @@
     "name": "Charles Schwab",
     "netWorth": 13,
     "country": "United States",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/5d8a66976de3150009a4f8e6/416x416.jpg?background=000000&cropX1=1827&cropX2=4378&cropY1=8&cropY2=2557",
+    "photoUrl": "/photos/183508780.jpg",
     "source": "Discount brokerage",
     "rank": 228
   },
@@ -1930,7 +1930,7 @@
     "name": "Richard Kinder",
     "netWorth": 13,
     "country": "United States",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/5c76d0e4a7ea43100043cdf2/416x416.jpg?background=000000&cropX1=995&cropX2=3185&cropY1=56&cropY2=2245",
+    "photoUrl": "/photos/1394769612.jpg",
     "source": "Pipelines",
     "rank": 229
   },
@@ -1939,7 +1939,7 @@
     "name": "Orlando Bravo",
     "netWorth": 12.8,
     "country": "United States",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/651c892b7ccfc59471da164f/416x416.jpg?background=000000&cropX1=291&cropX2=1674&cropY1=0&cropY2=1383",
+    "photoUrl": "/photos/377700699.jpg",
     "source": "Private equity",
     "rank": 230
   },
@@ -1948,7 +1948,7 @@
     "name": "Anthony Pratt",
     "netWorth": 12.8,
     "country": "Australia",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/65ca4afebb8e952eca596533/416x416.jpg?background=000000&cropX1=160&cropX2=729&cropY1=34&cropY2=602",
+    "photoUrl": "/photos/1954898142.jpg",
     "source": "Manufacturing",
     "rank": 231
   },
@@ -1957,7 +1957,7 @@
     "name": "Lin Muqin & family",
     "netWorth": 12.8,
     "country": "China",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/6182ccfed143a6cc30e9678c/416x416.jpg?background=000000&cropX1=513&cropX2=2230&cropY1=0&cropY2=1718",
+    "photoUrl": "/photos/34688127.jpg",
     "source": "Beverages",
     "rank": 232
   },
@@ -1966,7 +1966,7 @@
     "name": "Kushal Pal Singh",
     "netWorth": 12.7,
     "country": "India",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/56ca6a42e4b062f6b59a3447/416x416.jpg?background=000000&cropX1=8&cropX2=744&cropY1=232&cropY2=968",
+    "photoUrl": "/photos/1066725309.jpg",
     "source": "Real estate",
     "rank": 233
   },
@@ -1975,7 +1975,7 @@
     "name": "Andrew Beal",
     "netWorth": 12.6,
     "country": "United States",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/572275fc31358e1869e2bbb5/416x416.jpg?background=000000&cropX1=23&cropX2=651&cropY1=24&cropY2=652",
+    "photoUrl": "/photos/1572299687.jpg",
     "source": "Banks, real estate",
     "rank": 234
   },
@@ -1984,7 +1984,7 @@
     "name": "Vikram Lal & family",
     "netWorth": 12.6,
     "country": "India",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/652573bee77af2ae13ff5846/416x416.jpg?background=000000&cropX1=0&cropX2=744&cropY1=48&cropY2=792",
+    "photoUrl": "/photos/1251835701.jpg",
     "source": "Motorcycles",
     "rank": 235
   },
@@ -1993,7 +1993,7 @@
     "name": "Qi Shi & family",
     "netWorth": 12.5,
     "country": "China",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/6050f48ca1ab099ed6e290cc/416x416.jpg?background=000000&cropX1=0&cropX2=800&cropY1=0&cropY2=800",
+    "photoUrl": "/photos/385656016.jpg",
     "source": "Financial information",
     "rank": 236
   },
@@ -2002,7 +2002,7 @@
     "name": "George Roberts",
     "netWorth": 12.5,
     "country": "United States",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/5d8a8a0b6de3150009a500b5/416x416.jpg?background=000000&cropX1=743&cropX2=1994&cropY1=9&cropY2=1259",
+    "photoUrl": "/photos/1056433772.jpg",
     "source": "Private equity",
     "rank": 237
   },
@@ -2011,7 +2011,7 @@
     "name": "David Steward",
     "netWorth": 12.4,
     "country": "United States",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/67605d074446df854f71c662/416x416.jpg?background=000000&cropX1=135&cropX2=1497&cropY1=191&cropY2=1554",
+    "photoUrl": "/photos/1308056340.jpg",
     "source": "IT provider",
     "rank": 238
   },
@@ -2020,7 +2020,7 @@
     "name": "Sun Piaoyang",
     "netWorth": 12.4,
     "country": "China",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/5bcf9178a7ea43705914d65b/416x416.jpg?background=000000&cropX1=724&cropX2=3557&cropY1=0&cropY2=2832",
+    "photoUrl": "/photos/1502600896.jpg",
     "source": "Pharmaceuticals",
     "rank": 239
   },
@@ -2029,7 +2029,7 @@
     "name": "Pamela Mars",
     "netWorth": 12.3,
     "country": "United States",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/5c891b0231358e35dd28dcf5/416x416.jpg?background=000000&cropX1=408&cropX2=734&cropY1=64&cropY2=390",
+    "photoUrl": "/photos/2050028085.jpg",
     "source": "Candy, pet food",
     "rank": 241
   },
@@ -2038,7 +2038,7 @@
     "name": "Valerie Mars",
     "netWorth": 12.3,
     "country": "United States",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/5d8a6ef16de3150009a4fa7c/416x416.jpg?background=000000&cropX1=3&cropX2=422&cropY1=4&cropY2=423",
+    "photoUrl": "/photos/1366739661.jpg",
     "source": "Candy, pet food",
     "rank": 241
   },
@@ -2047,7 +2047,7 @@
     "name": "Victoria Mars",
     "netWorth": 12.3,
     "country": "United States",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/59d593da4bbe6f37dda0048f/416x416.jpg?background=000000&cropX1=0&cropX2=682&cropY1=82&cropY2=764",
+    "photoUrl": "/photos/769112582.jpg",
     "source": "Candy, pet food",
     "rank": 241
   },
@@ -2056,7 +2056,7 @@
     "name": "Charoen Sirivadhanabhakdi & family",
     "netWorth": 12.2,
     "country": "Thailand",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/60d9ed504bb9397d72570f0a/416x416.jpg?background=000000&cropX1=0&cropX2=600&cropY1=0&cropY2=600",
+    "photoUrl": "/photos/1866581343.jpg",
     "source": "Beverage, Real Estate",
     "rank": 245
   },
@@ -2065,7 +2065,7 @@
     "name": "Zhou Chaonan",
     "netWorth": 12.2,
     "country": "China",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/6902491ab51a552b5ef877bf/416x416.jpg?background=000000&cropX1=0&cropX2=800&cropY1=0&cropY2=800",
+    "photoUrl": "/photos/499510608.jpg",
     "source": "Manufacturing",
     "rank": 246
   },
@@ -2074,7 +2074,7 @@
     "name": "Leon Black",
     "netWorth": 12.2,
     "country": "United States",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/5d8a65cc22254b0008e15ad5/416x416.jpg?background=000000&cropX1=679&cropX2=1781&cropY1=23&cropY2=1124",
+    "photoUrl": "/photos/1399816061.jpg",
     "source": "Private equity",
     "rank": 247
   },
@@ -2083,7 +2083,7 @@
     "name": "Vinod Khosla",
     "netWorth": 12.1,
     "country": "United States",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/66609d7995eeeeab2e41fba9/416x416.jpg?background=000000&cropX1=466&cropX2=1179&cropY1=52&cropY2=765",
+    "photoUrl": "/photos/758783380.jpg",
     "source": "Sun Microsystems, venture capital",
     "rank": 248
   },
@@ -2092,7 +2092,7 @@
     "name": "Thomas Struengmann & family",
     "netWorth": 12,
     "country": "Germany",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/5a7e557831358e4955ad137a/416x416.jpg?background=000000&cropX1=0&cropX2=2573&cropY1=5&cropY2=2580",
+    "photoUrl": "/photos/1832701584.jpg",
     "source": "Pharmaceuticals",
     "rank": 249
   },
@@ -2101,7 +2101,7 @@
     "name": "Andreas Struengmann & family",
     "netWorth": 12,
     "country": "Germany",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/6a78176d9c8ceafa3994533f92281f82/416x416.jpg?background=000000&cropX1=61&cropX2=553&cropY1=4&cropY2=496",
+    "photoUrl": "/photos/1868547234.jpg",
     "source": "Pharmaceuticals",
     "rank": 249
   },
@@ -2110,7 +2110,7 @@
     "name": "Jim Pattison",
     "netWorth": 12,
     "country": "Canada",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/5e74463d2a573300068fcd8d/416x416.jpg?background=000000&cropX1=411&cropX2=2016&cropY1=97&cropY2=1702",
+    "photoUrl": "/photos/561030468.jpg",
     "source": "Diversified",
     "rank": 252
   },
@@ -2119,7 +2119,7 @@
     "name": "Ravi Jaipuria",
     "netWorth": 11.9,
     "country": "India",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/68e6994fbd67526e968398eb/416x416.jpg?background=000000&cropX1=300&cropX2=1740&cropY1=74&cropY2=1515",
+    "photoUrl": "/photos/1738705401.jpg",
     "source": "Soft drinks, fast food",
     "rank": 254
   },
@@ -2128,7 +2128,7 @@
     "name": "Christopher Hohn",
     "netWorth": 11.8,
     "country": "United Kingdom",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/5c7273624bbe6f51818abd52/416x416.jpg?background=000000&cropX1=263&cropX2=1878&cropY1=304&cropY2=1921",
+    "photoUrl": "/photos/1159431210.jpg",
     "source": "Hedge funds",
     "rank": 255
   },
@@ -2137,7 +2137,7 @@
     "name": "James Goodnight",
     "netWorth": 11.8,
     "country": "United States",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/5d8a6ffb22254b0008e15c68/416x416.jpg?background=000000&cropX1=754&cropX2=2040&cropY1=4&cropY2=1290",
+    "photoUrl": "/photos/40707909.jpg",
     "source": "Software",
     "rank": 256
   },
@@ -2146,7 +2146,7 @@
     "name": "Pierre Omidyar",
     "netWorth": 11.8,
     "country": "United States",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/5f11f5931c59f70008546278/416x416.jpg?background=000000&cropX1=317&cropX2=854&cropY1=226&cropY2=763",
+    "photoUrl": "/photos/1770904750.jpg",
     "source": "EBay, PayPal",
     "rank": 257
   },
@@ -2155,7 +2155,7 @@
     "name": "Finn Rausing",
     "netWorth": 11.8,
     "country": "Sweden",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/58a285984bbe6f0e5586bbff/416x416.jpg?background=000000&cropX1=0&cropX2=744&cropY1=61&cropY2=805",
+    "photoUrl": "/photos/275720630.jpg",
     "source": "Packaging",
     "rank": 258
   },
@@ -2164,7 +2164,7 @@
     "name": "Kirsten Rausing",
     "netWorth": 11.8,
     "country": "Sweden",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/58a2898531358e1a35ab5427/416x416.jpg?background=000000&cropX1=2&cropX2=744&cropY1=0&cropY2=743",
+    "photoUrl": "/photos/1215218507.jpg",
     "source": "Packaging",
     "rank": 259
   },
@@ -2173,7 +2173,7 @@
     "name": "Jorn Rausing",
     "netWorth": 11.8,
     "country": "Sweden",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/58a2883b31358e1a35ab540d/416x416.jpg?background=000000&cropX1=0&cropX2=744&cropY1=50&cropY2=794",
+    "photoUrl": "/photos/76751684.jpg",
     "source": "Packaging",
     "rank": 259
   },
@@ -2182,7 +2182,7 @@
     "name": "Rafael Del Pino",
     "netWorth": 11.8,
     "country": "Spain",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/5c720d0d4bbe6f51818ab7e5/416x416.jpg?background=000000&cropX1=206&cropX2=2875&cropY1=0&cropY2=2667",
+    "photoUrl": "/photos/814659283.jpg",
     "source": "Construction",
     "rank": 261
   },
@@ -2191,7 +2191,7 @@
     "name": "Carl Cook",
     "netWorth": 11.7,
     "country": "United States",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/25d1399bdf56ecfab4f15f040e20fbe0/416x416.jpg?background=000000&cropX1=13&cropX2=744&cropY1=53&cropY2=785",
+    "photoUrl": "/photos/1240504384.jpg",
     "source": "Medical devices",
     "rank": 263
   },
@@ -2200,7 +2200,7 @@
     "name": "Tilman Fertitta",
     "netWorth": 11.7,
     "country": "United States",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/615b17659c4ca3fd706b1a5d/416x416.jpg?background=000000&cropX1=0&cropX2=1877&cropY1=621&cropY2=2499",
+    "photoUrl": "/photos/141281562.jpg",
     "source": "Entertainment, Houston Rockets",
     "rank": 264
   },
@@ -2209,7 +2209,7 @@
     "name": "Robert Duggan",
     "netWorth": 11.6,
     "country": "United States",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/66918f2a02c6888a8f03c779/416x416.jpg?background=000000&cropX1=167&cropX2=568&cropY1=20&cropY2=421",
+    "photoUrl": "/photos/192575702.jpg",
     "source": "Pharmaceuticals",
     "rank": 266
   },
@@ -2218,7 +2218,7 @@
     "name": "Ernesto Bertarelli",
     "netWorth": 11.6,
     "country": "Switzerland",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/5e77cdaad8e1ae0007b7364f/416x416.jpg?background=000000&cropX1=906&cropX2=2274&cropY1=354&cropY2=1721",
+    "photoUrl": "/photos/512659704.jpg",
     "source": "Biotech, investments",
     "rank": 267
   },
@@ -2227,7 +2227,7 @@
     "name": "Zhu Yi",
     "netWorth": 11.6,
     "country": "China",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/6724fef938efbe637929ecd1/416x416.jpg?background=000000&cropX1=2&cropX2=800&cropY1=1&cropY2=799",
+    "photoUrl": "/photos/739200427.jpg",
     "source": "Pharmaceuticals",
     "rank": 268
   },
@@ -2236,7 +2236,7 @@
     "name": "Wang Laisheng",
     "netWorth": 11.5,
     "country": "Hong Kong",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/6050f48ca1ab099ed6e290cc/416x416.jpg?background=000000&cropX1=0&cropX2=800&cropY1=0&cropY2=800",
+    "photoUrl": "/photos/439716074.jpg",
     "source": "Electronics components",
     "rank": 269
   },
@@ -2245,7 +2245,7 @@
     "name": "Liang Wenfeng",
     "netWorth": 11.5,
     "country": "China",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/67e5dca4efa69302e39783b9/416x416.jpg?background=000000&cropX1=1196&cropX2=2171&cropY1=293&cropY2=1268",
+    "photoUrl": "/photos/1662978215.jpg",
     "source": "AI, hedge fund",
     "rank": 270
   },
@@ -2254,7 +2254,7 @@
     "name": "Henry Kravis",
     "netWorth": 11.5,
     "country": "United States",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/5f4d5f43aea06441f4b331d6/416x416.jpg?background=000000&cropX1=290&cropX2=1212&cropY1=152&cropY2=1074",
+    "photoUrl": "/photos/704727784.jpg",
     "source": "Private equity",
     "rank": 271
   },
@@ -2263,7 +2263,7 @@
     "name": "Dan Friedkin",
     "netWorth": 11.4,
     "country": "United States",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/5d8ad21f22254b0008e1646d/416x416.jpg?background=000000&cropX1=874&cropX2=2968&cropY1=508&cropY2=2604",
+    "photoUrl": "/photos/473040113.jpg",
     "source": "Toyota dealerships",
     "rank": 273
   },
@@ -2272,7 +2272,7 @@
     "name": "Lin Bin",
     "netWorth": 11.3,
     "country": "United States",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/5c744e7aa7ea431000438504/416x416.jpg?background=000000&cropX1=1694&cropX2=3460&cropY1=485&cropY2=2250",
+    "photoUrl": "/photos/2048904238.jpg",
     "source": "Smartphones",
     "rank": 274
   },
@@ -2281,7 +2281,7 @@
     "name": "Juan Carlos Escotet",
     "netWorth": 11.3,
     "country": "Venezuela",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/5e77fb7c10380d0006fbc9a3/416x416.jpg?background=000000&cropX1=112&cropX2=1744&cropY1=312&cropY2=1944",
+    "photoUrl": "/photos/1873647688.jpg",
     "source": "Banking",
     "rank": 275
   },
@@ -2290,7 +2290,7 @@
     "name": "Wang Laichun",
     "netWorth": 11.3,
     "country": "Hong Kong",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/6182c8e9e8b8313ec4e42480/416x416.jpg?background=000000&cropX1=410&cropX2=1685&cropY1=178&cropY2=1454",
+    "photoUrl": "/photos/663502883.jpg",
     "source": "Electronics components",
     "rank": 276
   },
@@ -2299,7 +2299,7 @@
     "name": "Liu Yongxing",
     "netWorth": 11.2,
     "country": "China",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/5a05f5144bbe6f37dda229ca/416x416.jpg?background=000000&cropX1=543&cropX2=2975&cropY1=49&cropY2=2479",
+    "photoUrl": "/photos/415863855.jpg",
     "source": "Diversified",
     "rank": 277
   },
@@ -2308,7 +2308,7 @@
     "name": "Martin Lorentzon",
     "netWorth": 11.2,
     "country": "Sweden",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/5e77c832c7b02d000666ddee/416x416.jpg?background=000000&cropX1=337&cropX2=4121&cropY1=242&cropY2=4024",
+    "photoUrl": "/photos/264579112.jpg",
     "source": "Spotify",
     "rank": 278
   },
@@ -2317,7 +2317,7 @@
     "name": "Abdulsamad Rabiu",
     "netWorth": 11.2,
     "country": "Nigeria",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/5ffe1cf7e7d384abb660e55e/416x416.jpg?background=000000&cropX1=0&cropX2=1080&cropY1=0&cropY2=1080",
+    "photoUrl": "/photos/50984467.jpg",
     "source": "Cement, sugar",
     "rank": 279
   },
@@ -2326,7 +2326,7 @@
     "name": "Li Xiting",
     "netWorth": 11.2,
     "country": "Singapore",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/61114d1ee2a2505345419c4e/416x416.jpg?background=000000&cropX1=0&cropX2=949&cropY1=0&cropY2=950",
+    "photoUrl": "/photos/624015066.jpg",
     "source": "Medical devices",
     "rank": 280
   },
@@ -2335,7 +2335,7 @@
     "name": "John Malone",
     "netWorth": 11.2,
     "country": "United States",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/5d8a6f7622254b0008e15c5a/416x416.jpg?background=000000&cropX1=184&cropX2=2173&cropY1=13&cropY2=2000",
+    "photoUrl": "/photos/1217431101.jpg",
     "source": "Cable television",
     "rank": 281
   },
@@ -2344,7 +2344,7 @@
     "name": "Charles Butt",
     "netWorth": 11.1,
     "country": "United States",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/633f36069877ef2945de06ab/416x416.jpg?background=000000&cropX1=101&cropX2=966&cropY1=22&cropY2=886",
+    "photoUrl": "/photos/1979443123.jpg",
     "source": "Supermarkets",
     "rank": 282
   },
@@ -2353,7 +2353,7 @@
     "name": "Arthur Blank",
     "netWorth": 11.1,
     "country": "United States",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/5d8a8cc56de3150009a50133/416x416.jpg?background=000000&cropX1=310&cropX2=4009&cropY1=16&cropY2=3712",
+    "photoUrl": "/photos/555830064.jpg",
     "source": "Home Depot",
     "rank": 283
   },
@@ -2362,7 +2362,7 @@
     "name": "Francesco Gaetano Caltagirone",
     "netWorth": 11.1,
     "country": "Italy",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/5e76d3f1c7b02d000666d2fc/416x416.jpg?background=000000&cropX1=865&cropX2=2685&cropY1=125&cropY2=1946",
+    "photoUrl": "/photos/1300733371.jpg",
     "source": "Cement, diversified",
     "rank": 284
   },
@@ -2371,7 +2371,7 @@
     "name": "Thomas Schmidheiny",
     "netWorth": 11.1,
     "country": "Switzerland",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/5c723437a7ea431000435227/416x416.jpg?background=000000&cropX1=1427&cropX2=2405&cropY1=14&cropY2=991",
+    "photoUrl": "/photos/1447120531.jpg",
     "source": "Cement",
     "rank": 285
   },
@@ -2380,7 +2380,7 @@
     "name": "Gabe Newell",
     "netWorth": 11,
     "country": "United States",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/5d8aeadb6de3150009a507c4/416x416.jpg?background=000000&cropX1=297&cropX2=1343&cropY1=45&cropY2=1091",
+    "photoUrl": "/photos/2035203272.jpg",
     "source": "Video games",
     "rank": 286
   },
@@ -2389,7 +2389,7 @@
     "name": "Wei Jianjun & family",
     "netWorth": 11,
     "country": "China",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/6902427766905d4ef6648810/416x416.jpg?background=000000&cropX1=370&cropX2=1514&cropY1=77&cropY2=1221",
+    "photoUrl": "/photos/737038086.jpg",
     "source": "Automobiles",
     "rank": 287
   },
@@ -2398,7 +2398,7 @@
     "name": "Gong Hongjia & family",
     "netWorth": 11,
     "country": "Hong Kong",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/5f89c0f2bea0bbe373992b7f/416x416.jpg?background=000000&cropX1=820&cropX2=1800&cropY1=631&cropY2=1612",
+    "photoUrl": "/photos/1350847581.jpg",
     "source": "Video surveillance ",
     "rank": 288
   },
@@ -2407,7 +2407,7 @@
     "name": "Johann Graf",
     "netWorth": 11,
     "country": "Austria",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/957d0594c392bd2f95bec45493d2be9c/416x416.jpg?background=000000&cropX1=0&cropX2=744&cropY1=97&cropY2=841",
+    "photoUrl": "/photos/1399299952.jpg",
     "source": "Gambling ",
     "rank": 289
   },
@@ -2416,7 +2416,7 @@
     "name": "Mikhail Prokhorov",
     "netWorth": 10.8,
     "country": "Russia",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/6229148ba4b9db39c42edc8a/416x416.jpg?background=000000&cropX1=965&cropX2=3404&cropY1=200&cropY2=2639",
+    "photoUrl": "/photos/2113839899.jpg",
     "source": "Investments",
     "rank": 291
   },
@@ -2425,7 +2425,7 @@
     "name": "Riley Bechtel & family",
     "netWorth": 10.8,
     "country": "United States",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/5d8b0ef518444200084e74b7/416x416.jpg?background=000000&cropX1=635&cropX2=2183&cropY1=30&cropY2=1579",
+    "photoUrl": "/photos/896086382.jpg",
     "source": "Engineering, construction",
     "rank": 293
   },
@@ -2434,7 +2434,7 @@
     "name": "Jean-Michel Besnier",
     "netWorth": 10.8,
     "country": "France",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/5a953ea1a7ea434a0c275f32/416x416.jpg?background=000000&cropX1=756&cropX2=2664&cropY1=0&cropY2=1906",
+    "photoUrl": "/photos/130666583.jpg",
     "source": "Cheese",
     "rank": 294
   },
@@ -2443,7 +2443,7 @@
     "name": "Liang Wengen",
     "netWorth": 10.8,
     "country": "China",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/5e756a7210380d0006bdcd60/416x416.jpg?background=000000&cropX1=1096&cropX2=2311&cropY1=227&cropY2=1443",
+    "photoUrl": "/photos/2067727489.jpg",
     "source": "Construction equipment",
     "rank": 296
   },
@@ -2452,7 +2452,7 @@
     "name": "Ramzi Musallam",
     "netWorth": 10.8,
     "country": "United States",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/66fc020a1cbaf70fad8c636b/416x416.jpg?background=000000&cropX1=73&cropX2=1301&cropY1=71&cropY2=1299",
+    "photoUrl": "/photos/1673774801.jpg",
     "source": "Private equity",
     "rank": 297
   },
@@ -2461,7 +2461,7 @@
     "name": "Carl Bennet",
     "netWorth": 10.7,
     "country": "Sweden",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/5e77c36f10380d0006fbc5ec/416x416.jpg?background=000000&cropX1=560&cropX2=2262&cropY1=63&cropY2=1766",
+    "photoUrl": "/photos/91035760.jpg",
     "source": "Investments",
     "rank": 298
   },
@@ -2470,7 +2470,7 @@
     "name": "Nicky Oppenheimer & family",
     "netWorth": 10.6,
     "country": "South Africa",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/6009d4608122193e45aeabc9/416x416.jpg?background=000000&cropX1=314&cropX2=2176&cropY1=1006&cropY2=2869",
+    "photoUrl": "/photos/1804316748.jpg",
     "source": "Diamonds",
     "rank": 299
   },
@@ -2479,7 +2479,7 @@
     "name": "Tahir & family",
     "netWorth": 10.6,
     "country": "Indonesia",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/5c70b5384bbe6f79c5473f96/416x416.jpg?background=000000&cropX1=247&cropX2=3585&cropY1=469&cropY2=3810",
+    "photoUrl": "/photos/275321789.jpg",
     "source": "Diversified",
     "rank": 300
   },
@@ -2488,7 +2488,7 @@
     "name": "Mark Stevens",
     "netWorth": 10.6,
     "country": "United States",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/5a8372604bbe6f2652f5804d/416x416.jpg?background=000000&cropX1=422&cropX2=1553&cropY1=69&cropY2=1200",
+    "photoUrl": "/photos/1729252261.jpg",
     "source": "Venture capital",
     "rank": 301
   },
@@ -2497,7 +2497,7 @@
     "name": "Tobi Lutke",
     "netWorth": 10.6,
     "country": "Canada",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/65e8c56a05c1e4c93a490920/416x416.jpg?background=000000&cropX1=451&cropX2=2685&cropY1=297&cropY2=2530",
+    "photoUrl": "/photos/18852261.jpg",
     "source": "E-commerce",
     "rank": 302
   },
@@ -2506,7 +2506,7 @@
     "name": "Chen Tao & family",
     "netWorth": 10.5,
     "country": "China",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/690247519db224876df609c0/416x416.jpg?background=000000&cropX1=0&cropX2=800&cropY1=0&cropY2=800",
+    "photoUrl": "/photos/306938324.jpg",
     "source": "Hardware",
     "rank": 303
   },
@@ -2515,7 +2515,7 @@
     "name": "Patrick Soon-Shiong",
     "netWorth": 10.5,
     "country": "United States",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/5ba4416731358e5690cd9dd9/416x416.jpg?background=000000&cropX1=1048&cropX2=1735&cropY1=186&cropY2=872",
+    "photoUrl": "/photos/953527732.jpg",
     "source": "Pharmaceuticals",
     "rank": 304
   },
@@ -2524,7 +2524,7 @@
     "name": "Pierre Chen",
     "netWorth": 10.5,
     "country": "Taiwan",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/56cc361be4b062f6b59a4fe9/416x416.jpg?background=000000&cropX1=0&cropX2=744&cropY1=211&cropY2=955",
+    "photoUrl": "/photos/1294365175.jpg",
     "source": "Electronics",
     "rank": 305
   },
@@ -2533,7 +2533,7 @@
     "name": "Wu Jianshu",
     "netWorth": 10.5,
     "country": "Hong Kong",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/67250326aa071f910ea5495b/416x416.jpg?background=000000&cropX1=1&cropX2=800&cropY1=1&cropY2=800",
+    "photoUrl": "/photos/917359152.jpg",
     "source": "Auto parts",
     "rank": 306
   },
@@ -2542,7 +2542,7 @@
     "name": "Fredrik Lundberg",
     "netWorth": 10.4,
     "country": "Sweden",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/5c7221af4bbe6f51818ab8bd/416x416.jpg?background=000000&cropX1=8&cropX2=2047&cropY1=0&cropY2=2040",
+    "photoUrl": "/photos/1039298796.jpg",
     "source": "Real estate, investments",
     "rank": 307
   },
@@ -2551,7 +2551,7 @@
     "name": "German Khan",
     "netWorth": 10.4,
     "country": "Russia",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/62471c96d9d016541f503f31/416x416.jpg?background=000000&cropX1=640&cropX2=3303&cropY1=0&cropY2=2660",
+    "photoUrl": "/photos/1378298414.jpg",
     "source": "Oil, banking, telecom",
     "rank": 308
   },
@@ -2560,7 +2560,7 @@
     "name": "Theo Mueller",
     "netWorth": 10.4,
     "country": "Germany",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/56c9c404e4b062f6b59a2a66/416x416.jpg?background=000000&cropX1=45&cropX2=601&cropY1=29&cropY2=585",
+    "photoUrl": "/photos/891129944.jpg",
     "source": "Dairy",
     "rank": 309
   },
@@ -2569,7 +2569,7 @@
     "name": "Douglas Leone",
     "netWorth": 10.4,
     "country": "United States",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/5e907d342b720000076d9406/416x416.jpg?background=000000&cropX1=910&cropX2=2570&cropY1=200&cropY2=1859",
+    "photoUrl": "/photos/1777215412.jpg",
     "source": "Venture capital",
     "rank": 310
   },
@@ -2578,7 +2578,7 @@
     "name": "Jimmy Haslam",
     "netWorth": 10.3,
     "country": "United States",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/5f49268c96e697d1cc58e43a/416x416.jpg?background=000000&cropX1=165&cropX2=2860&cropY1=5&cropY2=2700",
+    "photoUrl": "/photos/1320725838.jpg",
     "source": "Gas stations, retail",
     "rank": 311
   },
@@ -2587,7 +2587,7 @@
     "name": "Ken Langone",
     "netWorth": 10.3,
     "country": "United States",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/5f497ada09427da3f7707f50/416x416.jpg?background=000000&cropX1=1020&cropX2=2530&cropY1=718&cropY2=2227",
+    "photoUrl": "/photos/976663988.jpg",
     "source": "Investments",
     "rank": 312
   },
@@ -2596,7 +2596,7 @@
     "name": "Leonid Fedun",
     "netWorth": 10.3,
     "country": "Russia",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/5e777f8cd8e1ae0007b72d4b/416x416.jpg?background=000000&cropX1=813&cropX2=4013&cropY1=22&cropY2=3225",
+    "photoUrl": "/photos/1410741855.jpg",
     "source": "Oil",
     "rank": 313
   },
@@ -2605,7 +2605,7 @@
     "name": "Dustin Moskovitz",
     "netWorth": 10.3,
     "country": "United States",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/618e7aa763edefacc10f9cff/416x416.jpg?background=000000&cropX1=0&cropX2=1454&cropY1=75&cropY2=1530",
+    "photoUrl": "/photos/1849961247.jpg",
     "source": "Facebook",
     "rank": 314
   },
@@ -2614,7 +2614,7 @@
     "name": "Karel Komarek",
     "netWorth": 10.3,
     "country": "Czech Republic",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/5c755fe44bbe6f43b0c5cea2/416x416.jpg?background=000000&cropX1=0&cropX2=2366&cropY1=98&cropY2=2465",
+    "photoUrl": "/photos/81810763.jpg",
     "source": "Oil and gas, IT, lotteries",
     "rank": 316
   },
@@ -2623,7 +2623,7 @@
     "name": "Magdalena Martullo-Blocher",
     "netWorth": 10.3,
     "country": "Switzerland",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/5e77d0b2d8e1ae0007b73689/416x416.jpg?background=000000&cropX1=786&cropX2=3139&cropY1=195&cropY2=2549",
+    "photoUrl": "/photos/123388872.jpg",
     "source": "Chemicals",
     "rank": 317
   },
@@ -2632,7 +2632,7 @@
     "name": "Graeme Hart",
     "netWorth": 10.2,
     "country": "New Zealand",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/5c715725a7ea4310004343b5/416x416.jpg?background=000000&cropX1=843&cropX2=3343&cropY1=11&cropY2=2513",
+    "photoUrl": "/photos/1863912306.jpg",
     "source": "Packaging",
     "rank": 318
   },
@@ -2641,7 +2641,7 @@
     "name": "Jim Kennedy",
     "netWorth": 10.2,
     "country": "United States",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/6333228fc5d66e6add90c319/416x416.jpg?background=000000&cropX1=945&cropX2=1363&cropY1=607&cropY2=1025",
+    "photoUrl": "/photos/216392864.jpg",
     "source": "Media, automotive",
     "rank": 319
   },
@@ -2650,7 +2650,7 @@
     "name": "Carrie Perrodo & family",
     "netWorth": 10.2,
     "country": "France",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/5ed4563bce65aef57ded29dc3a87eea7/416x416.jpg?background=000000&cropX1=2&cropX2=709&cropY1=5&cropY2=712",
+    "photoUrl": "/photos/2135596707.jpg",
     "source": "Oil ",
     "rank": 320
   },
@@ -2659,7 +2659,7 @@
     "name": "Ernest Garcia III",
     "netWorth": 10.2,
     "country": "United States",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/62546f356d7d243c9c6cbc7c/416x416.jpg?background=000000&cropX1=187&cropX2=2015&cropY1=91&cropY2=1920",
+    "photoUrl": "/photos/1619569682.jpg",
     "source": "Used cars",
     "rank": 321
   },
@@ -2668,7 +2668,7 @@
     "name": "Li Ping",
     "netWorth": 10.2,
     "country": "Hong Kong",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/6182c14679844b6688e9678e/416x416.jpg?background=000000&cropX1=1460&cropX2=2555&cropY1=493&cropY2=1587",
+    "photoUrl": "/photos/310711923.jpg",
     "source": "Batteries",
     "rank": 322
   },
@@ -2677,7 +2677,7 @@
     "name": "Randa Duncan Williams",
     "netWorth": 10.2,
     "country": "United States",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/08e1b96a529223a3ac25ca9a21cc8092/416x416.jpg?background=000000&cropX1=0&cropX2=744&cropY1=61&cropY2=805",
+    "photoUrl": "/photos/658981376.jpg",
     "source": "Pipelines",
     "rank": 323
   },
@@ -2686,7 +2686,7 @@
     "name": "Daniel Kretinsky",
     "netWorth": 10.2,
     "country": "Czech Republic",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/5e758a55d8e1ae0007b71625/416x416.jpg?background=000000&cropX1=696&cropX2=3299&cropY1=0&cropY2=2601",
+    "photoUrl": "/photos/125639267.jpg",
     "source": "Energy, investments",
     "rank": 324
   },
@@ -2695,7 +2695,7 @@
     "name": "You Xiaoping & family",
     "netWorth": 10.1,
     "country": "China",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/6182e727ddb3f1de7de42480/416x416.jpg?background=000000&cropX1=600&cropX2=2620&cropY1=326&cropY2=2345",
+    "photoUrl": "/photos/1567334670.jpg",
     "source": "Polyurethanes",
     "rank": 325
   },
@@ -2704,7 +2704,7 @@
     "name": "Bruce Cheng",
     "netWorth": 10.1,
     "country": "Taiwan",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/5e1e4ee9735f8c000799df1d/416x416.jpg?background=000000&cropX1=510&cropX2=1775&cropY1=299&cropY2=1564",
+    "photoUrl": "/photos/786243048.jpg",
     "source": "Electronics",
     "rank": 326
   },
@@ -2713,7 +2713,7 @@
     "name": "Micky Arison",
     "netWorth": 10.1,
     "country": "United States",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/5d8a649a22254b0008e15a7a/416x416.jpg?background=000000&cropX1=306&cropX2=2019&cropY1=4&cropY2=1716",
+    "photoUrl": "/photos/1091199003.jpg",
     "source": "Carnival Cruises",
     "rank": 327
   },
@@ -2722,7 +2722,7 @@
     "name": "Milane Frantz",
     "netWorth": 10.1,
     "country": "United States",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/087ea54ecfa62609c6cafe4bd4410588/416x416.jpg?background=000000&cropX1=1&cropX2=548&cropY1=9&cropY2=556",
+    "photoUrl": "/photos/1493404061.jpg",
     "source": "Pipelines",
     "rank": 329
   },
@@ -2731,7 +2731,7 @@
     "name": "Juan Roig",
     "netWorth": 10.1,
     "country": "Spain",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/5e77be9b10380d0006fbc5c4/416x416.jpg?background=000000&cropX1=483&cropX2=2323&cropY1=258&cropY2=2097",
+    "photoUrl": "/photos/1452331569.jpg",
     "source": "Supermarkets",
     "rank": 330
   },
@@ -2740,7 +2740,7 @@
     "name": "Murali Divi & family",
     "netWorth": 10.1,
     "country": "India",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/5c79ad2d31358e35dd27cd1a/416x416.jpg?background=000000&cropX1=1161&cropX2=2628&cropY1=804&cropY2=2271",
+    "photoUrl": "/photos/1660519080.jpg",
     "source": "Pharmaceuticals",
     "rank": 332
   },
@@ -2749,7 +2749,7 @@
     "name": "Michael Federmann & family",
     "netWorth": 10.1,
     "country": "Israel",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/5c70c75931358e35dd26ecc7/416x416.jpg?background=000000&cropX1=378&cropX2=1419&cropY1=97&cropY2=1138",
+    "photoUrl": "/photos/934644181.jpg",
     "source": "Defense, hotels",
     "rank": 333
   },
@@ -2758,7 +2758,7 @@
     "name": "Tom Gores",
     "netWorth": 10.1,
     "country": "United States",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/5d8a8c6f22254b0008e16078/416x416.jpg?background=000000&cropX1=561&cropX2=3030&cropY1=99&cropY2=2566",
+    "photoUrl": "/photos/1645591426.jpg",
     "source": "Private equity",
     "rank": 334
   },
@@ -2767,7 +2767,7 @@
     "name": "Robert F. Smith",
     "netWorth": 10,
     "country": "United States",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/6996192e40f21f6905c2329f/416x416.jpg?background=000000&cropX1=367&cropX2=1678&cropY1=628&cropY2=1938",
+    "photoUrl": "/photos/1839674200.jpg",
     "source": "Private equity",
     "rank": 335
   },
@@ -2776,7 +2776,7 @@
     "name": "Jeffery Hildebrand",
     "netWorth": 10,
     "country": "United States",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/5d8addf818444200084e726c/416x416.jpg?background=000000&cropX1=802&cropX2=1319&cropY1=710&cropY2=1228",
+    "photoUrl": "/photos/940038794.jpg",
     "source": "Oil & gas",
     "rank": 336
   },
@@ -2785,7 +2785,7 @@
     "name": "Anthony Bamford & family",
     "netWorth": 10,
     "country": "United Kingdom",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/5e77eb8e10380d0006fbc8c3/416x416.jpg?background=000000&cropX1=18&cropX2=210&cropY1=5&cropY2=197",
+    "photoUrl": "/photos/1323007406.jpg",
     "source": "Construction equipment",
     "rank": 337
   },
@@ -2794,7 +2794,7 @@
     "name": "Viktor Vekselberg",
     "netWorth": 10,
     "country": "Russia",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/62471db4daae70f1df2b15f6/416x416.jpg?background=000000&cropX1=537&cropX2=2441&cropY1=13&cropY2=1917",
+    "photoUrl": "/photos/44251579.jpg",
     "source": "Metals, investments",
     "rank": 338
   },
@@ -2803,7 +2803,7 @@
     "name": "Josh Harris",
     "netWorth": 10,
     "country": "United States",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/5d8ab5026de3150009a50431/416x416.jpg?background=000000&cropX1=743&cropX2=3412&cropY1=0&cropY2=2667",
+    "photoUrl": "/photos/884469583.jpg",
     "source": "Private equity",
     "rank": 339
   },
@@ -2812,7 +2812,7 @@
     "name": "Michael Kim",
     "netWorth": 9.9,
     "country": "United States",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/60b1234a57b6567f575f6bbe/416x416.jpg?background=000000&cropX1=0&cropX2=1559&cropY1=341&cropY2=1900",
+    "photoUrl": "/photos/20811558.jpg",
     "source": "Private equity ",
     "rank": 340
   },
@@ -2821,7 +2821,7 @@
     "name": "Seo Jung-jin",
     "netWorth": 9.9,
     "country": "South Korea",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/625f10e5a124c78f61971d92/416x416.jpg?background=000000&cropX1=144&cropX2=989&cropY1=6&cropY2=851",
+    "photoUrl": "/photos/932691099.jpg",
     "source": "Biotech",
     "rank": 341
   },
@@ -2830,7 +2830,7 @@
     "name": "Harry Stine & family",
     "netWorth": 9.9,
     "country": "United States",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/59d7ff5531358e542c036ed6/416x416.jpg?background=000000&cropX1=324&cropX2=1197&cropY1=116&cropY2=989",
+    "photoUrl": "/photos/158387483.jpg",
     "source": "Agriculture",
     "rank": 342
   },
@@ -2839,7 +2839,7 @@
     "name": "Daniel Ek",
     "netWorth": 9.9,
     "country": "Sweden",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/619e6309d734b7239959f54f/416x416.jpg?background=000000&cropX1=607&cropX2=2136&cropY1=186&cropY2=1716",
+    "photoUrl": "/photos/125685231.jpg",
     "source": "Spotify",
     "rank": 343
   },
@@ -2848,7 +2848,7 @@
     "name": "Fernando Roberto Moreira Salles",
     "netWorth": 9.9,
     "country": "Brazil",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/61a52212402ed8086d7a1ac9/416x416.jpg?background=000000&cropX1=0&cropX2=800&cropY1=0&cropY2=800",
+    "photoUrl": "/photos/349199657.jpg",
     "source": "Banking, minerals",
     "rank": 344
   },
@@ -2857,7 +2857,7 @@
     "name": "Antony Ressler",
     "netWorth": 9.9,
     "country": "United States",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/5f036214a694dd0006422271/416x416.jpg?background=000000&cropX1=227&cropX2=1655&cropY1=30&cropY2=1457",
+    "photoUrl": "/photos/711130475.jpg",
     "source": "Finance",
     "rank": 345
   },
@@ -2866,7 +2866,7 @@
     "name": "David Cheriton",
     "netWorth": 9.8,
     "country": "Canada",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/5a676a6331358e4955ab6cf1/416x416.jpg?background=000000&cropX1=67&cropX2=347&cropY1=0&cropY2=280",
+    "photoUrl": "/photos/750029142.jpg",
     "source": "Google",
     "rank": 346
   },
@@ -2875,7 +2875,7 @@
     "name": "Zeng Fangqin",
     "netWorth": 9.8,
     "country": "Hong Kong",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/672507afcd0a31fe0c9be723/416x416.jpg?background=000000&cropX1=1&cropX2=800&cropY1=1&cropY2=800",
+    "photoUrl": "/photos/39358858.jpg",
     "source": "Smartphone components",
     "rank": 347
   },
@@ -2884,7 +2884,7 @@
     "name": "Yi Zheng",
     "netWorth": 9.8,
     "country": "China",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/672504ad7e2e968487e04adb/416x416.jpg?background=000000&cropX1=1&cropX2=800&cropY1=0&cropY2=799",
+    "photoUrl": "/photos/726034672.jpg",
     "source": "Software",
     "rank": 349
   },
@@ -2893,7 +2893,7 @@
     "name": "Andrei Guryev & family",
     "netWorth": 9.8,
     "country": "Russia",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/606c75e71798092c29d2e4c2/416x416.jpg?background=000000&cropX1=437&cropX2=3273&cropY1=67&cropY2=2902",
+    "photoUrl": "/photos/183126774.jpg",
     "source": "Fertilizers",
     "rank": 350
   },
@@ -2902,7 +2902,7 @@
     "name": "Vincent Bolloré & family",
     "netWorth": 9.8,
     "country": "France",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/5e75a67c10380d0006fbaa27/416x416.jpg?background=000000&cropX1=71&cropX2=963&cropY1=65&cropY2=958",
+    "photoUrl": "/photos/1594323832.jpg",
     "source": "Investments",
     "rank": 351
   },
@@ -2911,7 +2911,7 @@
     "name": "Lee Boo-jin",
     "netWorth": 9.8,
     "country": "South Korea",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/5d24746e142c500008c89619/416x416.jpg?background=000000&cropX1=0&cropX2=1998&cropY1=8&cropY2=2007",
+    "photoUrl": "/photos/1174896598.jpg",
     "source": "Samsung",
     "rank": 352
   },
@@ -2920,7 +2920,7 @@
     "name": "Viatcheslav Kantor",
     "netWorth": 9.7,
     "country": "Russia",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/62471e214fd8b86f962b15f6/416x416.jpg?background=000000&cropX1=0&cropX2=1018&cropY1=516&cropY2=1534",
+    "photoUrl": "/photos/477604795.jpg",
     "source": "Fertilizer, real estate",
     "rank": 353
   },
@@ -2929,7 +2929,7 @@
     "name": "Georg Stumpf",
     "netWorth": 9.7,
     "country": "Austria",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/624cbc33807cbaccbcea5453/416x416.jpg?background=000000&cropX1=568&cropX2=1380&cropY1=224&cropY2=1037",
+    "photoUrl": "/photos/1934610181.jpg",
     "source": "Real estate, construction",
     "rank": 354
   },
@@ -2938,7 +2938,7 @@
     "name": "Luis Carlos Sarmiento",
     "netWorth": 9.7,
     "country": "Colombia",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/5e758645c7b02d000666c32a/416x416.jpg?background=000000&cropX1=947&cropX2=2066&cropY1=21&cropY2=1139",
+    "photoUrl": "/photos/540407954.jpg",
     "source": "Banking",
     "rank": 355
   },
@@ -2947,7 +2947,7 @@
     "name": "Mong-Koo Chung",
     "netWorth": 9.7,
     "country": "South Korea",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/625f1307e00af37ba126f9f0/416x416.jpg?background=000000&cropX1=37&cropX2=578&cropY1=7&cropY2=548",
+    "photoUrl": "/photos/149928046.jpg",
     "source": "Hyundai",
     "rank": 356
   },
@@ -2956,7 +2956,7 @@
     "name": "Nassef Sawiris",
     "netWorth": 9.6,
     "country": "Egypt",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/6009d55aa6075e42a1124d7e/416x416.jpg?background=000000&cropX1=526&cropX2=1546&cropY1=29&cropY2=1049",
+    "photoUrl": "/photos/60752884.jpg",
     "source": "Construction, investments",
     "rank": 357
   },
@@ -2965,7 +2965,7 @@
     "name": "Viktor Rashnikov",
     "netWorth": 9.6,
     "country": "Russia",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/5e77906c10380d0006fbc0ec/416x416.jpg?background=000000&cropX1=534&cropX2=1689&cropY1=53&cropY2=1208",
+    "photoUrl": "/photos/1468583270.jpg",
     "source": "Steel",
     "rank": 358
   },
@@ -2974,7 +2974,7 @@
     "name": "Michael Rubin",
     "netWorth": 9.6,
     "country": "United States",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/67ec413e45b2db3ea5d64b54/416x416.jpg?background=000000&cropX1=122&cropX2=2740&cropY1=138&cropY2=2756",
+    "photoUrl": "/photos/1197674469.jpg",
     "source": "Online retail",
     "rank": 359
   },
@@ -2983,7 +2983,7 @@
     "name": "Xu Gaoming",
     "netWorth": 9.5,
     "country": "China",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/67e435f9bf49bbb3700c758f/416x416.jpg?background=000000&cropX1=627&cropX2=2091&cropY1=14&cropY2=1479",
+    "photoUrl": "/photos/1109197025.jpg",
     "source": "Gold and jewelry",
     "rank": 360
   },
@@ -2992,7 +2992,7 @@
     "name": "Paolo Ardoino",
     "netWorth": 9.5,
     "country": "Italy",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/661827e969e40f255f3c6d0a/416x416.jpg?background=000000&cropX1=941&cropX2=1761&cropY1=336&cropY2=1156",
+    "photoUrl": "/photos/161273.jpg",
     "source": "Cryptocurrency",
     "rank": 361
   },
@@ -3001,7 +3001,7 @@
     "name": "Michael Sabel",
     "netWorth": 9.5,
     "country": "United States",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/68c05be45406b448f99637c6/416x416.jpg?background=000000&cropX1=355&cropX2=1610&cropY1=43&cropY2=1297",
+    "photoUrl": "/photos/1198141516.jpg",
     "source": "oil & gas",
     "rank": 363
   },
@@ -3010,7 +3010,7 @@
     "name": "Robert Pender",
     "netWorth": 9.5,
     "country": "United States",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/68c05da18b02ba02bde9d34f/416x416.jpg?background=000000&cropX1=40&cropX2=2504&cropY1=132&cropY2=2603",
+    "photoUrl": "/photos/643474110.jpg",
     "source": "oil & gas",
     "rank": 364
   },
@@ -3019,7 +3019,7 @@
     "name": "Brian Chesky",
     "netWorth": 9.5,
     "country": "United States",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/5d8ac4ab22254b0008e16383/416x416.jpg?background=000000&cropX1=719&cropX2=3126&cropY1=857&cropY2=3266",
+    "photoUrl": "/photos/1062845829.jpg",
     "source": "Airbnb",
     "rank": 365
   },
@@ -3028,7 +3028,7 @@
     "name": "Lee Seo-hyun",
     "netWorth": 9.5,
     "country": "South Korea",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/643e99ad9a44d7e60d1e5605/416x416.jpg?background=000000&cropX1=101&cropX2=676&cropY1=195&cropY2=770",
+    "photoUrl": "/photos/898591392.jpg",
     "source": "Samsung",
     "rank": 367
   },
@@ -3037,7 +3037,7 @@
     "name": "Otto Toto Sugiri",
     "netWorth": 9.4,
     "country": "Indonesia",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/61ae60d615d0f02296b90539/416x416.jpg?background=000000&cropX1=0&cropX2=1438&cropY1=265&cropY2=1704",
+    "photoUrl": "/photos/1737377726.jpg",
     "source": "Data centers",
     "rank": 368
   },
@@ -3046,7 +3046,7 @@
     "name": "Law Kar Po",
     "netWorth": 9.4,
     "country": "Hong Kong",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/60352d6353fe983e44f83a36/416x416.jpg?background=000000&cropX1=93&cropX2=909&cropY1=78&cropY2=894",
+    "photoUrl": "/photos/1754473152.jpg",
     "source": "Real estate",
     "rank": 369
   },
@@ -3055,7 +3055,7 @@
     "name": "David Geffen",
     "netWorth": 9.3,
     "country": "United States",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/5a8d9c39a7ea43169014044f/416x416.jpg?background=000000&cropX1=0&cropX2=1996&cropY1=356&cropY2=2353",
+    "photoUrl": "/photos/1829876261.jpg",
     "source": "Movies, record labels",
     "rank": 370
   },
@@ -3064,7 +3064,7 @@
     "name": "Maria Asuncion Aramburuzabala & family",
     "netWorth": 9.3,
     "country": "Mexico",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/5e76f7b2d8e1ae0007b727e2/416x416.jpg?background=000000&cropX1=1710&cropX2=3155&cropY1=282&cropY2=1726",
+    "photoUrl": "/photos/258398739.jpg",
     "source": "Beer, investments",
     "rank": 371
   },
@@ -3073,7 +3073,7 @@
     "name": "Terrence Pegula",
     "netWorth": 9.3,
     "country": "United States",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/5d8a9e3022254b0008e16181/416x416.jpg?background=000000&cropX1=0&cropX2=3110&cropY1=24&cropY2=3132",
+    "photoUrl": "/photos/1264493640.jpg",
     "source": "Natural gas",
     "rank": 373
   },
@@ -3082,7 +3082,7 @@
     "name": "Zhang Xuexin & family",
     "netWorth": 9.3,
     "country": "China",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/6050f48ca1ab099ed6e290cc/416x416.jpg?background=000000&cropX1=0&cropX2=800&cropY1=0&cropY2=800",
+    "photoUrl": "/photos/648246443.jpg",
     "source": "Aluminum",
     "rank": 375
   },
@@ -3091,7 +3091,7 @@
     "name": "Todd Boehly",
     "netWorth": 9.3,
     "country": "United States",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/67aa4bc60699bdb1be5e9ced/416x416.jpg?background=000000&cropX1=0&cropX2=600&cropY1=0&cropY2=600",
+    "photoUrl": "/photos/1492920704.jpg",
     "source": "Finance",
     "rank": 376
   },
@@ -3100,7 +3100,7 @@
     "name": "Lin Li",
     "netWorth": 9.2,
     "country": "China",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/58c338ac4bbe6f0e55885d28/416x416.jpg?background=000000&cropX1=0&cropX2=744&cropY1=118&cropY2=862",
+    "photoUrl": "/photos/192238858.jpg",
     "source": "Investments",
     "rank": 378
   },
@@ -3109,7 +3109,7 @@
     "name": "Pedro Moreira Salles",
     "netWorth": 9.1,
     "country": "Brazil",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/5e7437fd2a573300068fccbf/416x416.jpg?background=000000&cropX1=1022&cropX2=2667&cropY1=0&cropY2=1644",
+    "photoUrl": "/photos/1474975724.jpg",
     "source": "Banking, minerals",
     "rank": 379
   },
@@ -3118,7 +3118,7 @@
     "name": "Cho Jung-ho",
     "netWorth": 9.1,
     "country": "South Korea",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/60b1254d310af4072bd1fb5d/416x416.jpg?background=000000&cropX1=135&cropX2=1128&cropY1=247&cropY2=1239",
+    "photoUrl": "/photos/614386084.jpg",
     "source": "Finance",
     "rank": 381
   },
@@ -3127,7 +3127,7 @@
     "name": "Alexandra Schoerghuber & family",
     "netWorth": 9.1,
     "country": "Germany",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/5e76149cc7b02d000666c682/416x416.jpg?background=000000&cropX1=0&cropX2=1878&cropY1=139&cropY2=2017",
+    "photoUrl": "/photos/1123779971.jpg",
     "source": "Real estate ",
     "rank": 382
   },
@@ -3136,7 +3136,7 @@
     "name": "William Ackman",
     "netWorth": 9.1,
     "country": "United States",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/5e88e40d9d77ca0007ba9dcd/416x416.jpg?background=000000&cropX1=1451&cropX2=3824&cropY1=404&cropY2=2775",
+    "photoUrl": "/photos/1678022540.jpg",
     "source": "Hedge funds",
     "rank": 383
   },
@@ -3145,7 +3145,7 @@
     "name": "Odd Reitan & family",
     "netWorth": 9.1,
     "country": "Norway",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/5c715d574bbe6f79c54746f9/416x416.jpg?background=000000&cropX1=2485&cropX2=4872&cropY1=21&cropY2=2407",
+    "photoUrl": "/photos/1507727244.jpg",
     "source": "Retail, real estate",
     "rank": 384
   },
@@ -3154,7 +3154,7 @@
     "name": "Nathan Kirsh",
     "netWorth": 9.1,
     "country": "Eswatini (Swaziland)",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/5e77c1dad8e1ae0007b73529/416x416.jpg?background=000000&cropX1=0&cropX2=2666&cropY1=320&cropY2=2989",
+    "photoUrl": "/photos/434695053.jpg",
     "source": "Retail, real estate",
     "rank": 385
   },
@@ -3163,7 +3163,7 @@
     "name": "Pavel Tykac",
     "netWorth": 9.1,
     "country": "Czech Republic",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/5a7dd4e9a7ea431690131787/416x416.jpg?background=000000&cropX1=1134&cropX2=2843&cropY1=0&cropY2=1710",
+    "photoUrl": "/photos/508572454.jpg",
     "source": "Coal mines",
     "rank": 386
   },
@@ -3172,7 +3172,7 @@
     "name": "Bruce Kovner",
     "netWorth": 9,
     "country": "United States",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/5d8a93eb6de3150009a501d1/416x416.jpg?background=000000&cropX1=9&cropX2=1062&cropY1=80&cropY2=1133",
+    "photoUrl": "/photos/498212376.jpg",
     "source": "Hedge funds",
     "rank": 387
   },
@@ -3181,7 +3181,7 @@
     "name": "Laurent Dassault",
     "netWorth": 9,
     "country": "France",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/5e75a0c1d8e1ae0007b716a3/416x416.jpg?background=000000&cropX1=1483&cropX2=4389&cropY1=26&cropY2=2930",
+    "photoUrl": "/photos/614046606.jpg",
     "source": "Diversified",
     "rank": 388
   },
@@ -3190,7 +3190,7 @@
     "name": "Nathan Blecharczyk",
     "netWorth": 9,
     "country": "United States",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/5d8ac4346de3150009a50571/416x416.jpg?background=000000&cropX1=1760&cropX2=3926&cropY1=172&cropY2=2339",
+    "photoUrl": "/photos/461019454.jpg",
     "source": "Airbnb",
     "rank": 390
   },
@@ -3199,7 +3199,7 @@
     "name": "Jeff Greene",
     "netWorth": 9,
     "country": "United States",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/5ff75b1157f0e95e19f6ea38/416x416.jpg?background=000000&cropX1=44&cropX2=924&cropY1=18&cropY2=898",
+    "photoUrl": "/photos/1213201795.jpg",
     "source": "Real estate, investments",
     "rank": 392
   },
@@ -3208,7 +3208,7 @@
     "name": "Thierry Dassault",
     "netWorth": 9,
     "country": "France",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/5e75a62ac7b02d000666c473/416x416.jpg?background=000000&cropX1=0&cropX2=3712&cropY1=382&cropY2=4097",
+    "photoUrl": "/photos/1415840858.jpg",
     "source": "Diversified",
     "rank": 393
   },
@@ -3217,7 +3217,7 @@
     "name": "Marie-Hélène Habert-Dassault",
     "netWorth": 9,
     "country": "France",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/5c6f874da7ea431000431feb/416x416.jpg?background=000000&cropX1=116&cropX2=628&cropY1=96&cropY2=609",
+    "photoUrl": "/photos/1821688706.jpg",
     "source": "Diversified",
     "rank": 393
   },
@@ -3226,7 +3226,7 @@
     "name": "Chen Dongsheng",
     "netWorth": 9,
     "country": "China",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/690242e98a694acd6c420d51/416x416.jpg?background=000000&cropX1=577&cropX2=3252&cropY1=155&cropY2=2829",
+    "photoUrl": "/photos/98174637.jpg",
     "source": "Insurance",
     "rank": 395
   },
@@ -3235,7 +3235,7 @@
     "name": "John Morris",
     "netWorth": 8.9,
     "country": "United States",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/5d8adeb06de3150009a506bf/416x416.jpg?background=000000&cropX1=0&cropX2=1334&cropY1=383&cropY2=1717",
+    "photoUrl": "/photos/1234252733.jpg",
     "source": "Sporting goods retail",
     "rank": 396
   },
@@ -3244,7 +3244,7 @@
     "name": "Roger Penske",
     "netWorth": 8.9,
     "country": "United States",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/632e0a2ba6e11770e344b126/416x416.jpg?background=000000&cropX1=932&cropX2=1552&cropY1=230&cropY2=850",
+    "photoUrl": "/photos/1467948823.jpg",
     "source": "Cars",
     "rank": 397
   },
@@ -3253,7 +3253,7 @@
     "name": "Roman Abramovich & family",
     "netWorth": 8.9,
     "country": "Russia",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/62291a5d0ec641a4c77a7528/416x416.jpg?background=000000&cropX1=615&cropX2=2814&cropY1=7&cropY2=2205",
+    "photoUrl": "/photos/1187746219.jpg",
     "source": "Steel, investments",
     "rank": 398
   },
@@ -3262,7 +3262,7 @@
     "name": "Les Wexner & family",
     "netWorth": 8.8,
     "country": "United States",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/5d8aba3122254b0008e162f8/416x416.jpg?background=000000&cropX1=475&cropX2=1465&cropY1=22&cropY2=1011",
+    "photoUrl": "/photos/633879087.jpg",
     "source": "Retail",
     "rank": 399
   },
@@ -3271,7 +3271,7 @@
     "name": "Hong Ra-hee",
     "netWorth": 8.8,
     "country": "South Korea",
-    "photoUrl": "https://specials-images.forbesimg.com/imageserve/60b1218c43df2efd65e1625c/416x416.jpg?background=000000&cropX1=26&cropX2=744&cropY1=55&cropY2=774",
+    "photoUrl": "/photos/243011568.jpg",
     "source": "Samsung",
     "rank": 400
   }
