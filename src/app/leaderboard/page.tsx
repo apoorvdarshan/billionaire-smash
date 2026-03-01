@@ -3,6 +3,7 @@
 import { useState, useEffect } from "react";
 import Image from "next/image";
 import { countryToFlag } from "@/lib/flags";
+import { LiveFeed } from "@/components/LiveFeed";
 
 interface Billionaire {
   id: number;
@@ -70,7 +71,8 @@ export default function LeaderboardPage() {
   }
 
   return (
-    <div className="max-w-4xl mx-auto px-4 py-10">
+    <div className="flex flex-col xl:flex-row xl:items-start max-w-[1400px] mx-auto">
+    <div className="flex-1 min-w-0 px-4 py-10 max-w-4xl xl:max-w-none xl:mx-0 mx-auto">
       <div className="text-center mb-10">
         <h1 className="text-4xl md:text-5xl font-black tracking-tight">
           <span className="text-gradient">Elo</span> Leaderboard
@@ -256,6 +258,17 @@ export default function LeaderboardPage() {
           </button>
         </div>
       )}
+    </div>
+
+    {/* Sidebar feed */}
+    <aside className="w-full xl:w-80 xl:flex-shrink-0 px-4 pb-8 xl:py-10 xl:pr-6 xl:pl-0">
+      <div className="xl:sticky xl:top-24">
+        <LiveFeed
+          limit={15}
+          className="p-4 rounded-2xl border border-[var(--border)] bg-[var(--bg-card)]"
+        />
+      </div>
+    </aside>
     </div>
   );
 }
