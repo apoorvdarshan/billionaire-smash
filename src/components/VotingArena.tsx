@@ -25,7 +25,7 @@ interface LastVote {
 }
 
 export function VotingArena() {
-  const { name: playerName, loaded: nameLoaded, saveName } = usePlayerName();
+  const { name: playerName, saveName } = usePlayerName();
   const [pair, setPair] = useState<[Billionaire, Billionaire] | null>(null);
   const [loading, setLoading] = useState(true);
   const [voting, setVoting] = useState(false);
@@ -35,6 +35,8 @@ export function VotingArena() {
   const [syncing, setSyncing] = useState(false);
   const [totalVotes, setTotalVotes] = useState(0);
   const [lastVote, setLastVote] = useState<LastVote | null>(null);
+  const [showNamePrompt, setShowNamePrompt] = useState(false);
+  const [pendingVote, setPendingVote] = useState<{ winnerId: number; loserId: number } | null>(null);
 
   const fetchPair = useCallback(async () => {
     setLoading(true);
@@ -61,8 +63,8 @@ export function VotingArena() {
     fetchPair();
   }, [fetchPair]);
 
-  const handleVote = async (winnerId: number, loserId: number) => {
-    if (voting || !pair) return;
+  const submitVote = useCallback(async (winnerId: number, loserId: number, voterName: string) => {
+    if (!pair) return;
     setVoting(true);
     setVoteResult({ winnerId, loserId });
 
@@ -75,7 +77,7 @@ export function VotingArena() {
       await fetch("/api/vote", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ winnerId, loserId, voterName: playerName }),
+        body: JSON.stringify({ winnerId, loserId, voterName }),
       });
       setTotalVotes((v) => v + 1);
       setLastVote({ winnerName, loserName });
@@ -87,6 +89,25 @@ export function VotingArena() {
       setVoting(false);
       fetchPair();
     }, 1000);
+  }, [pair, fetchPair]);
+
+  const handleVote = (winnerId: number, loserId: number) => {
+    if (voting || !pair) return;
+    if (!playerName) {
+      setPendingVote({ winnerId, loserId });
+      setShowNamePrompt(true);
+      return;
+    }
+    submitVote(winnerId, loserId, playerName);
+  };
+
+  const handleNameSubmit = (name: string) => {
+    saveName(name);
+    setShowNamePrompt(false);
+    if (pendingVote) {
+      submitVote(pendingVote.winnerId, pendingVote.loserId, name);
+      setPendingVote(null);
+    }
   };
 
   const handleSkip = () => {
@@ -112,20 +133,6 @@ export function VotingArena() {
       setSyncing(false);
     }
   };
-
-  // Don't render until we know if there's a stored name
-  if (!nameLoaded) {
-    return (
-      <div className="flex items-center justify-center min-h-[60vh]">
-        <div className="w-10 h-10 border-2 border-[var(--accent)] border-t-transparent rounded-full animate-spin" />
-      </div>
-    );
-  }
-
-  // Show name prompt if no name yet
-  if (!playerName) {
-    return <NamePrompt onSubmit={saveName} />;
-  }
 
   if (error) {
     return (
@@ -157,6 +164,7 @@ export function VotingArena() {
 
   return (
     <div className="flex flex-col items-center gap-6 py-8 px-4">
+      {showNamePrompt && <NamePrompt onSubmit={handleNameSubmit} />}
       <div className="text-center space-y-2">
         <h1 className="text-3xl md:text-4xl font-black">
           Who&apos;s more{" "}
