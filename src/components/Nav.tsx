@@ -13,8 +13,8 @@ export function Nav() {
           href="/"
           className="flex items-center gap-2 hover:opacity-80 transition-opacity duration-300"
         >
-          <span className="text-lg">&#x1F48E;</span>
-          <span className="text-xl md:text-2xl font-black tracking-[-0.04em]">
+          <span className="text-base md:text-lg">&#x1F48E;</span>
+          <span className="text-base md:text-2xl font-black tracking-[-0.04em]">
             <span className="text-gradient">BILLIONAIRE</span>
             <span className="text-[var(--text-primary)]"> SMASH</span>
           </span>
