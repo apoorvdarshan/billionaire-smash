@@ -17,3 +17,24 @@ export const BOOST_TIERS: BoostTier[] = [
 export function getTierById(id: string): BoostTier | undefined {
   return BOOST_TIERS.find((t) => t.id === id);
 }
+
+export function calculateCustomElo(amountUsd: number): { elo: number; bonusPercent: number } {
+  let multiplier: number;
+  let bonusPercent: number;
+
+  if (amountUsd >= 25) {
+    multiplier = 16;
+    bonusPercent = 60;
+  } else if (amountUsd >= 10) {
+    multiplier = 15;
+    bonusPercent = 50;
+  } else if (amountUsd >= 5) {
+    multiplier = 12;
+    bonusPercent = 20;
+  } else {
+    multiplier = 10;
+    bonusPercent = 0;
+  }
+
+  return { elo: Math.round(amountUsd * multiplier), bonusPercent };
+}

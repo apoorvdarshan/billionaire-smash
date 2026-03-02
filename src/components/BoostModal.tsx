@@ -3,7 +3,7 @@
 import { useState, useEffect } from "react";
 import Image from "next/image";
 import { PayPalButtons } from "@paypal/react-paypal-js";
-import { BOOST_TIERS } from "@/lib/boost-tiers";
+import { BOOST_TIERS, calculateCustomElo } from "@/lib/boost-tiers";
 import { usePlayerName } from "@/hooks/usePlayerName";
 import { NamePrompt } from "@/components/NamePrompt";
 
@@ -20,12 +20,20 @@ interface BoostModalProps {
 
 export function BoostModal({ billionaire, onClose, onSuccess }: BoostModalProps) {
   const { name, loaded, saveName } = usePlayerName();
-  const [selectedTier, setSelectedTier] = useState(BOOST_TIERS[0].id);
+  const [selectedTier, setSelectedTier] = useState<string>(BOOST_TIERS[0].id);
+  const [customAmount, setCustomAmount] = useState("");
   const [status, setStatus] = useState<"idle" | "processing" | "success" | "error">("idle");
   const [eloAdded, setEloAdded] = useState(0);
   const [errorMsg, setErrorMsg] = useState("");
 
-  const tier = BOOST_TIERS.find((t) => t.id === selectedTier)!;
+  const isCustom = selectedTier === "custom";
+  const parsedCustom = parseFloat(customAmount);
+  const customValid = isCustom && !isNaN(parsedCustom) && parsedCustom >= 1;
+  const customElo = customValid ? calculateCustomElo(parsedCustom) : null;
+
+  // Key for PayPal button re-render: changes on tier switch or custom amount change
+  const paypalKey = isCustom ? `custom-${customAmount}` : selectedTier;
+
   const paypalReady = typeof process !== "undefined" &&
     process.env.NEXT_PUBLIC_PAYPAL_CLIENT_ID &&
     process.env.NEXT_PUBLIC_PAYPAL_CLIENT_ID !== "YOUR_SANDBOX_CLIENT_ID";
@@ -129,6 +137,51 @@ export function BoostModal({ billionaire, onClose, onSuccess }: BoostModalProps)
               ))}
             </div>
 
+            {/* Custom amount */}
+            <button
+              onClick={() => { if (status === "idle") setSelectedTier("custom"); }}
+              disabled={status === "processing"}
+              className={`relative w-full flex items-center justify-center gap-2 p-3 rounded-xl border-2 transition-all duration-300 ${
+                isCustom
+                  ? "border-[var(--accent)] bg-[var(--accent)]/[0.08] shadow-[0_0_20px_rgba(212,168,83,0.12)]"
+                  : "border-[var(--border)] bg-[var(--bg-card)] hover:border-[var(--border)]/80 hover:bg-[var(--bg-card-hover)]"
+              } disabled:opacity-50 disabled:cursor-not-allowed`}
+            >
+              <span className="text-sm font-bold text-[var(--text-primary)]">Custom Amount</span>
+              {isCustom && (
+                <div className="absolute top-2 right-2 w-2 h-2 rounded-full bg-[var(--accent)]" />
+              )}
+            </button>
+
+            {isCustom && (
+              <div className="w-full flex flex-col gap-2">
+                <div className="relative">
+                  <span className="absolute left-3 top-1/2 -translate-y-1/2 text-[var(--text-secondary)] font-bold text-lg">$</span>
+                  <input
+                    type="number"
+                    min="1"
+                    step="1"
+                    placeholder="Enter amount"
+                    value={customAmount}
+                    onChange={(e) => setCustomAmount(e.target.value)}
+                    disabled={status === "processing"}
+                    className="w-full pl-8 pr-4 py-3 rounded-xl border-2 border-[var(--border)] bg-[var(--bg-card)] text-[var(--text-primary)] font-bold text-lg placeholder:text-[var(--text-tertiary)] focus:outline-none focus:border-[var(--accent)] transition-colors disabled:opacity-50"
+                  />
+                </div>
+                {customAmount && !customValid && (
+                  <p className="text-red-400 text-xs">Minimum amount is $1</p>
+                )}
+                {customElo && (
+                  <p className="text-sm font-semibold text-center">
+                    <span className="text-[var(--accent)]">+{customElo.elo} Elo</span>
+                    {customElo.bonusPercent > 0 && (
+                      <span className="text-green-400/80 ml-1.5 text-xs">({customElo.bonusPercent}% bonus)</span>
+                    )}
+                  </p>
+                )}
+              </div>
+            )}
+
             {/* Error message */}
             {status === "error" && (
               <p className="text-red-400 text-sm text-center">{errorMsg || "Something went wrong. Please try again."}</p>
@@ -136,9 +189,15 @@ export function BoostModal({ billionaire, onClose, onSuccess }: BoostModalProps)
 
             {/* PayPal button */}
             <div className="w-full">
-              {paypalReady ? (
+              {isCustom && !customValid ? (
+                <div className="text-center py-3">
+                  <p className="text-[var(--text-tertiary)] text-sm">
+                    Enter a valid amount ($1+) to continue
+                  </p>
+                </div>
+              ) : paypalReady ? (
                 <PayPalButtons
-                  key={selectedTier}
+                  key={paypalKey}
                   style={{
                     layout: "horizontal",
                     color: "gold",
@@ -150,28 +209,26 @@ export function BoostModal({ billionaire, onClose, onSuccess }: BoostModalProps)
                   createOrder={async () => {
                     setStatus("processing");
                     setErrorMsg("");
+                    const body = isCustom
+                      ? { billionaireId: billionaire.id, customAmount: parsedCustom }
+                      : { billionaireId: billionaire.id, tierId: selectedTier };
                     const res = await fetch("/api/boost/create-order", {
                       method: "POST",
                       headers: { "Content-Type": "application/json" },
-                      body: JSON.stringify({
-                        billionaireId: billionaire.id,
-                        tierId: selectedTier,
-                      }),
+                      body: JSON.stringify(body),
                     });
                     const data = await res.json();
                     if (!res.ok) throw new Error(data.error);
                     return data.orderId;
                   }}
                   onApprove={async (data) => {
+                    const body = isCustom
+                      ? { orderId: data.orderID, billionaireId: billionaire.id, customAmount: parsedCustom, boosterName: name }
+                      : { orderId: data.orderID, billionaireId: billionaire.id, tierId: selectedTier, boosterName: name };
                     const res = await fetch("/api/boost/capture-order", {
                       method: "POST",
                       headers: { "Content-Type": "application/json" },
-                      body: JSON.stringify({
-                        orderId: data.orderID,
-                        billionaireId: billionaire.id,
-                        tierId: selectedTier,
-                        boosterName: name,
-                      }),
+                      body: JSON.stringify(body),
                     });
                     const result = await res.json();
                     if (!res.ok) {

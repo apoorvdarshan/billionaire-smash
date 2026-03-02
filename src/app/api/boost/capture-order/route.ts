@@ -1,15 +1,32 @@
 import { NextRequest, NextResponse } from "next/server";
 import { prisma } from "@/lib/prisma";
-import { getTierById } from "@/lib/boost-tiers";
+import { getTierById, calculateCustomElo } from "@/lib/boost-tiers";
 import { captureOrder } from "@/lib/paypal";
 
 export async function POST(request: NextRequest) {
   try {
-    const { orderId, billionaireId, tierId, boosterName } = await request.json();
+    const { orderId, billionaireId, tierId, customAmount, boosterName } = await request.json();
 
-    const tier = getTierById(tierId);
-    if (!tier) {
-      return NextResponse.json({ error: "Invalid tier" }, { status: 400 });
+    let expectedPrice: number;
+    let eloToAdd: number;
+
+    if (customAmount != null) {
+      if (tierId != null) {
+        return NextResponse.json({ error: "Provide tierId or customAmount, not both" }, { status: 400 });
+      }
+      if (typeof customAmount !== "number" || customAmount < 1) {
+        return NextResponse.json({ error: "Custom amount must be at least $1" }, { status: 400 });
+      }
+      const { elo } = calculateCustomElo(customAmount);
+      expectedPrice = customAmount;
+      eloToAdd = elo;
+    } else {
+      const tier = getTierById(tierId);
+      if (!tier) {
+        return NextResponse.json({ error: "Invalid tier" }, { status: 400 });
+      }
+      expectedPrice = tier.price;
+      eloToAdd = tier.elo;
     }
 
     // Idempotency check
@@ -26,8 +43,8 @@ export async function POST(request: NextRequest) {
       return NextResponse.json({ error: "Payment not completed" }, { status: 400 });
     }
 
-    // Verify amount matches tier
-    if (capture.amountUsd < tier.price) {
+    // Verify amount matches expected
+    if (capture.amountUsd < expectedPrice) {
       return NextResponse.json({ error: "Payment amount mismatch" }, { status: 400 });
     }
 
@@ -36,8 +53,8 @@ export async function POST(request: NextRequest) {
       prisma.boost.create({
         data: {
           billionaireId,
-          amountUsd: tier.price,
-          eloAmount: tier.elo,
+          amountUsd: expectedPrice,
+          eloAmount: eloToAdd,
           paypalOrderId: orderId,
           paypalPayerId: capture.payerId,
           boosterName: boosterName || null,
@@ -45,11 +62,11 @@ export async function POST(request: NextRequest) {
       }),
       prisma.billionaire.update({
         where: { id: billionaireId },
-        data: { eloBoost: { increment: tier.elo } },
+        data: { eloBoost: { increment: eloToAdd } },
       }),
     ]);
 
-    return NextResponse.json({ success: true, eloAdded: tier.elo });
+    return NextResponse.json({ success: true, eloAdded: eloToAdd });
   } catch (error) {
     console.error("Error capturing boost order:", error);
     return NextResponse.json({ error: "Failed to capture order" }, { status: 500 });
