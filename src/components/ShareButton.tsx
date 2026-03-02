@@ -10,7 +10,7 @@ interface ShareButtonProps {
 export function ShareButton({ winnerName, loserName }: ShareButtonProps) {
   const [copied, setCopied] = useState(false);
 
-  const shareText = `💰 I picked ${winnerName} over ${loserName} on bsmash! 💎\n\n🛠️ Made by @apoorvdarshan\n\n🔥 Play now: https://bsmash.app`;
+  const shareText = `💰 I picked ${winnerName} over ${loserName} on bsmash! 💎\n\n🔥 Play now: https://bsmash.app\n\n🛠️ Made by @apoorvdarshan`;
   const siteUrl = "";
 
   const handleCopy = async () => {
