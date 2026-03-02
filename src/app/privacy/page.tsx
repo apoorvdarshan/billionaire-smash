@@ -99,10 +99,10 @@ export default function PrivacyPage() {
           <p>
             Questions about this policy? Reach out at{" "}
             <a
-              href="mailto:apoorvdarshan@gmail.com"
+              href="mailto:ad13dtu@gmail.com"
               className="text-[var(--accent)] hover:underline"
             >
-              apoorvdarshan@gmail.com
+              ad13dtu@gmail.com
             </a>
             .
           </p>
