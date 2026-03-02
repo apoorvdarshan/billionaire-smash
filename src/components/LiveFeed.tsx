@@ -84,31 +84,37 @@ export function LiveFeed() {
       <span className="font-semibold text-[var(--accent)]">
         {item.voterName}
       </span>
-      <span className="text-[var(--text-secondary)] mx-1">picked</span>
-      <span className="font-medium">{item.winnerName}</span>
-      <span className="text-[var(--text-secondary)] mx-1">over</span>
-      <span className="font-medium">{item.loserName}</span>
-      <span className="text-[var(--text-tertiary)] ml-1 text-[10px]">
+      <span className="text-[var(--text-tertiary)] mx-1.5">picked</span>
+      <span className="font-medium text-[var(--text-primary)]">
+        {item.winnerName}
+      </span>
+      <span className="text-[var(--text-tertiary)] mx-1.5">over</span>
+      <span className="font-medium text-[var(--text-primary)]">
+        {item.loserName}
+      </span>
+      <span className="text-[var(--text-tertiary)] ml-1.5 text-[10px]">
         {timeAgo(item.createdAt)}
       </span>
-      <span className="text-[var(--border)] mx-4">|</span>
+      <span className="text-[var(--accent)] mx-5 text-[6px] opacity-40">
+        &#x25C6;
+      </span>
     </span>
   ));
 
   return (
     <div
-      className="w-full h-9 overflow-hidden relative"
+      className="w-full h-8 overflow-hidden relative border-b border-[var(--border)]"
       role="marquee"
       aria-live="off"
       onMouseEnter={onMouseEnter}
       onMouseLeave={onMouseLeave}
     >
-      <div className="absolute left-0 top-0 h-full z-10 flex items-center pl-3 pr-6 bg-gradient-to-r from-[var(--bg-primary)] via-[var(--bg-primary)] to-transparent">
+      <div className="absolute left-0 top-0 h-full z-10 flex items-center pl-3 pr-8 bg-gradient-to-r from-[var(--bg-primary)] via-[var(--bg-primary)] to-transparent">
         <span className="relative flex h-1.5 w-1.5 mr-1.5">
-          <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75" />
-          <span className="relative inline-flex rounded-full h-1.5 w-1.5 bg-green-500" />
+          <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75" />
+          <span className="relative inline-flex rounded-full h-1.5 w-1.5 bg-emerald-500" />
         </span>
-        <span className="text-[10px] font-bold text-[var(--text-secondary)] uppercase tracking-widest">
+        <span className="text-[9px] font-bold text-[var(--text-tertiary)] uppercase tracking-[0.2em]">
           Live
         </span>
       </div>
@@ -121,7 +127,7 @@ export function LiveFeed() {
           {tickerItems}
         </div>
       </div>
-      <div className="absolute right-0 top-0 h-full w-12 bg-gradient-to-l from-[var(--bg-primary)] to-transparent z-10" />
+      <div className="absolute right-0 top-0 h-full w-16 bg-gradient-to-l from-[var(--bg-primary)] to-transparent z-10" />
     </div>
   );
 }

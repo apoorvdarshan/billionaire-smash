@@ -134,7 +134,7 @@ export function VotingArena() {
       <div className="flex items-center justify-center min-h-[60vh]">
         <div className="flex flex-col items-center gap-4">
           <div className="w-10 h-10 border-2 border-[var(--accent)] border-t-transparent rounded-full animate-spin" />
-          <p className="text-[var(--text-secondary)]">Loading billionaires...</p>
+          <p className="text-[var(--text-secondary)] text-sm">Loading billionaires...</p>
         </div>
       </div>
     );
@@ -143,7 +143,7 @@ export function VotingArena() {
   if (!pair) return null;
 
   return (
-    <div className="flex flex-col items-center h-[calc(100dvh-100px)] px-4 overflow-hidden">
+    <div className="flex flex-col items-center h-[calc(100dvh-96px)] px-4 overflow-hidden">
       {showNamePrompt && <NamePrompt onSubmit={handleNameSubmit} />}
 
       {/* Title */}
@@ -152,11 +152,12 @@ export function VotingArena() {
           Who&apos;s more{" "}
           <span className="text-gradient">smash</span>-worthy?
         </h1>
-        <p className="text-[var(--text-secondary)] text-[10px] md:text-sm">
+        <p className="text-[var(--text-tertiary)] text-[10px] md:text-sm tracking-wide">
           Click the billionaire you prefer
         </p>
         {totalVotes > 0 && (
-          <span className="inline-flex items-center px-2 py-0.5 rounded-full text-[10px] font-semibold bg-[var(--accent)]/10 text-[var(--accent)] border border-[var(--accent)]/20">
+          <span className="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full text-[10px] font-semibold bg-[var(--accent)]/10 text-[var(--accent)] border border-[var(--accent)]/20">
+            <span className="w-1 h-1 rounded-full bg-[var(--accent)] animate-pulse" />
             {totalVotes} vote{totalVotes !== 1 ? "s" : ""} this session
           </span>
         )}
@@ -213,12 +214,21 @@ export function VotingArena() {
       </div>
 
       {/* Skip + Share */}
-      <div className="shrink-0 flex items-center gap-4 py-2 md:py-3">
+      <div className="shrink-0 flex items-center gap-3 py-2 md:py-3">
         <button
           onClick={handleSkip}
           disabled={voting}
-          className="px-5 py-2 rounded-full text-sm font-medium border border-[var(--border)] bg-transparent hover:border-[var(--text-secondary)] hover:text-[var(--text-primary)] text-[var(--text-secondary)] transition-all duration-300 disabled:opacity-30"
+          className="group/skip inline-flex items-center gap-1.5 px-4 py-1.5 md:py-2 rounded-full text-xs md:text-sm font-medium border border-[var(--border)] bg-transparent hover:border-[var(--text-tertiary)] hover:text-[var(--text-primary)] text-[var(--text-secondary)] transition-all duration-300 disabled:opacity-30"
         >
+          <svg
+            className="w-3 h-3 md:w-3.5 md:h-3.5 transition-transform duration-300 group-hover/skip:rotate-180"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+            strokeWidth={2}
+          >
+            <path strokeLinecap="round" strokeLinejoin="round" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
+          </svg>
           Skip
         </button>
         {lastVote && (

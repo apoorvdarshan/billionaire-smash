@@ -54,7 +54,10 @@ export default function LeaderboardPage() {
   if (loading) {
     return (
       <div className="flex items-center justify-center min-h-[60vh]">
-        <div className="w-10 h-10 border-2 border-[var(--accent)] border-t-transparent rounded-full animate-spin" />
+        <div className="flex flex-col items-center gap-4">
+          <div className="w-10 h-10 border-2 border-[var(--accent)] border-t-transparent rounded-full animate-spin" />
+          <p className="text-[var(--text-secondary)] text-sm">Loading rankings...</p>
+        </div>
       </div>
     );
   }
@@ -70,18 +73,18 @@ export default function LeaderboardPage() {
   }
 
   return (
-    <div className="max-w-4xl mx-auto px-4 py-10">
-      <div className="text-center mb-10">
-        <h1 className="text-4xl md:text-5xl font-black tracking-tight">
+    <div className="max-w-4xl mx-auto px-4 py-8 md:py-10">
+      <div className="text-center mb-8 md:mb-10">
+        <h1 className="text-3xl md:text-5xl font-black tracking-tight">
           <span className="text-gradient">Elo</span> Leaderboard
         </h1>
-        <p className="text-[var(--text-secondary)] mt-3">
+        <p className="text-[var(--text-secondary)] mt-2 text-sm md:text-base">
           {total} billionaires ranked by community votes
         </p>
       </div>
 
       {/* Search */}
-      <div className="mb-8">
+      <div className="mb-6 md:mb-8">
         <div className="relative">
           <svg
             className="absolute left-4 top-1/2 -translate-y-1/2 w-4 h-4 text-[var(--text-tertiary)]"
@@ -97,7 +100,7 @@ export default function LeaderboardPage() {
             placeholder="Search by name, country, or source..."
             value={search}
             onChange={(e) => { setSearch(e.target.value); setPage(1); }}
-            className="w-full pl-11 pr-4 py-3 rounded-xl border border-[var(--border)] bg-[var(--bg-card)] text-[var(--text-primary)] placeholder-[var(--text-tertiary)] focus:outline-none focus:border-[var(--accent)] focus:shadow-[0_0_0_3px_rgba(212,168,83,0.15)] transition-all duration-300"
+            className="w-full pl-11 pr-4 py-2.5 md:py-3 rounded-xl border border-[var(--border)] bg-[var(--bg-card)] text-[var(--text-primary)] placeholder-[var(--text-tertiary)] text-sm focus:outline-none focus:border-[var(--accent)] focus:shadow-[0_0_0_3px_rgba(212,168,83,0.1)] transition-all duration-300"
           />
         </div>
         {search && (
@@ -108,14 +111,14 @@ export default function LeaderboardPage() {
       </div>
 
       {/* Column headers */}
-      <div className="flex items-center gap-4 px-4 pb-2 text-xs font-semibold text-[var(--text-tertiary)] uppercase tracking-wider">
-        <div className="w-10 text-center">#</div>
-        <div className="w-12" />
+      <div className="flex items-center gap-3 md:gap-4 px-3 md:px-4 pb-2 text-[10px] md:text-xs font-semibold text-[var(--text-tertiary)] uppercase tracking-wider">
+        <div className="w-8 md:w-10 text-center">#</div>
+        <div className="w-9 md:w-12" />
         <div className="flex-1">Name</div>
-        <div className="flex-shrink-0 text-right w-24">Elo / Record</div>
+        <div className="flex-shrink-0 text-right w-20 md:w-24">Elo / Record</div>
       </div>
 
-      <div className="space-y-2">
+      <div className="space-y-1.5">
         {paginated.map((b, i) => {
           const globalIndex = search ? i : (page - 1) * PAGE_SIZE + i;
           const totalGames = b.wins + b.losses;
@@ -126,31 +129,31 @@ export default function LeaderboardPage() {
           return (
             <div
               key={b.id}
-              className={`animate-fade-in flex items-center gap-4 p-4 rounded-xl border transition-all duration-300 ${
+              className={`animate-fade-in flex items-center gap-3 md:gap-4 p-3 md:p-4 rounded-xl border transition-all duration-300 ${
                 isTop3
-                  ? "border-[var(--border-accent)] bg-gradient-to-r from-[var(--accent)]/[0.06] to-transparent hover:from-[var(--accent)]/[0.1]"
-                  : "border-[var(--border)] bg-[var(--bg-card)] hover:bg-[var(--bg-card-hover)]"
+                  ? "border-[var(--accent)]/15 bg-gradient-to-r from-[var(--accent)]/[0.05] to-transparent hover:from-[var(--accent)]/[0.08]"
+                  : "border-[var(--border)] bg-[var(--bg-card)] hover:bg-[var(--bg-card-hover)] hover:border-[var(--border)]/80"
               }`}
-              style={{ animationDelay: `${i * 30}ms`, animationFillMode: "backwards" }}
+              style={{ animationDelay: `${i * 25}ms`, animationFillMode: "backwards" }}
             >
               {/* Rank */}
-              <div className="flex-shrink-0 w-10 text-center">
+              <div className="flex-shrink-0 w-8 md:w-10 text-center">
                 {globalIndex === 0 ? (
-                  <span className="text-2xl">&#x1f947;</span>
+                  <span className="text-xl md:text-2xl">&#x1f947;</span>
                 ) : globalIndex === 1 ? (
-                  <span className="text-2xl">&#x1f948;</span>
+                  <span className="text-xl md:text-2xl">&#x1f948;</span>
                 ) : globalIndex === 2 ? (
-                  <span className="text-2xl">&#x1f949;</span>
+                  <span className="text-xl md:text-2xl">&#x1f949;</span>
                 ) : (
-                  <span className="text-lg font-bold text-[var(--text-tertiary)]">
+                  <span className="text-base md:text-lg font-bold text-[var(--text-tertiary)]">
                     {globalIndex + 1}
                   </span>
                 )}
               </div>
 
               {/* Photo */}
-              <div className={`relative w-12 h-12 rounded-full overflow-hidden flex-shrink-0 border-2 ${
-                isTop3 ? "border-[var(--accent)]/60 shadow-[0_0_12px_rgba(212,168,83,0.2)]" : "border-[var(--border)]"
+              <div className={`relative w-9 h-9 md:w-12 md:h-12 rounded-full overflow-hidden flex-shrink-0 border-2 ${
+                isTop3 ? "border-[var(--accent)]/50 shadow-[0_0_16px_rgba(212,168,83,0.15)]" : "border-[var(--border)]"
               }`}>
                 <Image
                   src={b.photoUrl}
@@ -164,43 +167,45 @@ export default function LeaderboardPage() {
 
               {/* Info */}
               <div className="flex-1 min-w-0">
-                <div className="flex items-center gap-2">
-                  <h3 className="font-bold truncate tracking-tight">{b.name}</h3>
-                  <span className="flex-shrink-0 text-xs text-[var(--text-tertiary)]">
-                    {countryToFlag(b.country)} {b.country}
+                <div className="flex items-center gap-1.5 md:gap-2">
+                  <h3 className="font-bold truncate tracking-tight text-sm md:text-base">
+                    {b.name}
+                  </h3>
+                  <span className="flex-shrink-0 text-[10px] md:text-xs text-[var(--text-tertiary)]">
+                    {countryToFlag(b.country)} <span className="hidden sm:inline">{b.country}</span>
                   </span>
                 </div>
-                <div className="flex items-center gap-3 mt-1">
-                  <span className="text-xs font-medium text-[var(--accent)]">
+                <div className="flex items-center gap-2 md:gap-3 mt-0.5 md:mt-1">
+                  <span className="text-[10px] md:text-xs font-medium text-[var(--accent)]">
                     ${b.netWorth}B
                   </span>
-                  <span className="text-xs text-[var(--text-tertiary)]">
+                  <span className="text-[10px] md:text-xs text-[var(--text-tertiary)] truncate">
                     {b.source}
                   </span>
                 </div>
               </div>
 
               {/* Stats */}
-              <div className="flex-shrink-0 text-right space-y-1.5">
-                <div className="text-lg font-black text-[var(--accent)]">
+              <div className="flex-shrink-0 text-right space-y-1">
+                <div className={`text-base md:text-lg font-black ${isTop3 ? "shimmer-gold" : "text-[var(--accent)]"}`}>
                   {Math.round(b.elo)}
                 </div>
-                <div className="text-xs text-[var(--text-secondary)]">
+                <div className="text-[10px] md:text-xs text-[var(--text-secondary)]">
                   {totalGames > 0 ? (
-                    <div className="flex items-center gap-2 justify-end">
-                      <span>{b.wins}W-{b.losses}L</span>
+                    <div className="flex items-center gap-1.5 md:gap-2 justify-end">
+                      <span className="hidden sm:inline">{b.wins}W-{b.losses}L</span>
                       <div className="flex items-center gap-1">
-                        <div className="w-12 h-1.5 rounded-full bg-[var(--bg-card-hover)] overflow-hidden">
+                        <div className="w-8 md:w-12 h-1 md:h-1.5 rounded-full bg-white/[0.06] overflow-hidden">
                           <div
                             className="h-full rounded-full bg-[var(--accent)]"
                             style={{ width: `${winRate}%` }}
                           />
                         </div>
-                        <span className="text-[var(--text-tertiary)] w-8 text-right">{winRate}%</span>
+                        <span className="text-[var(--text-tertiary)] w-7 md:w-8 text-right">{winRate}%</span>
                       </div>
                     </div>
                   ) : (
-                    "No votes"
+                    <span className="text-[var(--text-tertiary)]">No votes</span>
                   )}
                 </div>
               </div>
@@ -210,11 +215,11 @@ export default function LeaderboardPage() {
       </div>
 
       {!search && totalPages > 1 && (
-        <div className="flex items-center justify-center gap-2 mt-10">
+        <div className="flex items-center justify-center gap-1.5 md:gap-2 mt-8 md:mt-10">
           <button
             onClick={() => setPage((p) => Math.max(1, p - 1))}
             disabled={page === 1}
-            className="px-4 py-2 rounded-lg border border-[var(--border)] bg-[var(--bg-card)] text-sm font-medium hover:bg-[var(--bg-card-hover)] transition-all duration-300 disabled:opacity-30 disabled:cursor-not-allowed"
+            className="px-3 md:px-4 py-2 rounded-lg border border-[var(--border)] bg-[var(--bg-card)] text-xs md:text-sm font-medium hover:bg-[var(--bg-card-hover)] transition-all duration-300 disabled:opacity-30 disabled:cursor-not-allowed"
           >
             Prev
           </button>
@@ -236,9 +241,9 @@ export default function LeaderboardPage() {
                 <button
                   key={p}
                   onClick={() => setPage(p)}
-                  className={`w-10 h-10 rounded-lg text-sm font-bold transition-all duration-300 ${
+                  className={`w-8 h-8 md:w-10 md:h-10 rounded-lg text-xs md:text-sm font-bold transition-all duration-300 ${
                     p === page
-                      ? "bg-[var(--accent)] text-[var(--bg-primary)] shadow-[0_0_16px_rgba(212,168,83,0.3)]"
+                      ? "bg-[var(--accent)] text-[var(--bg-primary)] shadow-[0_0_20px_rgba(212,168,83,0.25)]"
                       : "border border-[var(--border)] bg-[var(--bg-card)] hover:bg-[var(--bg-card-hover)]"
                   }`}
                 >
@@ -250,7 +255,7 @@ export default function LeaderboardPage() {
           <button
             onClick={() => setPage((p) => Math.min(totalPages, p + 1))}
             disabled={page === totalPages}
-            className="px-4 py-2 rounded-lg border border-[var(--border)] bg-[var(--bg-card)] text-sm font-medium hover:bg-[var(--bg-card-hover)] transition-all duration-300 disabled:opacity-30 disabled:cursor-not-allowed"
+            className="px-3 md:px-4 py-2 rounded-lg border border-[var(--border)] bg-[var(--bg-card)] text-xs md:text-sm font-medium hover:bg-[var(--bg-card-hover)] transition-all duration-300 disabled:opacity-30 disabled:cursor-not-allowed"
           >
             Next
           </button>
