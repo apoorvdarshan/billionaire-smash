@@ -40,6 +40,13 @@ async function main() {
   });
 
   console.log(`Done! Seeded ${result.count} billionaires.`);
+
+  await prisma.siteStats.upsert({
+    where: { id: 1 },
+    update: {},
+    create: { id: 1, visitorCount: 0 },
+  });
+  console.log("SiteStats row ensured.");
 }
 
 main()

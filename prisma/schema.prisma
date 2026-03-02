@@ -35,3 +35,9 @@ model Vote {
   loser     Billionaire  @relation("loser", fields: [loserId], references: [id])
   createdAt DateTime     @default(now())
 }
+
+model SiteStats {
+  id           Int      @id @default(1)
+  visitorCount Int      @default(0)
+  updatedAt    DateTime @updatedAt
+}

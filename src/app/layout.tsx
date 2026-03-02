@@ -3,6 +3,7 @@ import { Outfit, Plus_Jakarta_Sans } from "next/font/google";
 import "./globals.css";
 import { Nav } from "@/components/Nav";
 import { LiveFeed } from "@/components/LiveFeed";
+import { Footer } from "@/components/Footer";
 
 const outfit = Outfit({
   subsets: ["latin"],
@@ -49,6 +50,7 @@ export default function RootLayout({
           <Nav />
           <LiveFeed />
           <main className="flex-1">{children}</main>
+          <Footer />
         </div>
       </body>
     </html>
