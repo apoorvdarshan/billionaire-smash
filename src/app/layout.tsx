@@ -20,6 +20,28 @@ const jakarta = Plus_Jakarta_Sans({
 export const metadata: Metadata = {
   title: "bsmash — Billionaire Smash",
   description: "Who's more smash-worthy? Vote on billionaires, Elo-ranked by the crowd.",
+  metadataBase: new URL("https://bsmash.app"),
+  openGraph: {
+    title: "bsmash — Billionaire Smash",
+    description: "Who's more smash-worthy? Vote on billionaires, Elo-ranked by the crowd.",
+    url: "https://bsmash.app",
+    siteName: "bsmash",
+    images: [
+      {
+        url: "/og.png",
+        width: 1203,
+        height: 630,
+        type: "image/png",
+      },
+    ],
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "bsmash — Billionaire Smash",
+    description: "Who's more smash-worthy? Vote on billionaires, Elo-ranked by the crowd.",
+    images: ["/og.png"],
+  },
 };
 
 export default function RootLayout({
