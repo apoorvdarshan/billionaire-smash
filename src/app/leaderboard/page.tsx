@@ -202,19 +202,19 @@ function LeaderboardContent() {
               {/* Boost button */}
               <button
                 onClick={() => setBoostTarget(b)}
-                className="flex-shrink-0 flex items-center gap-1 px-2.5 py-1.5 md:px-3 md:py-2 rounded-lg bg-[var(--accent)]/10 border border-[var(--accent)]/25 hover:bg-[var(--accent)]/20 hover:border-[var(--accent)]/50 hover:shadow-[0_0_16px_rgba(212,168,83,0.15)] transition-all duration-300 group cursor-pointer"
+                className="flex-shrink-0 flex items-center justify-center gap-1 w-7 h-7 md:w-auto md:h-auto md:px-3 md:py-2 rounded-full md:rounded-lg bg-[var(--accent)]/10 border border-[var(--accent)]/25 hover:bg-[var(--accent)]/20 hover:border-[var(--accent)]/50 hover:shadow-[0_0_16px_rgba(212,168,83,0.15)] transition-all duration-300 group cursor-pointer"
                 title={`Boost ${b.name}'s Elo`}
               >
                 <svg
-                  width="13"
-                  height="13"
+                  width="12"
+                  height="12"
                   viewBox="0 0 24 24"
                   fill="currentColor"
                   className="text-[var(--accent)] md:w-[15px] md:h-[15px]"
                 >
                   <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z" />
                 </svg>
-                <span className="text-[10px] md:text-xs font-bold text-[var(--accent)] group-hover:text-[var(--accent-bright)]">Boost</span>
+                <span className="hidden md:inline text-xs font-bold text-[var(--accent)] group-hover:text-[var(--accent-bright)]">Boost</span>
               </button>
 
               {/* Stats */}
