@@ -228,11 +228,6 @@ function LeaderboardContent() {
                   <span className={`text-base md:text-lg font-black ${isTop3 ? "shimmer-gold" : "text-[var(--accent)]"}`}>
                     {Math.round(b.displayElo)}
                   </span>
-                  {b.eloBoost > 0 && (
-                    <span className="text-[9px] md:text-[10px] font-bold text-green-400/70 leading-none">
-                      +{Math.round(b.eloBoost)}
-                    </span>
-                  )}
                 </div>
                 <div className="text-[10px] md:text-xs text-[var(--text-secondary)]">
                   {totalGames > 0 ? (

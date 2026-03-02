@@ -2,13 +2,25 @@
 
 import { useState, useEffect, useRef, useCallback } from "react";
 
-interface FeedItem {
-  id: number;
+interface VoteFeedItem {
+  id: string;
+  type: "vote";
   voterName: string;
   winnerName: string;
   loserName: string;
   createdAt: string;
 }
+
+interface BoostFeedItem {
+  id: string;
+  type: "boost";
+  boosterName: string;
+  billionaireName: string;
+  eloAmount: number;
+  createdAt: string;
+}
+
+type FeedItem = VoteFeedItem | BoostFeedItem;
 
 function timeAgo(dateStr: string): string {
   const seconds = Math.floor(
@@ -81,17 +93,34 @@ export function LiveFeed() {
 
   const tickerItems = feed.slice(0, 8).map((item) => (
     <span key={item.id} className="inline-flex items-center shrink-0">
-      <span className="font-semibold text-[var(--accent)]">
-        {item.voterName}
-      </span>
-      <span className="text-[var(--text-tertiary)] mx-1.5">picked</span>
-      <span className="font-medium text-[var(--text-primary)]">
-        {item.winnerName}
-      </span>
-      <span className="text-[var(--text-tertiary)] mx-1.5">over</span>
-      <span className="font-medium text-[var(--text-primary)]">
-        {item.loserName}
-      </span>
+      {item.type === "boost" ? (
+        <>
+          <span className="font-semibold text-[var(--accent)]">
+            {item.boosterName}
+          </span>
+          <span className="text-[var(--text-tertiary)] mx-1.5">boosted</span>
+          <span className="font-medium text-[var(--text-primary)]">
+            {item.billionaireName}
+          </span>
+          <span className="font-bold text-green-400 mx-1.5">
+            +{Math.round(item.eloAmount)} Elo
+          </span>
+        </>
+      ) : (
+        <>
+          <span className="font-semibold text-[var(--accent)]">
+            {item.voterName}
+          </span>
+          <span className="text-[var(--text-tertiary)] mx-1.5">picked</span>
+          <span className="font-medium text-[var(--text-primary)]">
+            {item.winnerName}
+          </span>
+          <span className="text-[var(--text-tertiary)] mx-1.5">over</span>
+          <span className="font-medium text-[var(--text-primary)]">
+            {item.loserName}
+          </span>
+        </>
+      )}
       <span className="text-[var(--text-tertiary)] ml-1.5 text-[10px]">
         {timeAgo(item.createdAt)}
       </span>
