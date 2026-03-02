@@ -218,7 +218,7 @@ export function VotingArena() {
         <button
           onClick={handleSkip}
           disabled={voting}
-          className="cursor-default group/skip inline-flex items-center gap-1.5 px-4 py-1.5 md:py-2 rounded-full text-xs md:text-sm font-medium border border-[var(--border)] bg-transparent hover:border-[var(--text-tertiary)] hover:text-[var(--text-primary)] text-[var(--text-secondary)] transition-all duration-300 disabled:opacity-30"
+          className="cursor-pointer group/skip inline-flex items-center gap-1.5 px-4 py-1.5 md:py-2 rounded-full text-xs md:text-sm font-medium border border-[var(--border)] bg-transparent hover:border-[var(--text-tertiary)] hover:text-[var(--text-primary)] text-[var(--text-secondary)] transition-all duration-300 disabled:opacity-30"
         >
           <svg
             className="w-3 h-3 md:w-3.5 md:h-3.5 transition-transform duration-300 group-hover/skip:rotate-180"

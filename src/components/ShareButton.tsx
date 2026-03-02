@@ -32,7 +32,7 @@ export function ShareButton({ winnerName, loserName }: ShareButtonProps) {
     <div className="flex items-center gap-1 rounded-full border border-[var(--border)] bg-[var(--bg-card)] p-0.5 animate-fade-in">
       <button
         onClick={handleCopy}
-        className="cursor-default px-2.5 py-1 md:py-1.5 rounded-full text-[10px] md:text-xs font-medium text-[var(--text-secondary)] hover:text-[var(--text-primary)] hover:bg-white/[0.04] transition-all duration-300"
+        className="cursor-pointer px-2.5 py-1 md:py-1.5 rounded-full text-[10px] md:text-xs font-medium text-[var(--text-secondary)] hover:text-[var(--text-primary)] hover:bg-white/[0.04] transition-all duration-300"
       >
         {copied ? (
           <span className="inline-flex items-center gap-1">
@@ -47,7 +47,7 @@ export function ShareButton({ winnerName, loserName }: ShareButtonProps) {
       </button>
       <button
         onClick={handleShareX}
-        className="cursor-default px-2.5 py-1 md:py-1.5 rounded-full text-[10px] md:text-xs font-bold bg-[var(--accent)] text-[var(--bg-primary)] hover:bg-[var(--accent-bright)] hover:shadow-[0_0_16px_rgba(212,168,83,0.2)] transition-all duration-300"
+        className="cursor-pointer px-2.5 py-1 md:py-1.5 rounded-full text-[10px] md:text-xs font-bold bg-[var(--accent)] text-[var(--bg-primary)] hover:bg-[var(--accent-bright)] hover:shadow-[0_0_16px_rgba(212,168,83,0.2)] transition-all duration-300"
       >
         Share on X
       </button>
