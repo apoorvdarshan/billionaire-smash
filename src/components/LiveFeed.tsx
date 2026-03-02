@@ -95,14 +95,11 @@ export function LiveFeed() {
     <span key={item.id} className="inline-flex items-center shrink-0">
       {item.type === "boost" ? (
         <>
-          <span className="font-semibold text-[var(--accent)]">
-            {item.boosterName}
-          </span>
-          <span className="text-[var(--text-tertiary)] mx-1.5">boosted</span>
           <span className="font-medium text-[var(--text-primary)]">
             {item.billionaireName}
           </span>
-          <span className="font-bold text-green-400 mx-1.5">
+          <span className="text-[var(--text-tertiary)] mx-1.5">was boosted</span>
+          <span className="font-bold text-green-400">
             +{Math.round(item.eloAmount)} Elo
           </span>
         </>
