@@ -15,7 +15,8 @@ export function Nav() {
         >
           <span className="text-lg">&#x1F48E;</span>
           <span className="text-xl md:text-2xl font-black tracking-[-0.04em]">
-            <span className="text-[var(--text-primary)]">b</span><span className="text-gradient">smash</span>
+            <span className="text-gradient">BILLIONAIRE</span>
+            <span className="text-[var(--text-primary)]"> SMASH</span>
           </span>
         </Link>
 
