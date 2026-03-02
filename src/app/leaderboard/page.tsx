@@ -23,7 +23,7 @@ export default function LeaderboardPage() {
   const [total, setTotal] = useState(0);
   const [search, setSearch] = useState("");
   const [page, setPage] = useState(1);
-  const PAGE_SIZE = 100;
+  const PAGE_SIZE = 50;
 
   useEffect(() => {
     fetch("/api/leaderboard?limit=10000")
