@@ -2,6 +2,8 @@
 
 Who's more smash-worthy? Vote on billionaires in head-to-head matchups, ranked by Elo.
 
+**Live at [bsmash.app](https://bsmash.app)**
+
 ## Tech Stack
 
 - **Framework**: Next.js 15 + TypeScript
@@ -74,3 +76,5 @@ prisma/
 ## Deployment
 
 Deploy to Vercel and set the environment variables in the dashboard. The app uses Turso as the production database — no filesystem required.
+
+Custom domain: `bsmash.app`

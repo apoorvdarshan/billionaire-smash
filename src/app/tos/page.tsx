@@ -19,8 +19,8 @@ export default function TermsPage() {
         <section>
           <h2 className="text-lg font-bold text-[var(--text-primary)] mb-3">Acceptance of Terms</h2>
           <p>
-            By accessing or using Billionaire Smash (&quot;bsmash&quot;), you agree to be bound by these
-            Terms of Service. If you do not agree, please do not use the service.
+            By accessing or using Billionaire Smash at bsmash.app (&quot;bsmash&quot;), you agree to be bound
+            by these Terms of Service. If you do not agree, please do not use the service.
           </p>
         </section>
 
