@@ -1,8 +1,20 @@
 import { PrismaClient } from "@prisma/client";
+import { PrismaLibSql } from "@prisma/adapter-libsql";
 import { readFileSync } from "fs";
 import { join } from "path";
 
-const prisma = new PrismaClient();
+function buildClient(): PrismaClient {
+  if (process.env.TURSO_DATABASE_URL) {
+    const adapter = new PrismaLibSql({
+      url: process.env.TURSO_DATABASE_URL,
+      authToken: process.env.TURSO_AUTH_TOKEN,
+    });
+    return new PrismaClient({ adapter });
+  }
+  return new PrismaClient();
+}
+
+const prisma = buildClient();
 
 interface StaticBillionaire {
   forbesId: number;
