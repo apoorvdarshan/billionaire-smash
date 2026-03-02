@@ -2,7 +2,7 @@
 
 import { useState, useEffect, useCallback } from "react";
 
-const STORAGE_KEY = "billionaire-smash-player-name";
+const STORAGE_KEY = "bsmash-player-name";
 
 export function usePlayerName() {
   const [name, setName] = useState<string | null>(null);

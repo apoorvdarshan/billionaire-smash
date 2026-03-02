@@ -17,8 +17,8 @@ const jakarta = Plus_Jakarta_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Billionaire Smash",
-  description: "Vote on your favorite billionaires — Facemash for Forbes",
+  title: "bsmash — Billionaire Smash",
+  description: "Who's more smash-worthy? Vote on billionaires, Elo-ranked by the crowd.",
 };
 
 export default function RootLayout({

@@ -10,7 +10,7 @@ interface ShareButtonProps {
 export function ShareButton({ winnerName, loserName }: ShareButtonProps) {
   const [copied, setCopied] = useState(false);
 
-  const shareText = `I picked ${winnerName} over ${loserName} on Billionaire Smash!`;
+  const shareText = `I picked ${winnerName} over ${loserName} on bsmash!`;
   const siteUrl = typeof window !== "undefined" ? window.location.origin : "";
 
   const handleCopy = async () => {
