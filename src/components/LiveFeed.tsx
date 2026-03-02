@@ -41,13 +41,24 @@ export function LiveFeed() {
   const scrollRef = useRef<HTMLDivElement>(null);
   const posRef = useRef(0);
   const pausedRef = useRef(false);
+  const pendingFeedRef = useRef<FeedItem[] | null>(null);
+  const hasInitialFeed = useRef(false);
 
   useEffect(() => {
     const fetchFeed = () => {
       fetch("/api/feed?limit=8")
         .then((res) => res.json())
         .then((data) => {
-          if (data.feed) setFeed(data.feed);
+          if (data.feed) {
+            if (!hasInitialFeed.current) {
+              // First load: apply immediately
+              hasInitialFeed.current = true;
+              setFeed(data.feed);
+            } else {
+              // Buffer updates — applied at next scroll wrap point
+              pendingFeedRef.current = data.feed;
+            }
+          }
         })
         .catch(() => {});
     };
@@ -73,6 +84,11 @@ export function LiveFeed() {
         posRef.current -= 0.5;
         if (halfWidth > 0 && Math.abs(posRef.current) >= halfWidth) {
           posRef.current += halfWidth;
+          // Swap in buffered feed at the seamless wrap point
+          if (pendingFeedRef.current) {
+            setFeed(pendingFeedRef.current);
+            pendingFeedRef.current = null;
+          }
         }
         el.style.transform = `translateX(${posRef.current}px)`;
       }
