@@ -17,6 +17,7 @@ model Billionaire {
   source        String   // source of wealth
   rank          Int
   elo           Float    @default(1400)
+  eloBoost      Float    @default(0)
   wins          Int      @default(0)
   losses        Int      @default(0)
   createdAt     DateTime @default(now())
@@ -24,6 +25,21 @@ model Billionaire {
 
   votesAsWinner Vote[]   @relation("winner")
   votesAsLoser  Vote[]   @relation("loser")
+  boosts        Boost[]
+}
+
+model Boost {
+  id             Int         @id @default(autoincrement())
+  billionaireId  Int
+  amountUsd      Float
+  eloAmount      Float
+  paypalOrderId  String      @unique
+  paypalPayerId  String?
+  boosterName    String?
+  status         String      @default("completed")
+  createdAt      DateTime    @default(now())
+
+  billionaire    Billionaire @relation(fields: [billionaireId], references: [id])
 }
 
 model Vote {

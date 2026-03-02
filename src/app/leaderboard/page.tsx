@@ -1,8 +1,10 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, useCallback } from "react";
 import Image from "next/image";
 import { countryToFlag } from "@/lib/flags";
+import { PayPalProvider } from "@/components/PayPalProvider";
+import { BoostModal } from "@/components/BoostModal";
 
 interface Billionaire {
   id: number;
@@ -12,20 +14,23 @@ interface Billionaire {
   photoUrl: string;
   source: string;
   elo: number;
+  eloBoost: number;
+  displayElo: number;
   wins: number;
   losses: number;
   rank: number;
 }
 
-export default function LeaderboardPage() {
+function LeaderboardContent() {
   const [billionaires, setBillionaires] = useState<Billionaire[]>([]);
   const [loading, setLoading] = useState(true);
   const [total, setTotal] = useState(0);
   const [search, setSearch] = useState("");
   const [page, setPage] = useState(1);
+  const [boostTarget, setBoostTarget] = useState<Billionaire | null>(null);
   const PAGE_SIZE = 50;
 
-  useEffect(() => {
+  const fetchData = useCallback(() => {
     fetch("/api/leaderboard?limit=10000")
       .then((res) => res.json())
       .then((data) => {
@@ -35,6 +40,14 @@ export default function LeaderboardPage() {
       })
       .catch(() => setLoading(false));
   }, []);
+
+  useEffect(() => {
+    fetchData();
+  }, [fetchData]);
+
+  const handleBoostSuccess = () => {
+    fetchData();
+  };
 
   const filtered = billionaires.filter((b) => {
     if (!search) return true;
@@ -115,6 +128,7 @@ export default function LeaderboardPage() {
         <div className="w-8 md:w-10 text-center">#</div>
         <div className="w-9 md:w-12" />
         <div className="flex-1">Name</div>
+        <div className="w-8 md:w-10" />
         <div className="flex-shrink-0 text-right w-20 md:w-24">Elo / Record</div>
       </div>
 
@@ -185,10 +199,40 @@ export default function LeaderboardPage() {
                 </div>
               </div>
 
+              {/* Boost button */}
+              <button
+                onClick={() => setBoostTarget(b)}
+                className="flex-shrink-0 w-8 h-8 md:w-10 md:h-10 rounded-lg border border-[var(--border)] bg-[var(--bg-card)] hover:border-[var(--accent)]/50 hover:bg-[var(--accent)]/[0.08] hover:shadow-[0_0_12px_rgba(212,168,83,0.1)] flex items-center justify-center transition-all duration-300 group cursor-pointer"
+                title={`Boost ${b.name}'s Elo`}
+              >
+                <svg
+                  width="16"
+                  height="16"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  className="text-[var(--text-tertiary)] group-hover:text-[var(--accent)] transition-colors md:w-[18px] md:h-[18px]"
+                >
+                  <path
+                    d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  />
+                </svg>
+              </button>
+
               {/* Stats */}
               <div className="flex-shrink-0 text-right space-y-1">
-                <div className={`text-base md:text-lg font-black ${isTop3 ? "shimmer-gold" : "text-[var(--accent)]"}`}>
-                  {Math.round(b.elo)}
+                <div className="flex items-center justify-end gap-1.5">
+                  <span className={`text-base md:text-lg font-black ${isTop3 ? "shimmer-gold" : "text-[var(--accent)]"}`}>
+                    {Math.round(b.displayElo)}
+                  </span>
+                  {b.eloBoost > 0 && (
+                    <span className="text-[9px] md:text-[10px] font-bold text-green-400/70 leading-none">
+                      +{Math.round(b.eloBoost)}
+                    </span>
+                  )}
                 </div>
                 <div className="text-[10px] md:text-xs text-[var(--text-secondary)]">
                   {totalGames > 0 ? (
@@ -261,6 +305,23 @@ export default function LeaderboardPage() {
           </button>
         </div>
       )}
+
+      {/* Boost Modal */}
+      {boostTarget && (
+        <BoostModal
+          billionaire={boostTarget}
+          onClose={() => setBoostTarget(null)}
+          onSuccess={handleBoostSuccess}
+        />
+      )}
     </div>
+  );
+}
+
+export default function LeaderboardPage() {
+  return (
+    <PayPalProvider>
+      <LeaderboardContent />
+    </PayPalProvider>
   );
 }
