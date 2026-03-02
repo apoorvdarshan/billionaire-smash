@@ -2,6 +2,9 @@ import { NextResponse } from "next/server";
 import { prisma } from "@/lib/prisma";
 import { getBillionaires } from "@/lib/forbes";
 
+// DEMO: serve Sam Altman vs Dario Amodei on the very first request
+let servedFirstPair = false;
+
 async function ensureBillionaires() {
   const count = await prisma.billionaire.count();
   if (count >= 2) return;
@@ -24,6 +27,18 @@ async function ensureBillionaires() {
 export async function GET() {
   try {
     await ensureBillionaires();
+
+    // DEMO: first request gets Sam Altman vs Dario Amodei
+    if (!servedFirstPair) {
+      servedFirstPair = true;
+      const [sam, dario] = await Promise.all([
+        prisma.billionaire.findUnique({ where: { id: 957 } }),
+        prisma.billionaire.findUnique({ where: { id: 476 } }),
+      ]);
+      if (sam && dario) {
+        return NextResponse.json({ pair: [sam, dario] });
+      }
+    }
 
     const count = await prisma.billionaire.count();
 
