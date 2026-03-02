@@ -124,15 +124,15 @@ function LeaderboardContent() {
       </div>
 
       {/* Column headers */}
-      <div className="flex items-center gap-3 md:gap-4 px-3 md:px-4 pb-2 text-[10px] md:text-xs font-semibold text-[var(--text-tertiary)] uppercase tracking-wider">
-        <div className="w-8 md:w-10 text-center">#</div>
+      <div className="flex items-center gap-2.5 md:gap-4 px-3 md:px-4 pb-2 text-[10px] md:text-xs font-semibold text-[var(--text-tertiary)] uppercase tracking-wider">
+        <div className="w-6 md:w-10 text-center">#</div>
         <div className="w-9 md:w-12" />
         <div className="flex-1">Name</div>
         <div className="w-8 md:w-10" />
         <div className="flex-shrink-0 text-right w-20 md:w-24">Elo / Record</div>
       </div>
 
-      <div className="space-y-1.5">
+      <div className="space-y-2 md:space-y-1.5">
         {paginated.map((b, i) => {
           const globalIndex = search ? i : (page - 1) * PAGE_SIZE + i;
           const totalGames = b.wins + b.losses;
@@ -143,7 +143,7 @@ function LeaderboardContent() {
           return (
             <div
               key={b.id}
-              className={`animate-fade-in flex items-center gap-3 md:gap-4 p-3 md:p-4 rounded-xl border transition-all duration-300 ${
+              className={`animate-fade-in flex items-center gap-2.5 md:gap-4 px-3 py-3.5 md:p-4 rounded-xl border transition-all duration-300 ${
                 isTop3
                   ? "border-[var(--accent)]/15 bg-gradient-to-r from-[var(--accent)]/[0.05] to-transparent hover:from-[var(--accent)]/[0.08]"
                   : "border-[var(--border)] bg-[var(--bg-card)] hover:bg-[var(--bg-card-hover)] hover:border-[var(--border)]/80"
@@ -151,7 +151,7 @@ function LeaderboardContent() {
               style={{ animationDelay: `${i * 25}ms`, animationFillMode: "backwards" }}
             >
               {/* Rank */}
-              <div className="flex-shrink-0 w-8 md:w-10 text-center">
+              <div className="flex-shrink-0 w-6 md:w-10 text-center">
                 {globalIndex === 0 ? (
                   <span className="text-xl md:text-2xl">&#x1f947;</span>
                 ) : globalIndex === 1 ? (
