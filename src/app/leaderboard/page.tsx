@@ -28,7 +28,7 @@ function LeaderboardContent() {
   const [search, setSearch] = useState("");
   const [page, setPage] = useState(1);
   const [boostTarget, setBoostTarget] = useState<Billionaire | null>(null);
-  const PAGE_SIZE = 50;
+  const PAGE_SIZE = 30;
 
   const fetchData = useCallback(() => {
     fetch("/api/leaderboard?limit=10000")
