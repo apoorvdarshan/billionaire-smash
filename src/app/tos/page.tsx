@@ -13,7 +13,7 @@ export default function TermsPage() {
 
       <div className="space-y-8 text-sm text-[var(--text-secondary)] leading-relaxed">
         <p>
-          Last updated: March 2, 2026
+          Last updated: March 3, 2026
         </p>
 
         <section>
@@ -48,6 +48,17 @@ export default function TermsPage() {
             If you choose to set a display name, it will be visible to other users in the live feed.
             Display names must not contain offensive, hateful, or inappropriate content. We reserve
             the right to remove or modify display names that violate this policy.
+          </p>
+        </section>
+
+        <section>
+          <h2 className="text-lg font-bold text-[var(--text-primary)] mb-3">Elo Boosts &amp; Payments</h2>
+          <p>
+            Users may purchase Elo boosts for billionaires via PayPal. All purchases are final and
+            non-refundable. Boost amounts are converted to Elo points at a fixed rate and applied
+            immediately. We are not responsible for PayPal account issues or payment failures.
+            Boost purchases are for entertainment purposes only and do not confer any real-world
+            value or ownership.
           </p>
         </section>
 

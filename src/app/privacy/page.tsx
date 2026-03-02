@@ -13,7 +13,7 @@ export default function PrivacyPage() {
 
       <div className="space-y-8 text-sm text-[var(--text-secondary)] leading-relaxed">
         <p>
-          Last updated: March 2, 2026
+          Last updated: March 3, 2026
         </p>
 
         <section>
@@ -38,7 +38,7 @@ export default function PrivacyPage() {
         <section>
           <h2 className="text-lg font-bold text-[var(--text-primary)] mb-3">Data Storage</h2>
           <p>
-            All data is stored in a SQLite database on our server. We do not sell, share, or transfer
+            All data is stored in a hosted database (Turso). We do not sell, share, or transfer
             your data to third parties.
           </p>
         </section>
@@ -52,11 +52,21 @@ export default function PrivacyPage() {
         </section>
 
         <section>
+          <h2 className="text-lg font-bold text-[var(--text-primary)] mb-3">Payment Information</h2>
+          <p>
+            Elo boost purchases are processed through PayPal. We do not store your payment details,
+            credit card numbers, or PayPal credentials. We only store the PayPal order ID, payer ID,
+            purchase amount, and optional display name associated with the boost. PayPal&apos;s own privacy
+            policy governs how they handle your payment data.
+          </p>
+        </section>
+
+        <section>
           <h2 className="text-lg font-bold text-[var(--text-primary)] mb-3">Third-Party Services</h2>
           <p>
             Billionaire photos are loaded from Forbes media servers. We use the Forbes 400 API as a data
-            source for billionaire information. These third parties may collect standard web request data
-            (IP address, user agent) when serving images.
+            source for billionaire information. Payments are processed by PayPal. These third parties may
+            collect standard web request data (IP address, user agent) when serving content.
           </p>
         </section>
 
