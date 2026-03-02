@@ -4,6 +4,8 @@ import { useState, useEffect } from "react";
 import Image from "next/image";
 import { PayPalButtons } from "@paypal/react-paypal-js";
 import { BOOST_TIERS } from "@/lib/boost-tiers";
+import { usePlayerName } from "@/hooks/usePlayerName";
+import { NamePrompt } from "@/components/NamePrompt";
 
 interface BoostModalProps {
   billionaire: {
@@ -17,6 +19,7 @@ interface BoostModalProps {
 }
 
 export function BoostModal({ billionaire, onClose, onSuccess }: BoostModalProps) {
+  const { name, loaded, saveName } = usePlayerName();
   const [selectedTier, setSelectedTier] = useState(BOOST_TIERS[0].id);
   const [status, setStatus] = useState<"idle" | "processing" | "success" | "error">("idle");
   const [eloAdded, setEloAdded] = useState(0);
@@ -34,6 +37,10 @@ export function BoostModal({ billionaire, onClose, onSuccess }: BoostModalProps)
     document.addEventListener("keydown", handleEsc);
     return () => document.removeEventListener("keydown", handleEsc);
   }, [onClose]);
+
+  if (loaded && !name) {
+    return <NamePrompt onSubmit={saveName} />;
+  }
 
   return (
     <div
@@ -163,6 +170,7 @@ export function BoostModal({ billionaire, onClose, onSuccess }: BoostModalProps)
                         orderId: data.orderID,
                         billionaireId: billionaire.id,
                         tierId: selectedTier,
+                        boosterName: name,
                       }),
                     });
                     const result = await res.json();
