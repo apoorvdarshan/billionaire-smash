@@ -10,12 +10,12 @@ interface ShareButtonProps {
 export function ShareButton({ winnerName, loserName }: ShareButtonProps) {
   const [copied, setCopied] = useState(false);
 
-  const shareText = `I picked ${winnerName} over ${loserName} on bsmash!\n\nMade by @apoorvdarshan`;
-  const siteUrl = "https://bsmash.app";
+  const shareText = `🥊 I picked ${winnerName} over ${loserName} on bsmash!\n\n🔨 Made by @apoorvdarshan\n\n👉 Try it: https://bsmash.app`;
+  const siteUrl = "";
 
   const handleCopy = async () => {
     try {
-      await navigator.clipboard.writeText(`${shareText}\n${siteUrl}`);
+      await navigator.clipboard.writeText(shareText);
       setCopied(true);
       setTimeout(() => setCopied(false), 2000);
     } catch {
@@ -24,7 +24,7 @@ export function ShareButton({ winnerName, loserName }: ShareButtonProps) {
   };
 
   const handleShareX = () => {
-    const url = `https://twitter.com/intent/tweet?text=${encodeURIComponent(shareText)}&url=${encodeURIComponent(siteUrl)}`;
+    const url = `https://twitter.com/intent/tweet?text=${encodeURIComponent(shareText)}`;
     window.open(url, "_blank", "noopener,noreferrer");
   };
 
