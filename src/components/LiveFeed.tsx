@@ -43,30 +43,30 @@ export function LiveFeed() {
   const pausedRef = useRef(false);
   const pendingFeedRef = useRef<FeedItem[] | null>(null);
   const hasInitialFeed = useRef(false);
+  const fetchedThisCycleRef = useRef(false);
+  const lastFetchTimeRef = useRef(0);
 
-  useEffect(() => {
-    const fetchFeed = () => {
-      fetch("/api/feed?limit=8")
-        .then((res) => res.json())
-        .then((data) => {
-          if (data.feed) {
-            if (!hasInitialFeed.current) {
-              // First load: apply immediately
-              hasInitialFeed.current = true;
-              setFeed(data.feed);
-            } else {
-              // Buffer updates — applied at next scroll wrap point
-              pendingFeedRef.current = data.feed;
-            }
+  const fetchFeed = useCallback(() => {
+    lastFetchTimeRef.current = Date.now();
+    fetch("/api/feed?limit=8")
+      .then((res) => res.json())
+      .then((data) => {
+        if (data.feed) {
+          if (!hasInitialFeed.current) {
+            hasInitialFeed.current = true;
+            setFeed(data.feed);
+          } else {
+            pendingFeedRef.current = data.feed;
           }
-        })
-        .catch(() => {});
-    };
-
-    fetchFeed();
-    const interval = setInterval(fetchFeed, 5000);
-    return () => clearInterval(interval);
+        }
+      })
+      .catch(() => {});
   }, []);
+
+  // Initial fetch on mount
+  useEffect(() => {
+    fetchFeed();
+  }, [fetchFeed]);
 
   // Update relative times every 10s
   useEffect(() => {
@@ -74,29 +74,58 @@ export function LiveFeed() {
     return () => clearInterval(interval);
   }, []);
 
-  // rAF-driven scroll
+  // rAF-driven scroll with scroll-driven fetching
   useEffect(() => {
     let rafId: number;
     const step = () => {
       const el = scrollRef.current;
-      if (el && !pausedRef.current) {
-        const halfWidth = el.scrollWidth / 2;
-        posRef.current -= 0.5;
-        if (halfWidth > 0 && Math.abs(posRef.current) >= halfWidth) {
-          posRef.current += halfWidth;
-          // Swap in buffered feed at the seamless wrap point
-          if (pendingFeedRef.current) {
-            setFeed(pendingFeedRef.current);
-            pendingFeedRef.current = null;
+      if (el) {
+        if (!pausedRef.current) {
+          const halfWidth = el.scrollWidth / 2;
+          posRef.current -= 0.5;
+
+          if (halfWidth > 0) {
+            const progress = Math.abs(posRef.current) / halfWidth;
+
+            // Trigger fetch at ~80% of scroll cycle
+            if (progress >= 0.8 && !fetchedThisCycleRef.current) {
+              fetchedThisCycleRef.current = true;
+              fetchFeed();
+            }
+
+            // Wrap point: swap in buffered data and reset cycle flag
+            if (Math.abs(posRef.current) >= halfWidth) {
+              posRef.current += halfWidth;
+              fetchedThisCycleRef.current = false;
+              if (pendingFeedRef.current) {
+                setFeed(pendingFeedRef.current);
+                pendingFeedRef.current = null;
+              }
+            }
+          }
+
+          el.style.transform = `translateX(${posRef.current}px)`;
+        } else {
+          // Paused (hover): fallback fetch every 15s so data doesn't go stale
+          if (Date.now() - lastFetchTimeRef.current > 15000) {
+            lastFetchTimeRef.current = Date.now();
+            fetch("/api/feed?limit=8")
+              .then((res) => res.json())
+              .then((data) => {
+                if (data.feed) {
+                  setFeed(data.feed);
+                  pendingFeedRef.current = null;
+                }
+              })
+              .catch(() => {});
           }
         }
-        el.style.transform = `translateX(${posRef.current}px)`;
       }
       rafId = requestAnimationFrame(step);
     };
     rafId = requestAnimationFrame(step);
     return () => cancelAnimationFrame(rafId);
-  }, []);
+  }, [fetchFeed]);
 
   const onMouseEnter = useCallback(() => {
     pausedRef.current = true;
