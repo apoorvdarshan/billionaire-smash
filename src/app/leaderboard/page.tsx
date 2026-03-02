@@ -202,24 +202,19 @@ function LeaderboardContent() {
               {/* Boost button */}
               <button
                 onClick={() => setBoostTarget(b)}
-                className="flex-shrink-0 w-8 h-8 md:w-10 md:h-10 rounded-lg border border-[var(--border)] bg-[var(--bg-card)] hover:border-[var(--accent)]/50 hover:bg-[var(--accent)]/[0.08] hover:shadow-[0_0_12px_rgba(212,168,83,0.1)] flex items-center justify-center transition-all duration-300 group cursor-pointer"
+                className="flex-shrink-0 flex items-center gap-1 px-2.5 py-1.5 md:px-3 md:py-2 rounded-lg bg-[var(--accent)]/10 border border-[var(--accent)]/25 hover:bg-[var(--accent)]/20 hover:border-[var(--accent)]/50 hover:shadow-[0_0_16px_rgba(212,168,83,0.15)] transition-all duration-300 group cursor-pointer"
                 title={`Boost ${b.name}'s Elo`}
               >
                 <svg
-                  width="16"
-                  height="16"
+                  width="13"
+                  height="13"
                   viewBox="0 0 24 24"
-                  fill="none"
-                  className="text-[var(--text-tertiary)] group-hover:text-[var(--accent)] transition-colors md:w-[18px] md:h-[18px]"
+                  fill="currentColor"
+                  className="text-[var(--accent)] md:w-[15px] md:h-[15px]"
                 >
-                  <path
-                    d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"
-                    stroke="currentColor"
-                    strokeWidth="2"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  />
+                  <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z" />
                 </svg>
+                <span className="text-[10px] md:text-xs font-bold text-[var(--accent)] group-hover:text-[var(--accent-bright)]">Boost</span>
               </button>
 
               {/* Stats */}
