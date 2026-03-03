@@ -49,7 +49,9 @@ function LeaderboardContent() {
     fetchData();
   };
 
-  const filtered = billionaires.filter((b) => {
+  const indexed = billionaires.map((b, i) => ({ ...b, globalRank: i }));
+
+  const filtered = indexed.filter((b) => {
     if (!search) return true;
     const q = search.toLowerCase();
     return (
@@ -134,7 +136,7 @@ function LeaderboardContent() {
 
       <div className="space-y-2 md:space-y-1.5">
         {paginated.map((b, i) => {
-          const globalIndex = search ? i : (page - 1) * PAGE_SIZE + i;
+          const globalIndex = b.globalRank;
           const totalGames = b.wins + b.losses;
           const winRate =
             totalGames > 0 ? Math.round((b.wins / totalGames) * 100) : 0;
