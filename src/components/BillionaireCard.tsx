@@ -39,7 +39,7 @@ export function BillionaireCard({
           src={billionaire.photoUrl}
           alt={billionaire.name}
           fill
-          className="object-cover object-[center_20%] transition-transform duration-500 ease-out group-hover:scale-[1.06]"
+          className="object-contain object-top transition-transform duration-500 ease-out group-hover:scale-[1.06]"
           sizes="(max-width: 768px) 45vw, 350px"
           unoptimized
         />
