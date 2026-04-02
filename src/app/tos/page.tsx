@@ -1,7 +1,10 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Terms of Service — bsmash",
+  title: "Terms of Service",
+  description:
+    "Terms of service for Billionaire Smash (bsmash.app). Rules for voting, Elo boosts, and using the Forbes 400 ranking platform.",
+  alternates: { canonical: "https://bsmash.app/tos" },
 };
 
 export default function TermsPage() {

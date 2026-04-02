@@ -1,7 +1,10 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Privacy Policy — bsmash",
+  title: "Privacy Policy",
+  description:
+    "Privacy policy for Billionaire Smash (bsmash.app). Learn how we handle your data when you vote on Forbes 400 billionaires.",
+  alternates: { canonical: "https://bsmash.app/privacy" },
 };
 
 export default function PrivacyPage() {

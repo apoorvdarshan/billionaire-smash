@@ -19,30 +19,74 @@ const jakarta = Plus_Jakarta_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "bsmash — Billionaire Smash",
-  description: "Who's more smash-worthy? Vote on billionaires, Elo-ranked by the crowd.",
+  title: {
+    default: "Billionaire Smash — Vote on the Forbes 400 | bsmash.app",
+    template: "%s | bsmash",
+  },
+  description:
+    "Who's more smash-worthy? Vote head-to-head on Forbes 400 billionaires. Elo rankings updated in real time by the crowd. The FaceMash for billionaires.",
+  keywords: [
+    "billionaire smash",
+    "bsmash",
+    "vote on billionaires",
+    "forbes 400 ranking",
+    "billionaire ranking",
+    "hot or not billionaires",
+    "facemash billionaires",
+    "elo ranking billionaires",
+    "richest people vote",
+    "billionaire leaderboard",
+    "smash or pass billionaires",
+    "billionaire attractiveness",
+    "forbes billionaire list",
+    "who is the hottest billionaire",
+    "billionaire comparison",
+    "rate billionaires",
+    "billionaire voting game",
+    "richest people in the world",
+  ],
   metadataBase: new URL("https://bsmash.app"),
+  alternates: {
+    canonical: "https://bsmash.app",
+  },
   openGraph: {
-    title: "bsmash — Billionaire Smash",
-    description: "Who's more smash-worthy? Vote on billionaires, Elo-ranked by the crowd.",
+    title: "Billionaire Smash — Vote on the Forbes 400",
+    description:
+      "Two billionaires appear. You pick one. Elo rankings update live. The internet decides who's smash-worthy on the Forbes 400.",
     url: "https://bsmash.app",
-    siteName: "bsmash",
+    siteName: "Billionaire Smash",
     images: [
       {
         url: "/og.png",
         width: 1203,
         height: 630,
         type: "image/png",
+        alt: "Billionaire Smash — Vote on Forbes 400 billionaires",
       },
     ],
     type: "website",
+    locale: "en_US",
   },
   twitter: {
     card: "summary_large_image",
-    title: "bsmash — Billionaire Smash",
-    description: "Who's more smash-worthy? Vote on billionaires, Elo-ranked by the crowd.",
+    title: "Billionaire Smash — Vote on the Forbes 400",
+    description:
+      "Two billionaires appear. You pick one. Elo rankings update live. The FaceMash for billionaires.",
     images: ["/og.png"],
+    creator: "@apoorvdarshan",
   },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
+  category: "entertainment",
 };
 
 export default function RootLayout({
@@ -60,6 +104,28 @@ export default function RootLayout({
         />
       </head>
       <body className="min-h-screen antialiased">
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "WebApplication",
+              name: "Billionaire Smash",
+              alternateName: "bsmash",
+              url: "https://bsmash.app",
+              description:
+                "Vote head-to-head on Forbes 400 billionaires. Elo rankings updated in real time by the crowd. The FaceMash for billionaires.",
+              applicationCategory: "Entertainment",
+              operatingSystem: "Any",
+              offers: { "@type": "Offer", price: "0", priceCurrency: "USD" },
+              author: {
+                "@type": "Person",
+                name: "Apoorv Darshan",
+                url: "https://x.com/apoorvdarshan",
+              },
+            }),
+          }}
+        />
         {/* Ambient gold glow */}
         <div
           className="fixed top-0 left-1/2 -translate-x-1/2 w-[800px] h-[600px] pointer-events-none z-0"
