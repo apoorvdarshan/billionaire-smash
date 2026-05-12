@@ -4,7 +4,7 @@ export const metadata: Metadata = {
   title: "Privacy Policy",
   description:
     "Privacy policy for Billionaire Smash (bsmash.app). Learn how we handle your data when you vote on Forbes 400 billionaires.",
-  alternates: { canonical: "https://bsmash.app/privacy" },
+  alternates: { canonical: "https://www.bsmash.app/privacy" },
 };
 
 export default function PrivacyPage() {

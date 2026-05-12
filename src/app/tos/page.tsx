@@ -4,7 +4,7 @@ export const metadata: Metadata = {
   title: "Terms of Service",
   description:
     "Terms of service for Billionaire Smash (bsmash.app). Rules for voting, Elo boosts, and using the Forbes 400 ranking platform.",
-  alternates: { canonical: "https://bsmash.app/tos" },
+  alternates: { canonical: "https://www.bsmash.app/tos" },
 };
 
 export default function TermsPage() {

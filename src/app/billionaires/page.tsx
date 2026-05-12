@@ -6,7 +6,7 @@ import {
 } from "@/lib/billionaire-slugs";
 import { countryToFlag } from "@/lib/flags";
 
-const SITE_URL = "https://bsmash.app";
+const SITE_URL = "https://www.bsmash.app";
 const billionaires = getBillionaires().sort((a, b) => a.rank - b.rank);
 const topRankedBillionaires = billionaires.slice(0, 250);
 const analyticsPriorityNames = new Set(["Carrie Perrodo & family"]);
