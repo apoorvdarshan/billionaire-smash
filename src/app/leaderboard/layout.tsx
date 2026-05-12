@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Elo Leaderboard — Forbes 400 Billionaire Rankings",
+  title: "Billionaire Elo Leaderboard",
   description:
-    "Live Elo leaderboard ranking all Forbes 400 billionaires by community votes. See win rates, search by name or country, and boost your favorite billionaire.",
+    "Live bsmash Elo leaderboard ranking billionaires by community votes. See win rates, search by name, country, or source of wealth, and boost your favorite billionaire.",
   keywords: [
     "billionaire leaderboard",
     "elo ranking billionaires",
@@ -17,9 +17,9 @@ export const metadata: Metadata = {
     canonical: "https://bsmash.app/leaderboard",
   },
   openGraph: {
-    title: "Elo Leaderboard — Forbes 400 Billionaire Rankings",
+    title: "Billionaire Elo Leaderboard | bsmash",
     description:
-      "Live Elo leaderboard ranking all Forbes 400 billionaires by community votes. Who's #1?",
+      "Live bsmash Elo leaderboard ranking billionaires by community votes.",
     url: "https://bsmash.app/leaderboard",
   },
 };

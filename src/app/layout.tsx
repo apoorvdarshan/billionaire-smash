@@ -20,11 +20,11 @@ const jakarta = Plus_Jakarta_Sans({
 
 export const metadata: Metadata = {
   title: {
-    default: "Billionaire Smash — Vote on the Forbes 400 | bsmash.app",
+    default: "bsmash - Billionaire Smash Voting Game",
     template: "%s | bsmash",
   },
   description:
-    "Who's more smash-worthy? Vote head-to-head on Forbes 400 billionaires. Elo rankings updated in real time by the crowd. The FaceMash for billionaires.",
+    "Play bsmash, the billionaire voting game. Vote head-to-head on famous billionaires, browse profiles, and watch Elo rankings update in real time.",
   keywords: [
     "billionaire smash",
     "bsmash",
@@ -50,9 +50,9 @@ export const metadata: Metadata = {
     canonical: "https://bsmash.app",
   },
   openGraph: {
-    title: "Billionaire Smash — Vote on the Forbes 400",
+    title: "bsmash - Billionaire Smash Voting Game",
     description:
-      "Two billionaires appear. You pick one. Elo rankings update live. The internet decides who's smash-worthy on the Forbes 400.",
+      "Two billionaires appear. You pick one. Elo rankings update live on bsmash.",
     url: "https://bsmash.app",
     siteName: "Billionaire Smash",
     images: [
@@ -69,9 +69,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Billionaire Smash — Vote on the Forbes 400",
+    title: "bsmash - Billionaire Smash Voting Game",
     description:
-      "Two billionaires appear. You pick one. Elo rankings update live. The FaceMash for billionaires.",
+      "Two billionaires appear. You pick one. Elo rankings update live on bsmash.",
     images: ["/og.png"],
     creator: "@apoorvdarshan",
   },
@@ -111,10 +111,10 @@ export default function RootLayout({
               "@context": "https://schema.org",
               "@type": "WebApplication",
               name: "Billionaire Smash",
-              alternateName: "bsmash",
+              alternateName: ["bsmash", "Billionaire Smash"],
               url: "https://bsmash.app",
               description:
-                "Vote head-to-head on Forbes 400 billionaires. Elo rankings updated in real time by the crowd. The FaceMash for billionaires.",
+                "Play bsmash, the billionaire voting game. Vote head-to-head on famous billionaires, browse profiles, and watch Elo rankings update in real time.",
               applicationCategory: "Entertainment",
               operatingSystem: "Any",
               offers: { "@type": "Offer", price: "0", priceCurrency: "USD" },

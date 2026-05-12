@@ -5,6 +5,19 @@ import { usePathname } from "next/navigation";
 
 export function Nav() {
   const pathname = usePathname();
+  const links = [
+    { href: "/", label: "Arena", active: pathname === "/" },
+    {
+      href: "/leaderboard",
+      label: "Ranks",
+      active: pathname === "/leaderboard",
+    },
+    {
+      href: "/billionaires",
+      label: "People",
+      active: pathname.startsWith("/billionaires"),
+    },
+  ];
 
   return (
     <nav className="glass-surface border-b border-white/[0.03] sticky top-0 z-50">
@@ -21,26 +34,19 @@ export function Nav() {
         </Link>
 
         <div className="flex items-center gap-0.5 rounded-full bg-[var(--bg-primary)]/60 border border-[var(--border)] p-1">
-          <Link
-            href="/"
-            className={`px-3.5 md:px-4 py-1.5 rounded-full text-xs md:text-sm font-semibold transition-all duration-300 ${
-              pathname === "/"
-                ? "bg-[var(--accent)] text-[var(--bg-primary)] shadow-[0_0_20px_rgba(212,168,83,0.25)]"
-                : "text-[var(--text-secondary)] hover:text-[var(--text-primary)]"
-            }`}
-          >
-            Arena
-          </Link>
-          <Link
-            href="/leaderboard"
-            className={`px-3.5 md:px-4 py-1.5 rounded-full text-xs md:text-sm font-semibold transition-all duration-300 ${
-              pathname === "/leaderboard"
-                ? "bg-[var(--accent)] text-[var(--bg-primary)] shadow-[0_0_20px_rgba(212,168,83,0.25)]"
-                : "text-[var(--text-secondary)] hover:text-[var(--text-primary)]"
-            }`}
-          >
-            Leaderboard
-          </Link>
+          {links.map((link) => (
+            <Link
+              key={link.href}
+              href={link.href}
+              className={`px-2.5 sm:px-3.5 md:px-4 py-1.5 rounded-full text-[11px] sm:text-xs md:text-sm font-semibold transition-all duration-300 ${
+                link.active
+                  ? "bg-[var(--accent)] text-[var(--bg-primary)] shadow-[0_0_20px_rgba(212,168,83,0.25)]"
+                  : "text-[var(--text-secondary)] hover:text-[var(--text-primary)]"
+              }`}
+            >
+              {link.label}
+            </Link>
+          ))}
         </div>
       </div>
     </nav>

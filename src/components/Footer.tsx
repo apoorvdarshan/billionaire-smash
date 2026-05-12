@@ -89,6 +89,13 @@ export function Footer() {
           >
             Terms
           </Link>
+          <span className="opacity-30">|</span>
+          <Link
+            href="/billionaires"
+            className="hover:text-[var(--accent)] transition-colors duration-300"
+          >
+            Billionaires
+          </Link>
           {visitorCount !== null && (
             <>
               <span className="opacity-30">|</span>
