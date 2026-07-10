@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
-import { prisma } from "@/lib/prisma";
+import { getDb, numberValue } from "@/lib/db";
 
 export async function GET(request: NextRequest) {
   try {
@@ -8,41 +8,38 @@ export async function GET(request: NextRequest) {
       50
     );
 
+    const db = getDb();
     const [votes, boosts] = await Promise.all([
-      prisma.vote.findMany({
-        orderBy: { createdAt: "desc" },
-        take: limit,
-        include: {
-          winner: { select: { name: true } },
-          loser: { select: { name: true } },
-        },
+      db.execute({
+        sql: `SELECT v.id, v.voterName, v.createdAt, w.name AS winnerName, l.name AS loserName
+          FROM Vote v JOIN Billionaire w ON w.id = v.winnerId JOIN Billionaire l ON l.id = v.loserId
+          ORDER BY v.createdAt DESC LIMIT ?`,
+        args: [limit],
       }),
-      prisma.boost.findMany({
-        orderBy: { createdAt: "desc" },
-        take: limit,
-        where: { status: "completed" },
-        include: {
-          billionaire: { select: { name: true } },
-        },
+      db.execute({
+        sql: `SELECT b.id, b.boosterName, b.eloAmount, b.createdAt, p.name AS billionaireName
+          FROM Boost b JOIN Billionaire p ON p.id = b.billionaireId
+          WHERE b.status = 'completed' ORDER BY b.createdAt DESC LIMIT ?`,
+        args: [limit],
       }),
     ]);
 
     const feed = [
-      ...votes.map((v) => ({
+      ...votes.rows.map((v) => ({
         id: `vote-${v.id}`,
         type: "vote" as const,
         voterName: v.voterName || "Someone",
-        winnerName: v.winner.name,
-        loserName: v.loser.name,
-        createdAt: v.createdAt.toISOString(),
+        winnerName: v.winnerName,
+        loserName: v.loserName,
+        createdAt: String(v.createdAt),
       })),
-      ...boosts.map((b) => ({
+      ...boosts.rows.map((b) => ({
         id: `boost-${b.id}`,
         type: "boost" as const,
         boosterName: b.boosterName || "Someone",
-        billionaireName: b.billionaire.name,
-        eloAmount: b.eloAmount,
-        createdAt: b.createdAt.toISOString(),
+        billionaireName: b.billionaireName,
+        eloAmount: numberValue(b.eloAmount),
+        createdAt: String(b.createdAt),
       })),
     ]
       .sort((a, b) => new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime())

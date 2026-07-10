@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
-import { prisma } from "@/lib/prisma";
+import { getDb, numberValue } from "@/lib/db";
 import { getTierById, calculateCustomElo } from "@/lib/boost-tiers";
 import { captureOrder } from "@/lib/paypal";
 
@@ -30,11 +30,14 @@ export async function POST(request: NextRequest) {
     }
 
     // Idempotency check
-    const existing = await prisma.boost.findUnique({
-      where: { paypalOrderId: orderId },
+    const db = getDb();
+    const existingResult = await db.execute({
+      sql: "SELECT eloAmount FROM Boost WHERE paypalOrderId = ?",
+      args: [orderId],
     });
+    const existing = existingResult.rows[0];
     if (existing) {
-      return NextResponse.json({ success: true, eloAdded: existing.eloAmount });
+      return NextResponse.json({ success: true, eloAdded: numberValue(existing.eloAmount) });
     }
 
     // Capture payment
@@ -49,22 +52,18 @@ export async function POST(request: NextRequest) {
     }
 
     // Transaction: create boost + increment eloBoost
-    await prisma.$transaction([
-      prisma.boost.create({
-        data: {
-          billionaireId,
-          amountUsd: expectedPrice,
-          eloAmount: eloToAdd,
-          paypalOrderId: orderId,
-          paypalPayerId: capture.payerId,
-          boosterName: boosterName || null,
-        },
-      }),
-      prisma.billionaire.update({
-        where: { id: billionaireId },
-        data: { eloBoost: { increment: eloToAdd } },
-      }),
-    ]);
+    await db.batch([
+      {
+        sql: `INSERT INTO Boost
+          (billionaireId, amountUsd, eloAmount, paypalOrderId, paypalPayerId, boosterName, status, createdAt)
+          VALUES (?, ?, ?, ?, ?, ?, 'completed', CURRENT_TIMESTAMP)`,
+        args: [billionaireId, expectedPrice, eloToAdd, orderId, capture.payerId, boosterName || null],
+      },
+      {
+        sql: "UPDATE Billionaire SET eloBoost = eloBoost + ?, updatedAt = CURRENT_TIMESTAMP WHERE id = ?",
+        args: [eloToAdd, billionaireId],
+      },
+    ], "write");
 
     return NextResponse.json({ success: true, eloAdded: eloToAdd });
   } catch (error) {

@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
-import { prisma } from "@/lib/prisma";
+import { getDb, numberValue } from "@/lib/db";
 
 export async function GET(request: NextRequest) {
   try {
@@ -7,35 +7,25 @@ export async function GET(request: NextRequest) {
     const limit = parseInt(searchParams.get("limit") || "30");
     const offset = parseInt(searchParams.get("offset") || "0");
 
-    const [billionaires, total] = await Promise.all([
-      prisma.$queryRaw<
-        {
-          id: number;
-          forbesId: number;
-          name: string;
-          netWorth: number;
-          country: string;
-          photoUrl: string;
-          source: string;
-          rank: number;
-          elo: number;
-          eloBoost: number;
-          wins: number;
-          losses: number;
-        }[]
-      >`SELECT id, forbesId, name, netWorth, country, photoUrl, source, rank, elo, eloBoost, wins, losses
-        FROM Billionaire
-        ORDER BY (elo + eloBoost) DESC
-        LIMIT ${limit} OFFSET ${offset}`,
-      prisma.billionaire.count(),
+    const db = getDb();
+    const [rows, countResult] = await Promise.all([
+      db.execute({
+        sql: `SELECT id, forbesId, name, netWorth, country, photoUrl, source, rank, elo, eloBoost, wins, losses
+          FROM Billionaire ORDER BY (elo + eloBoost) DESC LIMIT ? OFFSET ?`,
+        args: [limit, offset],
+      }),
+      db.execute("SELECT COUNT(*) AS count FROM Billionaire"),
     ]);
 
-    const result = billionaires.map((b) => ({
+    const result = rows.rows.map((b) => ({
       ...b,
-      displayElo: b.elo + b.eloBoost,
+      displayElo: numberValue(b.elo) + numberValue(b.eloBoost),
     }));
 
-    return NextResponse.json({ billionaires: result, total });
+    return NextResponse.json({
+      billionaires: result,
+      total: numberValue(countResult.rows[0]?.count),
+    });
   } catch (error) {
     console.error("Error fetching leaderboard:", error);
     return NextResponse.json(

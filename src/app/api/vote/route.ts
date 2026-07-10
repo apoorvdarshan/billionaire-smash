@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
-import { prisma } from "@/lib/prisma";
+import { getDb, numberValue } from "@/lib/db";
 import { calculateElo } from "@/lib/elo";
 
 export async function POST(request: NextRequest) {
@@ -10,10 +10,13 @@ export async function POST(request: NextRequest) {
       return NextResponse.json({ error: "Invalid vote" }, { status: 400 });
     }
 
-    const [winner, loser] = await Promise.all([
-      prisma.billionaire.findUnique({ where: { id: winnerId } }),
-      prisma.billionaire.findUnique({ where: { id: loserId } }),
-    ]);
+    const db = getDb();
+    const players = await db.execute({
+      sql: "SELECT id, elo FROM Billionaire WHERE id IN (?, ?)",
+      args: [winnerId, loserId],
+    });
+    const winner = players.rows.find((row) => numberValue(row.id) === winnerId);
+    const loser = players.rows.find((row) => numberValue(row.id) === loserId);
 
     if (!winner || !loser) {
       return NextResponse.json(
@@ -22,25 +25,13 @@ export async function POST(request: NextRequest) {
       );
     }
 
-    const { newWinnerElo, newLoserElo } = calculateElo(winner.elo, loser.elo);
+    const { newWinnerElo, newLoserElo } = calculateElo(numberValue(winner.elo), numberValue(loser.elo));
 
-    await prisma.$transaction([
-      prisma.billionaire.update({
-        where: { id: winnerId },
-        data: { elo: newWinnerElo, wins: { increment: 1 } },
-      }),
-      prisma.billionaire.update({
-        where: { id: loserId },
-        data: { elo: newLoserElo, losses: { increment: 1 } },
-      }),
-      prisma.vote.create({
-        data: {
-          winnerId,
-          loserId,
-          voterName: typeof voterName === "string" ? voterName.slice(0, 30) : null,
-        },
-      }),
-    ]);
+    await db.batch([
+      { sql: "UPDATE Billionaire SET elo = ?, wins = wins + 1, updatedAt = CURRENT_TIMESTAMP WHERE id = ?", args: [newWinnerElo, winnerId] },
+      { sql: "UPDATE Billionaire SET elo = ?, losses = losses + 1, updatedAt = CURRENT_TIMESTAMP WHERE id = ?", args: [newLoserElo, loserId] },
+      { sql: "INSERT INTO Vote (winnerId, loserId, voterName, createdAt) VALUES (?, ?, ?, CURRENT_TIMESTAMP)", args: [winnerId, loserId, typeof voterName === "string" ? voterName.slice(0, 30) : null] },
+    ], "write");
 
     return NextResponse.json({
       winner: { id: winnerId, elo: newWinnerElo },

@@ -75,6 +75,6 @@ prisma/
 
 ## Deployment
 
-Deploy to Vercel and set the environment variables in the dashboard. The app uses Turso as the production database — no filesystem required.
+Deploy to Cloudflare Workers with `npm run deploy` and configure the environment variables as Worker secrets. The app uses Turso as the production database — no filesystem required.
 
 Custom domain: `bsmash.app`

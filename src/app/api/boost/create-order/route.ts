@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
-import { prisma } from "@/lib/prisma";
+import { getDb } from "@/lib/db";
 import { getTierById, calculateCustomElo } from "@/lib/boost-tiers";
 import { createOrder } from "@/lib/paypal";
 
@@ -29,9 +29,11 @@ export async function POST(request: NextRequest) {
       eloLabel = `+${tier.elo}`;
     }
 
-    const billionaire = await prisma.billionaire.findUnique({
-      where: { id: billionaireId },
+    const result = await getDb().execute({
+      sql: "SELECT name FROM Billionaire WHERE id = ?",
+      args: [billionaireId],
     });
+    const billionaire = result.rows[0];
     if (!billionaire) {
       return NextResponse.json({ error: "Billionaire not found" }, { status: 404 });
     }
